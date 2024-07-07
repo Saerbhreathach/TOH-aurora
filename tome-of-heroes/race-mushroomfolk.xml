@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mushroomfolk race from Tome of Heroes</name>
+		<author url="https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/">Kobold Press</author>
+		<update version="0.0.1">
+			<file name="race-mushroomfolk.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/race-mushroomfolk.xml" />
+		</update>
+	</info>
+	
+	<element name="Mushroomfolk" type="Race" source="Tome of Heroes" id="ID_KBP_TOH_RACE_MUSHROOMFOLK">
+		<description>
+			<p>The caverns beneath the surface of the world teems with danger and death. The ravenous and unrelenting darakhul seek domination over everything in their path. The inscrutable madness of the derro make them dangerous to creatures in reach of their domain. The calculating and dispassionate drow put their own survival above everything else. With so many inhospitable, or openly evil, forces at play, one race lives a more-or-less peaceful life in the depths of the world: the mushroomfolk.</p>
+			<h4>A DIVERSE PHYSIOGNOMY</h4>
+			<p>The physical appearance of mushroomfolk is even more diverse than their flesh-and-blood counterparts. They have evolved appendages resembling arms and legs, as well as organs for taking in sensory information. Beyond that, they can be as different from one another as surface fungi are from each other, even within the same clan. Some mushroomfolk are tall and thin with caps like toadstools, while others might be short and squat like puffballs. Their diversity strengthens the survivability of their race and their clans.</p>
+			<p class="indent">Mushroomfolk have no gender, and they are capable of both sexual and asexual reproduction. Roughly once a year, a mushroomfolk is capable of creating a copy of itself via a specialized spore, which takes about 5 years to become an adult mushroomfolk. It’s also possible for two mushroomfolk to combine spores and create a completely new type of mushroomfolk. This process takes longer, and usually only takes place when the clan is in a settlement phase. An adult grows from this process after about 10 years, but such individuals are considered hardier and a good omen for a clan.</p>
+			<h4>CLANS OF WANDERERS AND SETTLERS</h4>
+			<p>The lives of the mushroomfolk are concerned mainly with the search for, or the tending of, sources of nutrition. This concern dictates the lifestyle, religion, ethos, and survival of the mushroomfolk. Clans of the creatures wander the depths of the world until they find an area rich in the nutrition they need to survive. If a large area of potential nutrition is found, the wandering clan changes its mode of operation. Specialists in raising creatures or farming vegetation take over, letting the scouts and wayfinders rest for a bit.</p>
+			<p class="indent">At the same time, the scouts and wanderers from other clans might encounter a settled clan. Wandering newcomers join the settled clan for a time, learn from them, share spores to strengthen the clans, and determine if the clans must combine or split to ensure optimal chances of survival.</p>
+			<p class="indent">Clans may settle for a few weeks, a few months, or even a few years. At some point, however, the nutrition runs out. Then the clan switches survival modes again, repeating the process as scouts are deployed and the clan goes on the move.</p>
+			<h4>MUSHROOMFOLK RELIGION</h4>
+			<p>Mushroomfolk gain sustenance from death and decay. Unlike the darakhul, however, they feed on creatures and vegetation that have died naturally and started to decay. This reliance on putrescence as a form of food often seems ghoulish to outsiders—or at least it seems so until the outsider encounters the darakhul.</p>
+			<p class="indent">During important times of the year, the mushroomfolk perform elaborate rituals involving the finding and the harvesting of food: when scouts leave or return, when important sites of sustenance are found, when scouts of other clans join or leave, or similar. Even during less important times, mushroomfolk have small rites and rituals they perform that others might not even notice. Experts in religion who watch these rituals recognize them as a spattering of rites from different faiths. The most prevalent mimic those involved in the worship of deities of death and life-death cycles. However, the mushroomfolk have no idea of the powers they are worshipping: they simply revere the forces that bring the decay and rot that they need to survive.</p>
+			<h4>RELATIONS WITH THE DARAKHUL</h4>
+			<p>The mushroomfolk have an interesting and unique relationship with the darakhul. They are no threat to the darakhul, but nor are they a potential food source. The darakhul, on the other hand, are a tasty treat to the mushroomfolk—even when still in an undead state, but especially after they have been destroyed. This is disconcerting to the darakhul.</p>
+			<p class="indent">On the other hand, the trusting and placid nature of the mushroomfolk makes them a useful tool for the darakhul. Darakhul spies can count on getting honest intelligence from mushroomfolk scouts or clans they encounter. The mushroomfolk also understand that where darakhul armies march, there is often death, with rotting bodies to give them sustenance.</p>
+			<h4>MUSHROOMFOLK NAMES</h4>
+			<p>A mushroomfolk is given a name by the clan leaders when it becomes old enough to take on important work for the clan. The individual receives a name for itself, and it also takes on the name of its clan. A mushroomfolk without a clan uses only its given name, or it might take on a pseudonym if it lives in shame for past misdeeds.</p>
+			<p>
+			<span class="feature">Individual Names:</span>Arhk, Bussle, Carntul, Darvish, Furnum, Garbelt, Haredt, Jarbish, Lever, Mivel, Paruuk, Qibble, Staphle, Vassil<br />
+			<span class="feature">Clan Names:</span>Aaughot, Chough, Dousku, Guush, Hoovush, Kushuk, Nouhuph, Phushmug, Shublum, Unugh, Wurnush<br />
+			</p>
+			<div class="reference">
+				<div element="ID_KBP_TOH_RACE_MUSHROOMFOLK_PLAYINGAMUSHROOMFOLK" />
+			</div>
+			<h4>MUSHROOMFOLK TRAITS</h4>
+			<p>Your mushroomfolk character has characteristics in common with all other mushroomfolk.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Wisdom score increases by 2.</p>
+			<p class="indent"><b><i>Age.</i></b> Mushroomfolk reach maturity by the age of 5 and rarely live longer than 50 years.</p>
+			<p class="indent"><b><i>Size.</i></b> A mushroomfolk’s size is determined by its subrace.</p>
+			<p class="indent"><b><i>Alignment.</i></b> The limited interaction mushroomfolk have with other creatures leaves them with a fairly neutral view of the world in terms of good and evil, while their societal structure makes them more prone to law than chaos.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Darkvision.</i></b> Accustomed to life underground, you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><b><i>Fungoid Form.</i></b> You are a humanoid, though the fungal nature of your body and your unique diet of decayed vegetable and animal matter marks you with some plant-like characteristics. You have advantage on saving throws against poison, and you have resistance to poison damage. In addition, you are immune to disease.</p>
+			<p class="indent"><b><i>Hardy Survivor.</i></b> Your upbringing in mushroomfolk society has taught you how to defend yourself and find food. You have proficiency in the Survival skill.</p>
+			<p class="indent"><b><i>Languages.</i></b> You can speak, read, and write Mushroomfolk and your choice of Common or Undercommon.</p>
+			<p class="indent"><b><i>Subrace.</i></b> Three subraces of mushroomfolk are known to wander the world: acid cap, favored, and morel. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="individual">Arhk, Bussle, Carntul, Darvish, Furnum, Garbelt, Haredt, Jarbish, Lever, Mivel, Paruuk, Qibble, Staphle, Vassil</set>
+			<set name="names" type="clan">Aaughot, Chough, Dousku, Guush, Hoovush, Kushuk, Nouhuph, Phushmug, Shublum, Unugh, Wurnush</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Mushroomfolk)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Language" id="ID_LANGUAGE_MUSHROOMFOLK" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Native Language (Mushroomfolk)" supports="ID_LANGUAGE_COMMON|ID_LANGUAGE_UNDERCOMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_FUNGOID_FORM" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_HARDY_SURVIVOR" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE"/>
+		</rules>
+	</element>
+
+	<element name="Playing A Mushroomfolk" type="Information" source="Tome of Heroes" id="ID_KBP_TOH_RACE_MUSHROOMFOLK_PLAYINGAMUSHROOMFOLK">
+		<description>
+			<p>The close-knit nature of mushroomfolk clans generally makes the tales of mushroomfolk characters hard-luck stories. Most likely your clan was destroyed by some underground threat, and you now wander the world looking for a new family. Maybe you were exiled from your clan for some reason, and you were adopted by some other race or a group of adventurers. You even might be off on a long-term mission to collect information about an area, serving your clan in that way, and you will return only when you feel you have enough interesting information to provide.</p>
+		</description>
+	</element>
+
+	<element name="Fungoid Form" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_FUNGOID_FORM">
+		<description>
+			<p>You are a humanoid, though the fungal nature of your body and your unique diet of decayed vegetable and animal matter marks you with some plant-like characteristics. You have advantage on saving throws against poison, and you have resistance to poison damage. In addition, you are immune to disease.</p>
+		</description>
+		<sheet>
+			<description>You have a diet of decayed vegetable and animal matter. You have advantage on saving throws against poison. You are immune to disease.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+
+	<element name="Hardy Survivor" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_HARDY_SURVIVOR">
+		<description>
+			<p>Your upbringing in mushroomfolk society has taught you how to defend yourself and find food. You have proficiency in the Survival skill.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+
+	<element name="Subraces" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE">
+		<description>
+			<p>Because of the multitude of physical makeups of mushroomfolk, there are great differences among and within the clans. However, there are three main subraces of mushroomfolk that are most likely to become adventurers.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Mushroomfolk Subrace" supports="Mushroomfolk Subrace"/>
+		</rules>
+	</element>
+
+	<element name="Acid Cap" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_ACIDCAP">
+		<supports>Mushroomfolk Subrace</supports>
+		<description>
+			<p>You were one of the warriors and guardians of your clan, using your strength and acid spores to protect your clanmates and your territory.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Strength score increases by 1.</p>
+			<p class="indent"><b><i>Size.</i></b> Your size is Medium.</p>
+			<p class="indent"><b><i>Acid Cap Resistance.</i></b> You have resistance to acid damage.</p>
+			<p class="indent"><b><i>Acid Spores.</i></b> When you are hit by a melee weapon attack within 5 feet of you, you can use your reaction to emit acidic spores. If you do, the attacker takes acid damage equal to half your level (rounded up). You can use your acid spores a number of times equal to your Constitution modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+			<p class="indent"><b><i>Clan Athlete.</i></b> You have proficiency in the Athletics skill.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Acid Cap)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant name="Acid Cap Resistance" type="Racial Trait" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_ACIDCAP_ACIDCAPRESISTANCE" />
+			<grant name="Acid Spores" type="Racial Trait" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_ACIDCAP_ACID_SPORES" />
+			<grant name="Clan Athlete" type="Racial Trait" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_ACIDCAP_CLAN_ATHLETE" />
+		</rules>
+	</element>
+
+	<element name="Acid Cap Resistance" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_ACIDCAP_ACIDCAPRESISTANCE">
+		<description>
+			<p>You have resistance to acid damage.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+		</rules>
+	</element>
+
+	<element name="Acid Spores" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_ACIDCAP_ACID_SPORES">
+		<description>
+			<p>When you are hit by a melee weapon attack within 5 feet of you, you can use your reaction to emit acidic spores. If you do, the attacker takes acid damage equal to half your level (rounded up). You can use your acid spores a number of times equal to your Constitution modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="{{spores}}/Long Rest">
+			<description>When you are hit by a melee weapon attack within 5 feet of you, you can emit acidic spores. The attacker takes {{level:half}} acid damage.</description>
+		</sheet>
+		<rules>
+			<stat name="spores" value="constitution:modifier" bonus="1" />
+		</rules>
+	</element>
+
+	<element name="Clan Athlete" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_ACIDCAP_CLAN_ATHLETE">
+		<description>
+			<p>You have proficiency in the Athletics skill.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+		</rules>
+	</element>
+
+	<element name="Favored" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_FAVORED">
+		<supports>Mushroomfolk Subrace</supports>
+		<description>
+			<p>A few special mushroomfolk grow to become shamans, generals, and other types of leaders. Your spores invite cooperation, peace, and healing among your allies. Others look to you for guidance and succor in the harsh underground environs.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Charisma score increases by 1.</p>
+			<p class="indent"><b><i>Size.</i></b> Your size is Medium.</p>
+			<p class="indent"><b><i>Blessed Help.</i></b> Your intuition and connection to your allies allows you to assist and protect them. You know the <i>spare the dying</i> cantrip. When you reach 3rd level, you can cast the <i>bless</i> spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent"><b><i>Clan Leader.</i></b> You have proficiency in the Persuasion skill.</p>
+			<p class="indent"><b><i>Restful Spores.</i></b> If you or any friendly creatures within 30 feet of you regain hit points at the end of a short rest by spending one or more Hit Dice, each of those creatures regains additional hit points equal to your proficiency bonus. Once a creature benefits from your restful spores, it can’t do so again until it finishes a long rest.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Favored)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant name="Blessed Help" type="Racial Trait" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_FAVORED_BLESSED_HELP" />
+			<grant name="Clan Leader" type="Racial Trait" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_FAVORED_CLAN_LEADER" />
+			<grant name="Restful Spores" type="Racial Trait" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_FAVORED_RESTFUL_SPORES" />
+		</rules>
+	</element>
+
+	<element name="Blessed Help" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_FAVORED_BLESSED_HELP">
+		<description>
+			<p>Your intuition and connection to your allies allows you to assist and protect them. You know the <i>spare the dying</i> cantrip. When you reach 3rd level, you can cast the <i>bless</i> spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description>You know the Spare the Dying cantrip. Charisma is your spellcasting ability for this spell.</description>
+			<description level="3">You know the Spare the Dying cantrip. You can cast Bless once per long rest. Charisma is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SPARE_THE_DYING" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLESS" level="3" />
+		</rules>
+	</element>
+
+	<element name="Clan Leader" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_FAVORED_CLAN_LEADER">
+		<description>
+			<p>You have proficiency in the Persuasion skill.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+
+	<element name="Restful Spores" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_FAVORED_RESTFUL_SPORES">
+		<description>
+			<p>If you or any friendly creatures within 30 feet of you regain hit points at the end of a short rest by spending one or more Hit Dice, each of those creatures regains additional hit points equal to your proficiency bonus. Once a creature benefits from your restful spores, it can’t do so again until it finishes a long rest.</p>
+		</description>
+		<sheet>
+			<description>If you or any allies within 30 feet regain HP during a short rest from at least one Hit Dice, each creature regains +{{proficiency}} HP. Once a creature benefits from this feature, it cannot do so until it finishes a long rest.</description>
+		</sheet>
+	</element>
+
+	<element name="Morel" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_MOREL">
+		<supports>Mushroomfolk Subrace</supports>
+		<description>
+			<p>Your specialty for your clan was acting as a scout and a wayfinder. Your abilities to avoid problems and locate new sources of food for your clan was instrumental in their survival, and your interactions with other clans helped keep your people alive and well.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Dexterity score increases by 1.</p>
+			<p class="indent"><b><i>Size.</i></b> Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> You are light on your feet and capable of quick movement to escape the many threats in the depths of the world. Your base walking speed increases to 35 feet.</p>
+			<p class="indent"><b><i>Clan Scout.</i></b> You have proficiency in the Stealth skill.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Morel)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="35" bonus="base"/>
+			<grant name="Adaptable Camouflage" type="Racial Trait" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_MOREL_ADAPTABLE_CAMOUFLAGE" />
+			<grant name="Clan Scout" type="Racial Trait" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_MOREL_CLAN_SCOUT" />
+		</rules>
+	</element>
+
+	<element name="Adaptable Camouflage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_MOREL_ADAPTABLE_CAMOUFLAGE">
+		<description>
+			<p>If you spend at least 1 minute in an environment with ample naturally occurring plants or fungi, such as a grassland, a forest, or an underground fungal cavern, you can adjust your natural coloration to blend in with the local plant life. If you do so, you have advantage on Dexterity (Stealth) checks for the next 24 hours while in that environment.</p>
+		</description>
+		<sheet>
+			<description>If you spend at least 1 minute in an environment of plants or fungi, you can adjust your natural coloration to blend in. If you do so, you gain advantage on Stealth checks for the next 24 hours in this environment.</description>
+		</sheet>
+	</element>
+
+	<element name="Clan Scout" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MUSHROOMFOLK_RACIAL_TRAIT_SUBRACE_MOREL_CLAN_SCOUT">
+		<description>
+			<p>You have proficiency in the Stealth skill.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+	</element>
+</elements>

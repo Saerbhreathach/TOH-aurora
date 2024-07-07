@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+        <description>Elf subraces from Tome of Heroes</description>
+		<author url="https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/">Kobold Press</author>
+		<update version="0.0.1">
+			<file name="subrace-elf.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/subrace-elf.xml" />
+		</update>
+    </info>
+
+	<element name="Dunewalker Elf" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_ELF_DUNEWALKER">
+		<supports>Elf</supports>
+		<description>
+			<p>The desert-dwelling dunewalker elves match other elves in height and weight. Their coloration is typically darker, ranging from warm tawny and golden shades to deep sepia tones. Their eyes are amber, brown, or black. Dunewalker elf hair usually comes in shades of brown or black, though some have hair of a dark auburn or copper color.</p>
+			<p class="indent">Dunewalker elves are canny survivors and hunters, aware of the precious resources and dire dangers of their harsh lands. They step lightly across the sands and seem to simply vanish right before one’s eyes, as if they were nothing more than a mirage conjured by the heat.</p>
+			<h4>DUNEWALKER ELF NAMES</h4>
+			<p>Dunewalker elves have naming conventions similar to their forest-dwelling cousins, but their family names tend to evoke features of their harsh homeland.</p>
+			<p><span class="feature">Male Names:</span>Amavin, Dho’ali, Malamquis, Saebrar, Taldre, Zaravel<br />
+			<span class="feature">Female Names:</span>Angshal, Corsal’san, Kyavel’ara, Lafali, Nyoro, Solaira<br />
+			<span class="feature">Family Names (Common Translations):</span>Cyothi (Onyx Gate), Filamil (Promise of Rain), Firseani (Dark Riders), Nalnesathdar (Ancient Heart of the World), Sha’Atria (Sun Dancers), Sumdul Ath’onna (Keepers of the Oasis)
+			</p>
+			<h4>DUNEWALKER ELF TRAITS</h4>
+			<p>You are adapted to life in deserts and badlands, and your innate magic allows you to create a minor mirage around yourself.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Wisdom score increases by 1.</p>
+			<p class="indent"><b><i>Desert Dweller. </i></b>You are adapted to life in the desert. You suffer no ill effects from high temperatures, and you require no additional water in such conditions. You have proficiency in the Survival skill.</p>
+			<p class="indent"><b><i>Desert Mirage. </i></b>While outdoors in a sunny area with an ambient temperature warmer than freezing, you can use a bonus action to create a minor natural phenomenon that surrounds you and up to a number of allies within 10 feet of you equal to your proficiency bonus. The mirage lightly obscures each of you from the view of any creature more than 30 feet away from you for 1 minute. For the duration, each target can attempt to hide even if a target is obscured only by this mirage. You can’t use this trait again until you finish a short or long rest.</p>
+			<p class="indent"><b><i>Dunewalker Elf Weapon Training. </i></b>You have proficiency with the longbow, scimitar, shortbow, and spear.</p>
+			<p class="indent"><b><i>Sand Spirit. </i></b>Difficult terrain comprised of sand or similar desert environs doesn’t cost you extra movement.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Amavin, Dho’ali, Malamquis, Saebrar, Taldre, Zaravel</set>
+			<set name="names" type="female">Angshal, Corsal’san, Kyavel’ara, Lafali, Nyoro, Solaira</set>
+			<set name="names" type="family">Cyothi, Filamil, Firseani, Nalnesathdar, Sha’Atria, Sumdul Ath’onna</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="2d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Dunewalker Elf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_ELF_DUNEWALKER_DESERT_DWELLER" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_ELF_DUNEWALKER_DESERT_MIRAGE" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_ELF_DUNEWALKER_DUNEWALKER_ELF_WEAPON_TRAINING" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_ELF_DUNEWALKER_SAND_SPIRIT" />
+		</rules>
+	</element>
+
+	<element name="Desert Dweller" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_ELF_DUNEWALKER_DESERT_DWELLER">
+		<description>
+			<p>You are adapted to life in the desert. You suffer no ill effects from high temperatures, and you require no additional water in such conditions. You have proficiency in the Survival skill.</p>
+		</description>
+		<sheet>
+			<description>You ignore high temperature effects and don't need additional water.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+
+	<element name="Desert Mirage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_ELF_DUNEWALKER_DESERT_MIRAGE">
+		<description>
+			<p>While outdoors in a sunny area with an ambient temperature warmer than freezing, you can use a bonus action to create a minor natural phenomenon that surrounds you and up to a number of allies within 10 feet of you equal to your proficiency bonus. The mirage lightly obscures each of you from the view of any creature more than 30 feet away from you for 1 minute. For the duration, each target can attempt to hide even if a target is obscured only by this mirage. You can’t use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Short or Long Rest">
+			<description>While in sunlight and above freezing, you can create a minor natural phenomenon surrounding you and up to {{proficiency}} allies within 10 feet. You are all lightly obscured for 1 minute for any creature further than 30 feet. Anyone in the mirage can attempt to use Hide for the duration.</description>
+		</sheet>
+	</element>
+
+	<element name="Dunewalker Elf Weapon Training" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_ELF_DUNEWALKER_DUNEWALKER_ELF_WEAPON_TRAINING">
+		<description>
+			<p>You have proficiency with the longbow, scimitar, shortbow, and spear.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with the longbow, scimitar, shortbow, and spear.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Simple/Martial Weapon, Dunewalker Elf Weapon Training" number="4" supports="Simple||Martial" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Sand Spirit" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_ELF_DUNEWALKER_SAND_SPIRIT">
+		<description>
+			<p>Difficult terrain comprised of sand or similar desert environs doesn’t cost you extra movement.</p>
+		</description>
+		<sheet>
+			<description>Difficult terrain comprised of sand or similar desert environs doesn’t cost you extra movement.</description>
+		</sheet>
+	</element>
+
+	<element name="Frostfell Elf" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_ELF_FROSTFELL">
+		<supports>Elf</supports>
+		<description>
+			<p>These reclusive elves live in high mountainous or arctic regions, areas that are deep with snow through most of the year or locked in permafrost. They are tenacious survivors, accustomed to living off the land and surviving on the slim bounty of their cold home.</p>
+			<p class="indent">Frostfell elves have ivory skin, often tinted blue in varying degrees. Hair color is usually stark white or pale blonde, though about one in ten have hair that is a deep blue-black in color. They commonly have eyes of blue or green, ranging from pale shades that appear almost white to deep, rich hues.</p>
+			<h4>FROSTFELL ELF NAMES</h4>
+			<p>Frostfell elves have naming conventions similar to their cousins in warmer climes, but their family names tend to praise specific areas, creatures, or plants of their homeland.</p>
+			<ul class="unstyled">
+				<li><strong>Male Names:</strong> Daerlam, Kantil, Lyemar, Rehar, Theram, Zarithar</li>
+				<li><strong>Female Names:</strong> Elonal, Ilaryl, Nimvanna, Saelque, Tahleiress, Verathisel</li>
+				<li><strong>Family Names:</strong> Lyathuhar (Wolf ’s Wisdom), Narilathal (Ancient Healing Gift), Nimaselern (Deep Mountain Winter), Rumselaith (High Meadow Home), Shalaera’ro (Song of the Summer Sun), Vonoro (Iceflower)</li>
+			</ul>
+			<h4>FROSTFELL ELF TRAITS</h4>
+			<p>You are adapted to the frozen reaches of the world and have learned to shape the ice and snow around you into useful tools.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Constitution score increases by 1.</p>
+			<p class="indent"><b><i>Cold Dweller. </i></b>You have resistance to cold damage.</p>
+			<p class="indent"><b><i>Elf Weapon Training. </i></b>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
+			<p class="indent"><b><i>Ice Crafting.</i></b>You can magically form an item from nearby water, ice, or snow. The crafting takes 1 minute, and you can form any nonmagical object without moving parts weighing up to 10 pounds. Though made of ice, the object functions as a similar item made of standard materials. The object has AC 13, hit points equal to a resilient object of appropriate size, and is immune to cold damage but vulnerable to fire damage. If the ambient temperature is warmer than freezing, the object lasts 1 minute. As long as the ambient temperature remains at freezing or colder, the object lasts for 24 hours or until destroyed. Once you have crafted an object using this trait, you can’t do so again until you have completed a short or long rest.</p>
+			<p class="indent"><b><i>Snow Step. </i></b>Difficult terrain composed of snow or ice doesn’t cost you extra movement.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Daerlam, Kantil, Lyemar, Rehar, Theram, Zarithar</set>
+			<set name="names" type="female">Elonal, Ilaryl, Nimvanna, Saelque, Tahleiress, Verathisel</set>
+			<set name="names" type="family">Lyathuhar (Wolf ’s Wisdom), Narilathal (Ancient Healing Gift), Nimaselern (Deep Mountain Winter), Rumselaith (High Meadow Home), Shalaera’ro (Song of the Summer Sun), Vonoro (Iceflower)</set>
+			<set name="names-format">{{name}} {{family}}</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Frostfell Elf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_ELF_FROSTFELL_COLD_DWELLER" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_ELF_FROSTFELL_ELF_WEAPON_TRAINING" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_ELF_FROSTFELL_ICE_CRAFTING" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_ELF_FROSTFELL_SNOW_STEP" />
+		</rules>
+	</element>
+
+	<element name="Cold Dweller" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_ELF_FROSTFELL_COLD_DWELLER">
+		<description>
+			<p>You have resistance to cold damage.</p>
+		</description>
+		<sheet display="false">
+			<description>You have resistance to cold damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+
+	<element name="Elf Weapon Training" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_ELF_FROSTFELL_ELF_WEAPON_TRAINING">
+		<description>
+			<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with the longsword, shortsword, shortbow, and longbow.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Simple Weapon or Tool (Elf Weapon Training)" supports="Simple||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Simple/Martial Weapon or Tool (Elf Weapon Training)" number="3" supports="Weapon||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Ice Crafting" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_ELF_FROSTFELL_ICE_CRAFTING">
+		<description>
+			<p>You can magically form an item from nearby water, ice, or snow. The crafting takes 1 minute, and you can form any nonmagical object without moving parts weighing up to 10 pounds. Though made of ice, the object functions as a similar item made of standard materials. The object has AC 13, hit points equal to a resilient object of appropriate size, and is immune to cold damage but vulnerable to fire damage. If the ambient temperature is warmer than freezing, the object lasts 1 minute. As long as the ambient temperature remains at freezing or colder, the object lasts for 24 hours or until destroyed. Once you have crafted an object using this trait, you can’t do so again until you have completed a short or long rest.</p>
+		</description>
+		<sheet action="1 minute" usage="1/Short or Long Rest">
+			<description>You can form any nonmagical object without moving parts that weighs up to 10 pounds out of water, ice or snow. It functions as though made of normal materials. The object has AC13, HP matching a similar object of the same size. It is immune to cold damage and vulnerable to fire damage. If the temperature remains at or below freezing, the object lasts 24 hours or until destroyed.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:climb" value="innate speed" bonus="base" equipped="![armor:heavy||shield]" />
+		</rules>
+	</element>
+
+	<element name="Snow Step" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_ELF_FROSTFELL_SNOW_STEP">
+		<description>
+			<p>Difficult terrain composed of snow or ice doesn’t cost you extra movement.</p>
+		</description>
+		<sheet>
+			<description>Difficult terrain composed of snow or ice doesn’t cost you extra movement.</description>
+		</sheet>
+	</element>
+</elements>

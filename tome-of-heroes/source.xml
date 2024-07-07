@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/source.xml" />
+		</update>
+	</info>
+	<element name="Tome of Heroes" type="Source" source="Core" id="ID_KBP_TOH_SOURCE_TOME_OF_HEROES">
+		<description>
+			<p><strong>The essential expansion for every 5th edition game!</strong></p>
+			<p><i>Tome of Heroes</i> contains a vast array of tested, original options to create amazing 5E characters.</p>
+			<p>Written for players and game masters (GMs) alike, this book offers an abundance of options to expand and deepen your world and your characters.</p>
+		</description>
+		<setters>
+			<set name="abbreviation">TOH</set>
+			<set name="url">https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/</set>
+			<set name="image">https://koboldpress.com/kpstore/wp-content/uploads/Tome-of-Heroes-COVER.jpg</set>
+			<set name="errata">https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/</set>
+			<set name="author" abbreviation="KBP" url="https://koboldpress.com/">Kobold Press</set>
+			<set name="third-party">true</set>
+			<set name="release">2022</set>
+		</setters>
+	</element>
+</elements>

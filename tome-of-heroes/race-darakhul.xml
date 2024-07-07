@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Darakhul race from Tome of Heroes</name>
+		<author url="https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/">Kobold Press</author>
+		<update version="0.0.1">
+			<file name="race-darakhul.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/race-darakhul.xml" />
+		</update>
+	</info>
+	
+	<element name="Darakhul" type="Race" source="Tome of Heroes" id="ID_KBP_TOH_RACE_DARAKHUL">
+		<description>
+			<p>In the lightless depths beneath the ground, an empire of devouring ambition grows and plots and dreams. Their cities lie out of sight, their agents infiltrate the underworlds of a score of surface cities, and their goals know no limits. To them, if you are not a member of their empire, you are food. Their empire maintains complex social structures and forges serious alliances. They scheme and plot. They hunger for the flesh of the living. They are the ghoulish darakhul.</p>
+			<h4>INTO THE BIG, WIDE, WORLD</h4>
+			<p>Some darakhul venture into the wider world on the business of their empire. Maintaining their state requires envoys and ambassadors, messengers and scouts, traders and commerce, as well as knowledge of events in the surface world. These undead diplomats engage with races they might otherwise consider food out of duty to the empire and with a specific purpose.</p>
+			<p class="indent">Other members of their kind, however, have no such obligations. For adventuring darakhul, those in self-imposed exile, or those who never belonged to a darakhul empire, the quest to master their own hunger, to transcend their role as predators of sentient beings, is as much a part of their journey as the current quest. These characters typically want to grow beyond their ghoulish appetites and regain some part of their former lives in the cultures and societies of the world’s surface. No one knows better than the darakhul that they can’t overcome their nature unless they confront it.</p>
+			<p class="indent">But no matter how urbane or well-controlled the rare diplomat or merchant might seem to be, the prejudice of the living against the undead is powerful and visceral. Humanity views the darakhul with suspicion if not outright hostility, and it is difficult— but not impossible—for a darakhul to allay those fears.</p>
+			<h4>THE CUT OF YOUR CLOAK</h4>
+			<p>A quality disguise is one of the best tools for a darakhul trying to make its way among the breathing. Almost all darakhul traveling on the surface maintain a disguise kit and a concealing outfit to match their cover identity. With a good costume, a darakhul might pass unchallenged among humans for a long time. Possibilities include the wrappings of a leper, enshrouding robes, veils, or the head-to-toe garb of the desert peoples. Each of these disguises requires appropriate details to help the deception withstand scrutiny: the right language skills along with knowledge of the region and its customs.</p>
+			<p class="indent">Even a convincing disguise doesn’t explain a darakhul’s need to eat alone and behind closed doors. Darakhul can use cultural or religious requirements to justify such behavior in most situations. In cases where a costume and a cover identity are impractical, a skillful application of cosmetics and a few gold coins slipped into the right hands are often enough to make a request for privacy seem more reasonable. Ensuring a sufficient supply of raw meat is a challenge left to the darakhul’s imagination.</p>
+			<h4>DARAKHUL CHARACTERS</h4>
+			<p>Both ordinary ghouls and darakhul arise from the infected corpses of other races. Most traits of the previous race are gone when the creature rises as a darakhul, although each darakhul carries some traits of their previous form (see the Heritage Subraces). Still, most of a darakhul’s cosmetic features, such as supple skin or a long beard, fade over time into the gaunt, skull-like face, fanged maw, and taut, gray skin of a ghoulish undead.</p>
+			<div class="reference">
+				<div element="ID_KBP_TOH_RACE_DARAKHUL_LOOKING_ALIVE" />
+			</div>
+			<h4>DARAKHUL TRAITS</h4>
+			<p>Your darakhul character has certain characteristics in common with all other darakhul.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Constitution score increases by 1.</p>
+			<p class="indent"><b><i>Age.</i></b> An upper limit of darakhul age has never been discovered; most darakhul die violently.</p>
+			<p class="indent"><b><i>Alignment.</i></b> Your alignment does not change when you become a darakhul, but most darakhul have a strong draw toward evil.</p>
+			<p class="indent"><b><i>Size.</i></b> Your size is determined by your Heritage Subrace.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is determined by your Heritage Subrace.</p>
+			<p class="indent"><b><i>Darkvision.</i></b> You can see in dim light within 60 feet as though it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><b><i>Hunger for Flesh.</i></b> You must consume 1 pound of raw meat each day or suffer the effects of starvation. If you go 24 hours without such a meal, you gain one level of exhaustion. While you have any levels of exhaustion from this trait, you can’t regain hit points or remove levels of exhaustion until you spend at least 1 hour consuming 10 pounds of raw meat.</p>
+			<p class="indent"><b><i>Imperfect Undeath.</i></b> You transitioned into undeath, but your transition was imperfect. Though you are a humanoid, you are susceptible to effects that target undead. You can regain hit points from spells like <i>cure wounds</i>, but you can also be affected by game effects that specifically target undead, such as a cleric’s Turn Undead feature. Game effects that raise a creature from the dead work on you as normal, but they return you to life as a darakhul. A <i>true resurrection</i> or <i>wish</i> spell can restore you to life as a fully living member of your original race.</p>
+			<p class="indent"><b><i>Powerful Jaw.</i></b> Your heavy jaw is powerful enough to crush bones to powder. Your bite is a natural melee weapon, which you can use to make unarmed strikes. When you hit with it, your bite deals piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent"><b><i>Sunlight Sensitivity.</i></b> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+			<p class="indent"><b><i>Undead Resilience.</i></b> You are infused with the dark energy of undeath, which frees you from some frailties that plague most creatures. You have resistance to necrotic damage and poison damage, you are immune to disease, and you have advantage on saving throws against being charmed or poisoned. When you finish a short rest, you can reduce your exhaustion level by 1, provided you have ingested at least 1 pound of raw meat in the last 24 hours (see Hunger for Flesh).</p>
+			<p class="indent"><b><i>Undead Vitality.</i></b> You don’t need to breathe, and you don’t sleep the way most creatures do. Instead, you enter a dormant state that resembles death, remaining semiconscious, for 6 hours a day. While dormant, you have disadvantage on Wisdom (Perception) checks. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
+			<p class="indent"><b><i>Languages.</i></b> You can speak, read, and write Common, Darakhul, and a language associated with your Heritage Subrace.</p>
+			<p class="indent"><b><i>Heritage Subrace.</i></b> You were something else before you became a darakhul. This heritage determines some of your traits. Choose one Heritage Subrace below and apply the listed traits.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Darakhul)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_DARAKHUL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HUNGER_FOR_FLESH" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_IMPERFECT_UNDEATH" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_POWERFUL_JAW" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_UNDEAD_RESILIENCE" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_UNDEAD_VITALITY" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE"/>
+		</rules>
+	</element>
+
+	<element name="Looking Alive" type="Information" source="Tome of Heroes" id="ID_KBP_TOH_RACE_DARAKHUL_LOOKING_ALIVE">
+		<description>
+			<p>To pass for a living creature, a darakhul needs a convincing costume, matching language and speech patterns, and appropriate mannerisms and behavior. The best tactic for most darakhul is to mimic the cultures they lived in while alive, because they have a lifetime (if a short one) of knowledge to draw on. Whether it’s better to try to blend into the local culture is an open question. Someone who looks just like everyone else on the street draws less attention than someone who looks like an exotic foreigner—but a person who looks like everyone else yet acts oddly can rouse even more suspicion than the exotic stranger, especially in a crossroads of cultures where foreign travelers are common.</p>
+			<p class="indent">Under normal circumstances, a darakhul with a careful disguise can move among the living without rousing suspicion. As with any ability check, dice should be brought in only when the character faces an unusual situation or a challenge. If, for example, a darakhul gets involved in a chase or a battle in a crowded city market, there’s a chance a bystander might notice the pallor of undead flesh beneath a flapping cloak or the rictus grin inside a deep hood that’s momentarily pushed back. Palace guards inspect supplicants to the Queen more carefully than an innkeeper or a merchant inspects customers. If rumors get around that there are murderers, monsters, or darakhul loose in the city, everyone is more alert.</p>
+			<p class="indent">In those situations, the GM can call for a Charisma (Deception) check and either compare it to the NPC’s passive Perception score or make an active Wisdom (Perception) check for the NPC. Opposed checks should be reserved for those times when an NPC intently scrutinizes the character or is already suspicious. If a group of NPCs is involved, it’s best to make one check with advantage for the group instead of one check per NPC.</p>
+		</description>
+	</element>
+
+	<element name="Hunger for Flesh" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HUNGER_FOR_FLESH">
+		<description>
+			<p>You must consume 1 pound of raw meat each day or suffer the effects of starvation. If you go 24 hours without such a meal, you gain one level of exhaustion. While you have any levels of exhaustion from this trait, you can’t regain hit points or remove levels of exhaustion until you spend at least 1 hour consuming 10 pounds of raw meat.</p>
+		</description>
+		<sheet>
+			<description>You must consume 1 lb of raw meat every 24 hours or take 1 level of exhaustion. You cannot remove this exhaustion or regain HP until you spend 1 hour eating 10 pounds of raw meat.</description>
+		</sheet>
+	</element>
+
+	<element name="Imperfect Undeath" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_IMPERFECT_UNDEATH">
+		<description>
+			<p>You transitioned into undeath, but your transition was imperfect. Though you are a humanoid, you are susceptible to effects that target undead. You can regain hit points from spells like <i>cure wounds</i>, but you can also be affected by game effects that specifically target undead, such as a cleric’s Turn Undead feature. Game effects that raise a creature from the dead work on you as normal, but they return you to life as a darakhul. A <i>true resurrection</i> or <i>wish</i> spell can restore you to life as a fully living member of your original race.</p>
+		</description>
+		<sheet>
+			<description>You can regain HP normally, but game effects that specifically target undead can harm you. You can be revived normally as a Darakhul, but only a True Resurrection or Wish can raise you as your heritage race.</description>
+		</sheet>
+	</element>
+
+	<element name="Powerful Jaw" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_POWERFUL_JAW">
+		<description>
+			<p>Your heavy jaw is powerful enough to crush bones to powder. Your bite is a natural melee weapon, which you can use to make unarmed strikes. When you hit with it, your bite deals piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>You can use your bite to make unarmed strikes. When you hit with them, the strike deals 1d4 + {{strength:modifier}} piercing damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Sunlight Sensitivity" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY">
+		<description>
+			<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+		</description>
+		<sheet>
+			<description>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</description>
+		</sheet>
+	</element>
+
+	<element name="Undead Resilience" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_UNDEAD_RESILIENCE">
+		<description>
+			<p>You are infused with the dark energy of undeath, which frees you from some frailties that plague most creatures. You have resistance to necrotic damage and poison damage, you are immune to disease, and you have advantage on saving throws against being charmed or poisoned. When you finish a short rest, you can reduce your exhaustion level by 1, provided you have ingested at least 1 pound of raw meat in the last 24 hours (see Hunger for Flesh).</p>
+		</description>
+		<sheet>
+			<description>You are immune to disease, and have advantage against being charmed or poisoned. You can reduce exhaustion by 1 after a short rest, unless affected by Hunger for Flesh.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+
+	<element name="Undead Vitality" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_UNDEAD_VITALITY">
+		<description>
+			<p>You don’t need to breathe, and you don’t sleep the way most creatures do. Instead, you enter a dormant state that resembles death, remaining semiconscious, for 6 hours a day. While dormant, you have disadvantage on Wisdom (Perception) checks. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
+		</description>
+		<sheet>
+			<description>You become unconscious for 6 hours a day - resting this way is the same as a human resting for 8 hours. While dormant, you have disadvantage on Wisdom (Perception) checks.</description>
+		</sheet>
+	</element>
+
+	<element name="Heritage Subraces" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE">
+		<description>
+			<p>Before the terrible scourge of darakhul fever (see <i>Tome of Beasts</i>) transformed you into an undead creature, you belonged to another race. Although your undead self now rules you, some remnant of your past form clings to you, making you different from the darakhul created from other races. Sometimes you retain a trait, but more likely you now have a trait that is a corruption of one you once possessed. For example, the elemental spark in a dragonborn is perverted into one of a more necrotic bent. The luck inherent in a halfling’s spirit twists into a power that brings ill fortune to their enemies.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Heritage Subrace" supports="Heritage Subrace"/>
+		</rules>
+	</element>
+
+	<element name="Derro Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DERRO">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was a derro before transforming into a darakhul. For you, the quieting of the otherworldly voices did not bring peace and tranquility. The impulses simply became more focused, and the desire to feast on flesh overwhelmed other urges. The darkness is still there; it just has a new, clearer form.</p>
+			<p class="indent"><b><i>Size.</i></b> Derro stand between 3 and 4 feet tall with slender limbs and wide shoulders. Your size is Small.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Charisma score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Dwarvish.</p>
+			<p class="indent"><b><i>Calculating Insanity.</i></b> The insanity of your race was compressed into a cold, hard brilliance when you took on your darakhul form. These flashes of brilliance come to you at unexpected moments. You know the <i>true strike</i> cantrip. Charisma is your spellcasting ability for it. You can cast <i>true strike</i> as a bonus action a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+		</description>
+		<sheet alt="Derro">
+			<description>Your darakhul character was a derro before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Derro)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_DWARVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Calculating Insanity" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DERRO_CALCULATING_INSANITY" />
+		</rules>
+	</element>
+
+	<element name="Calculating Insanity" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DERRO_CALCULATING_INSANITY">
+		<description>
+			<p>The insanity of your race was compressed into a cold, hard brilliance when you took on your darakhul form. These flashes of brilliance come to you at unexpected moments. You know the <i>true strike</i> cantrip. Charisma is your spellcasting ability for it. You can cast <i>true strike</i> as a bonus action a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{calculating insanity}}/Long Rest">
+			<description>The insanity of your race is compressed into a cold hard brilliance that manifests at unexpected moments in an ability to cast the True Strike cantrip.</description>
+		</sheet>
+		<spellcasting name="Darakhul - Derro" ability="Charisma" prepare="true">
+			<list></list>
+		</spellcasting>
+		<rules>
+			<grant type="spell" spellcasting="Darakhul - Derro" id="ID_PHB_SPELL_TRUE_STRIKE" prepared="true" />
+
+			<stat name="calculating insanity" value="charisma:modifier" bonus="base" />
+			<stat name="calculating insanity" value="1" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Dragonborn Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DRAGONBORN">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was a dragonborn before transforming into a darakhul. The dark power of undeath overwhelmed your elemental nature, replacing it with the foul energy and strength of the undead. Occasionally, your draconic heritage echoes a peal of raw power through your form, but it is quickly converted into necrotic waves.</p>
+			<p class="indent"><b><i>Size.</i></b> Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 25 feet, and you are not slowed by wearing heavy armor.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Strength score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Draconic.</p>
+			<p class="indent"><b><i>Corrupted Bite.</i></b> The inherent breath weapon of your draconic heritage is corrupted by the necrotic energy of your new darakhul form. Instead of forming a line or cone, your breath weapon now oozes out of your ghoulish maw. As a bonus action, you breathe necrotic energy onto your fangs and make one bite attack. If the attack hits, it deals extra necrotic damage equal to your level. You can’t use this trait again until you finish a long rest.</p>
+		</description>
+		<sheet alt="Dragonborn">
+			<description>Your darakhul character was a dragonborn before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="25" bonus="base"/>
+			<grant type="Grants" source="Internal" id="ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Dragonborn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Corrupted Bite" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DRAGONBORN_CORRUPTED_BITE" />
+		</rules>
+	</element>
+
+	<element name="Corrupted Bite" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DRAGONBORN_CORRUPTED_BITE">
+		<description>
+			<p>The inherent breath weapon of your draconic heritage is corrupted by the necrotic energy of your new darakhul form. Instead of forming a line or cone, your breath weapon now oozes out of your ghoulish maw. As a bonus action, you breathe necrotic energy onto your fangs and make one bite attack. If the attack hits, it deals extra necrotic damage equal to your level. You can’t use this trait again until you finish a long rest.</p>
+		</description>
+		<sheet alt="Corrupted Bite" usage="1/Long Rest">
+			<description>If you hit with Powerful Jaws, you can deal +{{level}} necrotic damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Drow Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DROW">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was a drow before transforming into a darakhul. Your place within the highly regimented drow society doesn’t feel that much different from your new place in the darakhul empires. But an uncertainty buzzes in your mind, and a hunger gnaws at your gut. You are now what you once hated and feared. Does it feel right, or is it something you fight against?</p>
+			<p class="indent"><b><i>Size.</i></b> Drow are slightly shorter and slimmer than humans. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Intelligence score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Elvish.</p>
+			<p class="indent"><b><i>Poison Bite.</i></b> When you hit with your bite attack, you can release venom into your foe. If you do, your bite deals an extra 1d6 poison damage. The damage increases to 3d6 at 11th level. After you release this venom into a creature, you can’t do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet alt="Drow">
+			<description>Your darakhul character was a drow before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Drow)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_ELVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Poison Bite" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DROW_POISON_BITE" />
+		</rules>
+	</element>
+
+	<element name="Poison Bite" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DROW_POISON_BITE">
+		<description>
+			<p>When you hit with your bite attack, you can release venom into your foe. If you do, your bite deals an extra 1d6 poison damage. The damage increases to 3d6 at 11th level. After you release this venom into a creature, you can’t do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet alt="Poison Bite" usage="1/Short or Long Rest">
+			<description>If you hit with Powerful Jaws, you can deal an additional 1d6 poison damage.</description>
+			<description level="11">If you hit with Powerful Jaws, you can deal an additional 3d6 poison damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Dwarf Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DWARF">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was a dwarf before transforming into a darakhul. The hum of the earth, the tranquility of the stone and the dust, drained from you as the darakhul fever overwhelmed your once‑resilient body. The stone is still there, but its touch has gone from a welcome embrace to a cold grip of death. But it’s all the same to you now.</p>
+			<p class="indent"><b><i>Size.</i></b> Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 25 feet, and your speed is not reduced by wearing heavy armor.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Wisdom score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Dwarvish.</p>
+			<p class="indent"><b><i>Dwarven Stoutness.</i></b> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+		</description>
+		<sheet alt="Drow">
+			<description>Your darakhul character was a dwarf before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="25" bonus="base"/>
+			<grant type="Grants" source="Internal" id="ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Dwarf)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_DWARVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Dwarven Stoutness" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DWARF_DWARVEN_STOUTNESS" />
+		</rules>
+	</element>
+
+	<element name="Dwarven Stoutness" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_DWARF_DWARVEN_STOUTNESS">
+		<description>
+			<p>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+		</description>
+		<sheet display="false">
+			<description>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</description>
+		</sheet>
+		<rules>
+			<stat name="hp" value="level" />
+		</rules>
+	</element>
+
+	<element name="Elf Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_ELF">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was an elf or shadow fey (see <i>Midgard Heroes Handbook</i>) before transforming into a darakhul. The deathly power coursing through you reminds you of the lithe beauty and magic of your former body. If you just use your imagination, the blood tastes like wine once did. The smell of rotting flesh has the bouquet of wildflowers. The moss beneath the surface feels like the leaves of the forest.</p>
+			<p class="indent"><b><i>Size.</i></b> Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Dexterity score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Elvish.</p>
+			<p class="indent"><b><i>Supernatural Senses.</i></b> Your keen elven senses are honed even more by the power of undeath and the hunger within you. You can now smell when blood is in the air. You have proficiency in the Perception skill, and you have advantage on Wisdom (Perception) checks to notice or find a creature within 30 feet of you that doesn’t have all of its hit points.</p>
+		</description>
+		<sheet alt="Elf">
+			<description>Your darakhul character was an elf before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Elf)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_ELVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Supernatural Senses" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_ELF_SUPERNATURAL_SENSES" />
+		</rules>
+	</element>
+
+	<element name="Supernatural Senses" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_ELF_SUPERNATURAL_SENSES">
+		<description>
+			<p>Your keen elven senses are honed even more by the power of undeath and the hunger within you. You can now smell when blood is in the air. You have proficiency in the Perception skill, and you have advantage on Wisdom (Perception) checks to notice or find a creature within 30 feet of you that doesn’t have all of its hit points.</p>
+		</description>
+		<sheet>
+			<description>You can smell blood in the air. You have advantage on checks to notice or find a creature within 30 ft of you that has less than its max HP.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Shadow Fey Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_SHADOW_FEY">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was an elf or shadow fey (see <i>Midgard Heroes Handbook</i>) before transforming into a darakhul. The deathly power coursing through you reminds you of the lithe beauty and magic of your former body. If you just use your imagination, the blood tastes like wine once did. The smell of rotting flesh has the bouquet of wildflowers. The moss beneath the surface feels like the leaves of the forest.</p>
+			<p class="indent"><b><i>Size.</i></b> Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Dexterity score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Umbral.</p>
+			<p class="indent"><b><i>Supernatural Senses.</i></b> Your keen shadow fey senses are honed even more by the power of undeath and the hunger within you. You can now smell when blood is in the air. You have proficiency in the Perception skill, and you have advantage on Wisdom (Perception) checks to notice or find a creature within 30 feet of you that doesn’t have all of its hit points.</p>
+		</description>
+		<sheet alt="Shadow Fey">
+			<description>Your darakhul character was a shadow fey before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Shadow Fey)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_UMBRAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Supernatural Senses" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_SHADOW_FEY_SUPERNATURAL_SENSES" />
+		</rules>
+	</element>
+
+	<element name="Supernatural Senses" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_SHADOW_FEY_SUPERNATURAL_SENSES">
+		<description>
+			<p>Your keen shadow fey senses are honed even more by the power of undeath and the hunger within you. You can now smell when blood is in the air. You have proficiency in the Perception skill, and you have advantage on Wisdom (Perception) checks to notice or find a creature within 30 feet of you that doesn’t have all of its hit points.</p>
+		</description>
+		<sheet>
+			<description>You can smell blood in the air. You have advantage on checks to notice or find a creature within 30 ft of you that has less than its max HP.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Gnome Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_GNOME">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was a gnome before transforming into a darakhul. The spark of magic that drove you before your transformation still burns inside of you, but now it is a constant ache instead of a source of creation and inspiration. This ache is twisted by your hunger, making you hunger for magic itself.</p>
+			<p class="indent"><b><i>Size.</i></b> Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 25 feet.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Intelligence score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Gnomish.</p>
+			<p class="indent"><b><i>Magical Hunger.</i></b> When a creature you can see within 30 feet of you casts a spell, you can use your reaction to consume the spell’s residual magic. Your consumption doesn’t counter or otherwise affect the spell or the spellcaster. When you consume this residual magic, you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can’t use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet alt="Gnome">
+			<description>Your darakhul character was a gnome before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="25" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Gnome)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_GNOMISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Magical Hunger" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_GNOME_MAGICAL_HUNGER" />
+		</rules>
+	</element>
+
+	<element name="Magical Hunger" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_GNOME_MAGICAL_HUNGER">
+		<description>
+			<p>When a creature you can see within 30 feet of you casts a spell, you can use your reaction to consume the spell’s residual magic. Your consumption doesn’t counter or otherwise affect the spell or the spellcaster. When you consume this residual magic, you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can’t use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Short or Long Rest">
+			<description>When a creature within 30 ft that you can see casts a spell, you can consume the residual magic to gain {{magical hunger:hp}} HP.</description>
+		</sheet>
+		<rules>
+			<stat name="magical hunger:hp" value="constitution:modifier" bonus="base" />
+			<stat name="magical hunger:hp" value="1" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Halfling Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_HALFLING">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was a halfling before transforming into a darakhul. Everything you loved as a halfling—food, drink, exploration, adventure— still drives you in your undead form; it is simply a more ghoulish form of those pleasures now: raw flesh instead of stew, warm blood instead of cold mead. You still want to explore the dark corners of the world, but now you seek something different.</p>
+			<p class="indent"><b><i>Size.</i></b> Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 25 feet.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Dexterity score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Halfling.</p>
+			<p class="indent"><b><i>Ill Fortune.</i></b> Your uncanny halfling luck has taken a dark turn since your conversion to an undead creature. When a creature rolls a 20 on the d20 for an attack roll against you, the creature must reroll the attack and use the new roll. If the second attack roll misses you, the attacking creature takes necrotic damage equal to twice your Constitution modifier (minimum of 2).</p>
+		</description>
+		<sheet alt="Halfling">
+			<description>Your darakhul character was a halfling before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="25" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Halfling)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_HALFLING" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Ill Fortune" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_HALFLING_ILL_FORTUNE" />
+		</rules>
+	</element>
+
+	<element name="Ill Fortune" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_HALFLING_ILL_FORTUNE">
+		<description>
+			<p>Your uncanny halfling luck has taken a dark turn since your conversion to an undead creature. When a creature rolls a 20 on the d20 for an attack roll against you, the creature must reroll the attack and use the new roll. If the second attack roll misses you, the attacking creature takes necrotic damage equal to twice your Constitution modifier (minimum of 2).</p>
+		</description>
+		<sheet>
+			<description>When a creature attacking you rolls a 20, they must reroll and take the new result. If the second roll misses you, the attacker takes {{ill fortune:damage}} necrotic damage.</description>
+		</sheet>
+		<rules>
+			<stat name="ill fortune:set" value="constitution:modifier" />
+			<stat name="ill fortune:set" value="constitution:modifier" />
+			<stat name="ill fortune:damage" value="ill fortune:set" bonus="base" />
+			<stat name="ill fortune:damage" value="2" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Human/Half-Elf Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_HUMAN_HELF">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was a human or half-elf before transforming into a darakhul. Where there was once light there is now darkness. Where there was once love there is now hunger. You know if the darkness and hunger become all-consuming, you are truly lost. But the powers of your new form are strangely comfortable. How much of your old self is still there, and what can this new form give you that your old one couldn’t?</p>
+			<p class="indent"><b><i>Size.</i></b> Humans and half-elves vary widely in height and build, from barely 5 feet to well over 6 feet tall. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> One ability score of your choice, other than Constitution, increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write one language of your choice.</p>
+			<p class="indent"><b><i>Versatility.</i></b> The training and experience of your early years was not lost when you became a darakhul. You have proficiency in two skills and one tool of your choice.</p>
+		</description>
+		<sheet alt="Human/Half-Elf">
+			<description>Your darakhul character was a human or half-elf before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<select type="Racial Trait" name="Ability Score Increase (Human/Half-Elf)" supports="Human/Half-Elf" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Human/Half-Elf)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Language" name="Language (Human/Half-Elf)" supports="Standard||Exotic" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Versatility" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_HUMAN_HALF_ELF_VERSATILITY" />
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Tome of Heroes" id="ID_RACE_DARAKHUL_HUMAN_HALF_ELF_STRENGTH">
+		<compendium display="false" />
+		<supports>Human/Half-Elf</supports>
+		<description>
+			<p>Your Strength score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2" alt="Human/Half-Elf" />
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Tome of Heroes" id="ID_RACE_DARAKHUL_HUMAN_HALF_ELF_DEXTERITY">
+		<compendium display="false" />
+		<supports>Human/Half-Elf</supports>
+		<description>
+			<p>Your Dexterity score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" alt="Human/Half-Elf" />
+		</rules>
+	</element>
+	
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Tome of Heroes" id="ID_RACE_DARAKHUL_HUMAN_HALF_ELF_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Human/Half-Elf</supports>
+		<description>
+			<p>Your Intelligence score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" alt="Human/Half-Elf" />
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Tome of Heroes" id="ID_RACE_DARAKHUL_HUMAN_HALF_ELF_WISDOM">
+		<compendium display="false" />
+		<supports>Human/Half-Elf</supports>
+		<description>
+			<p>Your Wisdom score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2" alt="Human/Half-Elf" />
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Tome of Heroes" id="ID_RACE_DARAKHUL_HUMAN_HALF_ELF_CHARISMA">
+		<compendium display="false" />
+		<supports>Human/Half-Elf</supports>
+		<description>
+			<p>Your Charisma score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" alt="Human/Half-Elf" />
+		</rules>
+	</element>
+
+	<element name="Versatility" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_HUMAN_HALF_ELF_VERSATILITY">
+		<description>
+			<p>The training and experience of your early years was not lost when you became a darakhul. You have proficiency in two skills and one tool of your choice.</p>
+		</description>
+		<sheet dsiplay="false" />
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Versatility)" number="2" supports="Skill" />
+			<select type="Proficiency" name="Tool Proficiency (Versatility)" supports="Tool" />
+		</rules>
+	</element>
+
+	<element name="Kobold Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_KOBOLD">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was a kobold before transforming into a darakhul. The dark, although it was often your home, generally held terrors that you needed to survive. Now you are the dark, and its pull on your soul is strong. You fight to keep a grip on the intellect and cunning that sustained you in your past life. Sometimes it is easy, but often the driving hunger inside you makes it hard to think as clearly as you once did.</p>
+			<p class="indent"><b><i>Size.</i></b> Kobolds stand between 3 and 4 feet tall and weigh around 40 pounds. Your size is Small.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Intelligence score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Draconic.</p>
+			<p class="indent"><b><i>Devious Bite.</i></b> When you hit a creature with your bite attack and you have advantage on the attack roll, your bite deals an extra 1d4 piercing damage.</p>
+		</description>
+		<sheet alt="Kobold">
+			<description>Your darakhul character was a kobold before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Halfling)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_HALFLING" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Devious Bite" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_KOBOLD_DEVIOUS_BITE" />
+		</rules>
+	</element>
+
+	<element name="Devious Bite" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_KOBOLD_DEVIOUS_BITE">
+		<description>
+			<p>When you hit a creature with your bite attack and you have advantage on the attack roll, your bite deals an extra 1d4 piercing damage.</p>
+		</description>
+		<sheet>
+			<description>When you hit with your Powerful Jaw bite attack with advantage on the attack roll, deal +1d4 piercing damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Ravenfolk Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_RAVENFOLK">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was a ravenfolk (see <i>Midgard Heroes Handbook</i>) before transforming into a darakhul. Your new form feels different. It is more powerful and less fidgety, and your beak has become razor sharp. There is still room for trickery, of course. But with your new life comes a disconnection from the All Father. Does this loss gnaw at you like your new hunger or do you feel freed from the destiny of your people?</p>
+			<p class="indent"><b><i>Size.</i></b> Ravenfolk are slighter and shorter than humans, ranging from 4 feet to just shy of 6 feet tall. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Dexterity score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Huginn’s Speech.</p>
+			<p class="indent"><b><i>Sudden Bite and Flight.</i></b> If you surprise a creature during the first round of combat, you can make a bite attack as a bonus action. If it hits, you can immediately take the Dodge action as a reaction.</p>
+		</description>
+		<sheet alt="Ravenfolk">
+			<description>Your darakhul character was a ravenfolk before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Halfling)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_HUGINNS_SPEECH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Sudden Bite and Flight" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_RAVENFOLK_SUDDEN_BITE_AND_FLIGHT" />
+		</rules>
+	</element>
+
+	<element name="Sudden Bite and Flight" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_RAVENFOLK_SUDDEN_BITE_AND_FLIGHT">
+		<description>
+			<p>If you surprise a creature during the first round of combat, you can make a bite attack as a bonus action. If it hits, you can immediately take the Dodge action as a reaction.</p>
+		</description>
+		<sheet action="Bonus Action | Reaction">
+			<description>If you surprise a creature during the first round of combat, you can use Powerful Jaw as a bonus action. If it hits, you can immediately take the Dodge action as a reaction.</description>
+		</sheet>
+	</element>
+
+	<element name="Tiefling Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_TIEFLING">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was a tiefling before transforming into a darakhul. You are no stranger to the pull of powerful forces raging through your blood. You have traded one dark pull for another, and this one seems much stronger. Is that a good feeling, or do you miss your old one?</p>
+			<p class="indent"><b><i>Size.</i></b> Tieflings are about the same size and build as humans. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Charisma score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Infernal.</p>
+			<p class="indent"><b><i>Necrotic Rebuke.</i></b> When you are hit by a weapon attack, you can use a reaction to envelop the attacker in shadowy flames. The attacker takes necrotic damage equal to your Charisma modifier (minimum of 1), and it has disadvantage on attack rolls until the end of its next turn. You must finish a long rest before you can use this feature again.</p>
+		</description>
+		<sheet alt="Tiefling">
+			<description>Your darakhul character was a tiefling before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Halfling)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_INFERNAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Necrotic Rebuke" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_TIEFLING_NECROTIC_REBUKE" />
+		</rules>
+	</element>
+
+	<element name="Necrotic Rebuke" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_TIEFLING_NECROTIC_REBUKE">
+		<description>
+			<p>When you are hit by a weapon attack, you can use a reaction to envelop the attacker in shadowy flames. The attacker takes necrotic damage equal to your Charisma modifier (minimum of 1), and it has disadvantage on attack rolls until the end of its next turn. You must finish a long rest before you can use this feature again.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Long Rest">
+			<description>When you are hit by a weapon attack, use your reaction to deal {{necrotic rebuke:damage}} necrotic damage to the attacker. It also has disadvantage on attack rolls until the end of its next turn.</description>
+		</sheet>
+		<rules>
+			<stat name="necrotic rebuke:damage" value="charisma:modifier" bonus="base" />
+			<stat name="necrotic rebuke:damage" value="1" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Trollkin Heritage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_TROLLKIN">
+		<supports>Heritage Subrace</supports>
+		<description>
+			<p>Your darakhul character was a trollkin (see <i>Midgard Heroes Handbook</i>) before transforming into a darakhul. Others saw you as a monster because of your ancestry. You became inured to the fearful looks and hurried exits of those around you. If only they could see you now. Does your new state make you seek revenge on them, or are you able to maintain your self-control despite the new urges you feel?</p>
+			<p class="indent"><b><i>Size.</i></b> Trollkin stand over 6 feet tall and are more solidly built than humans, weighing around 200 pounds. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Strength score increases by 2.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Trollkin.</p>
+			<p class="indent"><b><i>Regenerative Bite.</i></b> The regenerative powers of your trollkin heritage are less potent than they were in life and need a little help. As an action, you can make a bite attack against a creature that isn’t undead or a construct. On a hit, you regain hit points (minimum of 1) equal to half the amount of damage dealt. Once you use this trait, you can’t use it again until you finish a long rest.</p>
+		</description>
+		<sheet alt="Trollkin">
+			<description>Your darakhul character was a trollkin before transforming into a darakhul.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Halfling)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_TROLLKIN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Regenerative Bite" type="Racial Trait" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_TROLLKIN_REGENERATIVE_BITE" />
+		</rules>
+	</element>
+
+	<element name="Regenerative Bite" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DARAKHUL_RACIAL_TRAIT_HERITAGE_SUBRACE_TROLLKIN_REGENERATIVE_BITE">
+		<description>
+			<p>The regenerative powers of your trollkin heritage are less potent than they were in life and need a little help. As an action, you can make a bite attack against a creature that isn’t undead or a construct. On a hit, you regain hit points (minimum of 1) equal to half the amount of damage dealt. Once you use this trait, you can’t use it again until you finish a long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>You make a Powerful Jaw attack against a creature (not undead or construct). On a hit, you regain HP equal to half the damage dealt (minimum 1).</description>
+		</sheet>
+		<rules>
+			<stat name="regenerative bite:hp" value="charisma:modifier" bonus="base" />
+			<stat name="regenerative bite:hp" value="1" bonus="base" />
+		</rules>
+	</element>
+</elements>

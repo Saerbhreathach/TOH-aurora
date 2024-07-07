@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Drow race from Tome of Heroes</name>
+		<author url="https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/">Kobold Press</author>
+		<update version="0.0.1">
+			<file name="race-drow.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/race-drow.xml" />
+		</update>
+	</info>
+	
+	<element name="Drow" type="Race" source="Tome of Heroes" id="ID_KBP_TOH_RACE_DROW">
+		<description>
+			<p>The denizens of the surface world did not know of the existence of the drow until recently in the world’s history. Even other creatures who lived beneath the surface only heard of the race through rumors and half-mythical stories. The magnificent cities and structures created by the drow were viewed by very few outsiders, as the locales were kept secret, protected by traps, magic, and a network of fortifications and soldiers. With the rise of the darakhul and their empires, however, the drow civilization is now exposed to the rest of the world and on the brink of annihilation.</p>
+			<h4>A HIDDEN RACE</h4>
+			<p>The beginnings of the drow race are shrouded in mystery. With their resemblance to the elves of the surface world, many would posit the drow are some subterranean offshoot of that surface race, driven underground for some treacherous and evil acts. The truth is practically the opposite. The drow lived long before the surface elves, and if there is any connection between the two races at all, the drow are the elders.</p>
+			<p class="indent">The skin of a drow ranges from grey to blue-black to the darkest ebon. Their features are delicate and streamlined, and their eyes glow red. Drow who have hair generally sport white or silver hair, and they do not grow facial or body hair.</p>
+			<h4>THE RELIGION OF INDUSTRY</h4>
+			<p>The drow pattern their entire way of life by the strength and beauty of the work of underground insects. These insects, though seemingly small and insignificant, create great structures, while at the same time having the power to destroy even the greatest enemy.</p>
+			<p class="indent">Drow structures are built with materials as fine and as strong as spider webs. Their fortifications are like the colonies of ants: defensible and carefully planned. The various beetles that are now common sights in darakhul cities were first utilized and bred by the drow centuries ago, though the darakhul have, in their minds, perfected these creatures in recent years.</p>
+			<p class="indent">The religious ceremonies of the drow also follow patterns of insectoid energy and cooperation. Everyone has a place, from the weakest to the most powerful. If one fails to do their job well, all will suffer the consequences. Careful planning and execution can overcome any obstacle.</p>
+			<p class="indent">Unfortunately, the defeats suffered at the hands of darakhul have left many drow questioning their faith. Some want to begin worshipping new, more violent forces to turn the tides. Even those who still cling to the old ways are split on whether to go into hiding or commit to a full-blown assault on the darakhul.</p>
+			<h4>TERRIBLE DEFEATS</h4>
+			<p>At first, the territories controlled by the darakhul did not intersect with that of the drow. As the darakhul spread further and further throughout the caverns beneath the surface, skirmishes between the outer guard and advance scouts of the drow and darakhul became more frequent. Realizing that such a powerful force and rich food supply was within reach, the darakhul quickly took the fight to the drow in their own cities.</p>
+			<p class="indent">The drow had never before been successfully invaded, but they had never before been attacked by a force like the darakhul. The drow relied on traps and defenses that employed poison or necrotic magic, which was great against living foes but mostly ineffective against the darakhul. Unable to kill what was already dead, the drow watched one city after another fall. And to make matters worse, their own dead were rising up as the enemy and joining the darakhul ranks.</p>
+			<h4>DROW NAMES</h4>
+			<p>Drow are named by their families at birth, with the names having meanings that convey the wishes of the family for the child. Common drow names translate as obedient, ingenious, commanding, and fearless.</p>
+			<p>
+			<span class="feature">Female Names:</span>Ar’tik, Berril, Chi’zzl, Dillin, Fal’zzn, Id’sin, Li’liin, Mzz’ik, Ni’zzt, Ril’sir, Til’zzr<br />
+			<span class="feature">Male Names:</span>Ber’zzn, Chr’fru, Dro’shu, Fru’kkr, Har’trk, Joor’tzz, Kru’jat, Ohb’qor, Pzz’lok, Vor’tre<br />
+			</p>
+			<div class="reference">
+				<div element="ID_KBP_TOH_RACE_DROW_PLAYINGADROW" />
+			</div>
+			<h4>DROW TRAITS</h4>
+			<p>Your drow character has certain characteristics in common with all other drow.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Intelligence score increases by 2.</p>
+			<p class="indent"><b><i>Age.</i></b> Drow physically mature at the same rate as humans, but they aren’t considered adults until they reach the age of 50. They typically live to be around 500.</p>
+			<p class="indent"><b><i>Size.</i></b> Drow are slightly shorter and slimmer than humans. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Alignment.</i></b> Drow believe in reason and rationality, which leads them to favor lawful activities. However, their current dire situation makes them more prone than their ancestors to chaotic behavior. Their vicious fight for survival makes them capable of doing great evil in the name of self-preservation, although they are not, by nature, prone to evil in other circumstances.</p>
+			<p class="indent"><b><i>Superior Darkvision.</i></b> Accustomed to life in the darkest depths of the world, you can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><b><i>Fey Ancestry.</i></b> You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>
+			<p class="indent"><b><i>Mind of Steel.</i></b> You understand the complexities of minds, as well as the magic that can affect them. You have advantage on Wisdom, Intelligence, and Charisma saving throws against spells.</p>
+			<p class="indent"><b><i>Sunlight Sensitivity.</i></b> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+			<p class="indent"><b><i>Languages.</i></b> You can speak, read, and write Elvish and your choice of Common or Undercommon.</p>
+			<p class="indent"><b><i>Subrace.</i></b> Three subraces of drow exist: delver, purified, and the more recent fever-bit. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Ber’zzn, Chr’fru, Dro’shu, Fru’kkr, Har’trk, Joor’tzz, Kru’jat, Ohb’qor, Pzz’lok, Vor’tre</set>
+			<set name="names" type="female">Ar’tik, Berril, Chi’zzl, Dillin, Fal’zzn, Id’sin, Li’liin, Mzz’ik, Ni’zzt, Ril’sir, Til’zzr</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Drow)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_ELVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Native Language (Drow)" supports="ID_LANGUAGE_COMMON|ID_LANGUAGE_UNDERCOMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_FEY_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_MIND_OF_STEEL" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE"/>
+		</rules>
+	</element>
+
+	<element name="Playing A Drow" type="Information" source="Tome of Heroes" id="ID_KBP_TOH_RACE_DROW_PLAYINGADROW">
+		<description>
+			<p>You were born into a civilization that survived and thrived on order, stability, rational thought, and careful planning. Within your lifetime, you watched all of that come crashing down. The darakhul forces have you on the run, hiding out in small pockets of civilization underground, moving from place to place to avoid detection, or hearing about the devastation from a safe place on the surface far from the battle lines. Some within your ranks want to completely change the way drow live, create new rules and new ways of life, and do everything and anything to survive. Others believe this is naught but a new test of your people’s resolve, and that only by remaining faithful to the old ways can you defeat your enemy. Wherever you come down on this debate, you have a new, strange world in front of you.</p>
+		</description>
+	</element>
+
+	<element name="Fey Ancestry" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_FEY_ANCESTRY">
+		<description>
+			<p>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>
+		</description>
+		<sheet>
+			<description>Advantage on saving throws against being charmed, and magic can’t put you to sleep.</description>
+		</sheet>
+	</element>
+
+	<element name="Mind Of Steel" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_MIND_OF_STEEL">
+		<description>
+			<p>You understand the complexities of minds, as well as the magic that can affect them. You have advantage on Wisdom, Intelligence, and Charisma saving throws against spells.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Wisdom, Intelligence, and Charisma saving throws against spells.</description>
+		</sheet>
+	</element>
+
+	<element name="Sunlight Sensitivity" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY">
+		<description>
+			<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+		</description>
+		<sheet>
+			<description>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</description>
+		</sheet>
+	</element>
+
+	<element name="Subraces" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE">
+		<description>
+			<p>The drow are generally born into different castes, which determines what is expected of them in drow society. The delvers are the workers who maintain the (once) magnificent drow cities, serve in the drow military, and keep the rest of the drow safe and fed. The purified make up the leaders, skilled laborers, and magic-users of the drow. With the war between the drow and the darakhul going so poorly, a new and growing population of drow, called the fever-bit, have been infected with darakhul fever and survived, changing them into something quite new—and potentially powerful.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Drow Subrace" supports="Drow Subrace"/>
+		</rules>
+	</element>
+
+	<element name="Delver" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_DELVER">
+		<supports>Drow Subrace</supports>
+		<description>
+			<p>You are one of the workers whose labors prop up most of drow society. You were trained from birth to follow orders and serve the collective. You learned your trade well, whether it was building or fighting or erecting the traps that protected passages to your population centers.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Strength or Dexterity score increases by 1.</p>
+			<p class="indent"><b><i>Rapport with Insects.</i></b> Your caste’s years of working alongside the giant spiders and beetles that your people utilized in building and defending cities has left your caste with an innate affinity with the creatures. You can communicate simple ideas with insect-like beasts with an Intelligence of 3 or lower, such as spiders, beetles, wasps, scorpions, and centipedes. You can understand them in return, though this understanding is often limited to knowing the creature’s current or most recent state, such as “hungry,” “content,” or “in danger.” Delver drow often keep such creatures as pets, mounts, or beasts of burden.</p>
+			<p class="indent"><b><i>Specialized Training.</i></b> You are proficient in one skill and one tool of your choice.</p>
+			<p class="indent"><b><i>Martial Excellence.</i></b> You are proficient with one martial weapon of your choice and with light armor.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement +1 (Delver)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Delver)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant name="Rapport With Insects" type="Racial Trait" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_DELVER_RAPPORT_WITH_INSECTS" />
+			<select type="Proficiency" name="Skill Proficiency (Specialized Training)" supports="Skill" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Specialized Training)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Tool Proficiency (Specialized Training)" supports="Tool" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Tool Proficiency (Specialized Training)" supports="Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Martial Weapon Proficiency (Martial Excellence)" supports="Martial" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Martial Weapon Proficiency (Martial Excellence)" supports="Martial" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Armor Proficiency (Martial Excellence)" supports="Armor" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Rapport With Insects" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_DELVER_RAPPORT_WITH_INSECTS">
+		<description>
+			<p>Your caste’s years of working alongside the giant spiders and beetles that your people utilized in building and defending cities has left your caste with an innate affinity with the creatures. You can communicate simple ideas with insect-like beasts with an Intelligence of 3 or lower, such as spiders, beetles, wasps, scorpions, and centipedes. You can understand them in return, though this understanding is often limited to knowing the creature’s current or most recent state, such as “hungry,” “content,” or “in danger.” Delver drow often keep such creatures as pets, mounts, or beasts of burden.</p>
+		</description>
+		<sheet>
+			<description>You can communicate simple ideas with insect-like beasts of Int 3 or lower. You understand them, though it is limited to their most recent state (hungry, content, in danger, etc).</description>
+		</sheet>
+	</element>
+
+	<element name="Fever-Bit" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_FEVERBIT">
+		<supports>Drow Subrace</supports>
+		<description>
+			<p>You were once a typical drow, then you fell victim to the ravaging claws and teeth of a darakhul. The deadly darakhul fever almost took your life, but, when you were on the verge of succumbing, you rallied and survived. You were changed, however, in ways that even the greatest healers of your people can’t fathom. But now that you are immune to darakhul fever, your commanders have a job for you.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Constitution score increases by 1.</p>
+			<p class="indent"><b><i>Deathly Resilience.</i></b> Your long exposure to the life‑sapping energies of darakhul fever has made you more resilient. You have resistance to necrotic damage, and advantage on death saving throws.</p>
+			<p class="indent"><b><i>Iron Constitution.</i></b> You are immune to disease.</p>
+			<p class="indent"><b><i>Near-Death Experience.</i></b> Your brush with death has made you more stalwart in the face of danger. You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Fever-Bit)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant name="Deathly Resilience" type="Racial Trait" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_FEVERBIT_DEATHLY_RESILIENCE" />
+			<grant name="Iron Constitution" type="Racial Trait" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_FEVERBIT_IRON_CONSTITUTION" />
+			<grant name="Near-Death Experience" type="Racial Trait" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_FEVERBIT_NEAR_DEATH_EXPERIENCE" />
+		</rules>
+	</element>
+
+	<element name="Deathly Resilience" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_FEVERBIT_DEATHLY_RESILIENCE">
+		<description>
+			<p>Your long exposure to the life‑sapping energies of darakhul fever has made you more resilient. You have resistance to necrotic damage, and advantage on death saving throws.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on death saving throws</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+
+	<element name="Iron Constitution" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_FEVERBIT_IRON_CONSTITUTION">
+		<description>
+			<p>You are immune to disease.</p>
+		</description>
+		<sheet>
+			<description>You are immune to disease.</description>
+		</sheet>
+	</element>
+
+	<element name="Near-Death Experience" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_FEVERBIT_NEAR_DEATH_EXPERIENCE">
+		<description>
+			<p>Your brush with death has made you more stalwart in the face of danger. You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being frightened.</description>
+		</sheet>
+	</element>
+
+	<element name="Purified" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_PURIFIED">
+		<supports>Drow Subrace</supports>
+		<description>
+			<p>You were born into the caste that produces the leaders and planners, the priests and wizards, the generals and officers of drow society. Your people, it is believed, were tested by the beneficent powers you worship, and you passed those tests to become something more. Your innate magic proves your superiority over your fellows.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Charisma score increases by 2.</p>
+			<p class="indent"><b><i>Innate Spellcasting.</i></b> You know the <i>poison spray</i> cantrip. When you reach 3rd level, you can cast <i>suggestion</i> once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <i>tongues</i> spell once and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>
+			<p class="indent"><b><i>Born Leader.</i></b> You gain proficiency with two of the following skills of your choice: History, Insight, Performance, and Persuasion.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Purified)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant name="Innate Spellcasting" type="Racial Trait" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_PURIFIED_INNATE_SPELLCASTING" />
+			<select type="Proficiency" name="Skill Proficiency (Born Leader)" supports="ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Born Leader)" supports="Skill" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Innate Spellcasting" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DROW_RACIAL_TRAIT_SUBRACE_PURIFIED_INNATE_SPELLCASTING">
+		<description>
+			<p>You know the <i>poison spray</i> cantrip. When you reach 3rd level, you can cast <i>suggestion</i> once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <i>tongues</i> spell once and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description>You know the Poison Spray cantrip. Intelligence is your spellcasting ability for this spell.</description>
+			<description level="3">You know the Poison Spray cantrip. You can cast Suggestion once per long rest. Intelligence is your spellcasting ability for these spells.</description>
+			<description level="5">You know the Poison Spray cantrip. You can cast Suggestion and Tongues once per long rest. Intelligence is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_POISON_SPRAY" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_TONGUES" level="5" />
+		</rules>
+	</element>
+</elements>

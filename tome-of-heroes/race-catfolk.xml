@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Catfolk race from Tome of Heroes</name>
+		<author url="https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/">Kobold Press</author>
+		<update version="0.0.1">
+			<file name="race-catfolk.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/race-catfolk.xml" />
+		</update>
+	</info>
+
+	<element name="Catfolk" type="Race" source="Tome of Heroes" id="ID_KBP_TOH_RACE_CATFOLK">
+		<description>
+			<p>Catfolk are a social and active people of natural grace and obsessive curiosity, resembling bipedal, feline humanoids with tails, cat-like ears, and fur. They are equally comfortable wandering in far-off regions, wallowing in the heart of the largest cities, or delving into the lairs of forgotten horrors. Most catfolk dwell in deserts and endless plains, but love of travel and new experiences often draw catfolk to distant realms. There are whispers of hidden catfolk communities in the deepest jungles or even far to the north in the frozen tundra.</p>
+			<h4>CURIOSITY AND COMMUNITY</h4>
+			<p>Catfolk are nimble, curious, and adventurous creatures who seek out life rather than wait for it to come to them. Some outsiders believe heedless self‑expression alone drives the catfolk. As proof, they point to catfolk fascination with new experiences or quests for heroic glory. Those who make this claim miss the catfolk’s inner strength. Catfolk are optimistic, quirky, sometimes extravagant extroverts who overindulge their own curiosity or motivations. They are a race of extremes. Some catfolk are playful and seemingly irresponsible while others possess unwavering focus and a hunter’s mentality. Many catfolk float between these two viewpoints as the situation—or their mood—dictates. All but the most introverted catfolk enjoy holding the attention of others, but never to the detriment of their friends or family.</p>
+			<p class="indent">Harkening back to their ancestors’ packs and prides, friends, relations, and community hold a special place in the hearts of most catfolk. Because catfolk are a largely matriarchal people, females hold most positions of leadership and power, but competence usually supersedes gender. Catfolk living in mixed communities and cities largely integrate into the overall society.</p>
+			<h4>OTHER RACES</h4>
+			<p>Catfolk get along well with anyone who respects them and accepts their curiosity. They easily accept humans and delight in halflings when they encounter them. Passionate, art-loving elves and boisterous dwarves find common ground with catfolk, while those too bogged down in laws, tradition, and “rules” often find them aggravating. Kobolds and catfolk naturally intrigue each other, though catfolk do not always get along with draconic creatures.</p>
+			<h4>CATFOLK ADVENTURERS</h4>
+			<p>Many catfolk take up the adventurer’s trade, as it provides an excuse to indulge in their natural curiosity or their glory hunting. Some take up the rogue’s path or find employment as a scout or ranger. Still others pledge themselves as paladins to mischievous or travel-focused deities. The catfolk’s physical abilities and cultural outlook allows them to fill almost any role.</p>
+			<h4>CATFOLK ECCENTRICITY</h4>
+			<p>A catfolk’s personality can be flighty, flitting from obsession to obsession, or as constant as the world itself. You can use some of the ideas in the Catfolk Eccentricity table to customize your character in addition to the elements of the background you chose.</p>
+			<h5 class="caption">CATFOLK ECCENTRICITY</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td>d10</td><td >Eccentricity</td></tr>
+				</thead>
+				<tr><td> 1</td><td align="left">You constantly compare everyone’s actions to catfolk heroes of the past.</td></tr>
+				<tr><td> 2</td><td align="left">You keep a long list of places you want to go or things you want to do.</td></tr>
+				<tr><td> 3</td><td align="left">You must defeat a certain foe to fulfill your oath and reap the glory.</td></tr>
+				<tr><td> 4</td><td align="left">You find it amusing to act more bestial because it makes others nervous.</td></tr>
+				<tr><td> 5</td><td align="left">You are writing a song about your exploits.</td></tr>
+				<tr><td> 6</td><td align="left">You never like returning to a place you’ve already been.</td></tr>
+				<tr><td> 7</td><td align="left">Your weapons have names and you speak to them like siblings or lovers.</td></tr>
+				<tr><td> 8</td><td align="left">You tend to play with small objects.</td></tr>
+				<tr><td> 9</td><td align="left">You growl and show your teeth when things get tense.</td></tr>
+				<tr><td>10</td><td align="left">You can’t help talking to strangers—the stranger the better.</td></tr>
+			</table>
+			<h4>CATFOLK TRAITS</h4>
+			<p>Your catfolk character has the following traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Catfolk mature at the same rate as humans and can live just past a century.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Catfolk tend toward two extremes. Some are free-spirited and chaotic, letting impulse and fancy guide their decisions. Others are devoted to duty and personal honor. Typically, catfolk deem concepts such as good and evil as less important than freedom or their oaths.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Catfolk have a similar stature to humans but are generally leaner and more muscular. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You have a cat’s keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Cat's Claws.</em></strong> Your sharp claws can cut with ease. Your claws are natural melee weapons, which you can use to make unarmed strikes. When you hit with a claw, your claw deals slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent"><strong><em>Hunter’s Senses.</em></strong> You have proficiency in the Perception and Stealth skills.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> Two subraces of catfolk exist: malkin and pantheran. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'8"</set>
+			<set name="weight" modifier="2d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Catfolk)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_CATFOLK_RACIAL_TRAIT_CATS_CLAWS" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_CATFOLK_RACIAL_TRAIT_HUNTERS_SENSES" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_CATFOLK_RACIAL_TRAIT_CATFOLK_SUBRACE" />
+		</rules>
+	</element>
+	
+	<element name="Cat's Claws" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_CATFOLK_RACIAL_TRAIT_CATS_CLAWS">
+		<description>
+			<p>Your sharp claws can cut with ease. Your claws are natural melee weapons, which you can use to make unarmed strikes. When you hit with a claw, your claw deals slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d4 + {{strength:modifier}} slashing damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Hunter's Senses" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_CATFOLK_RACIAL_TRAIT_HUNTERS_SENSES">
+		<description>
+			<p>You have proficiency in the Perception and Stealth skills.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Perception and Stealth skills.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Catfolk Subrace" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_CATFOLK_RACIAL_TRAIT_CATFOLK_SUBRACE">
+		<description>
+			<p>Though catfolk can appear with the same patterns and styles as any feline, two main subraces of catfolk exist: malkin and pantheran. Malkins typically have features similar to smaller felines, such as bobcats, domestic cats, and ocelots, and they tend to live in or near cities. Pantherans typically have features similar to great cats, such as tigers, leopards, and cougars, and they tend to dwell in deep jungles or forests or in areas where grasslands meet forests.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Catfolk Subrace" supports="Catfolk" />
+		</rules>
+	</element>
+
+	<element name="Malkin" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUB_RACE_MALKIN">
+		<supports>Catfolk</supports>
+		<description>
+			<p>It's often said curiosity killed the cat, and this applies with equal frequency to catfolk. As a malkin catfolk you are adept at finding clever solutions to escape difficult situations, even (or perhaps especially) situations of your own making. Your diminutive size also gives you an uncanny nimbleness that helps you avoid the worst consequences of your intense inquisitiveness. Most often found in densely populated regions, these catfolk are as curious about the comings and goings of other humanoids as they are about natural or magical phenomena and artifacts. While malkins are sometimes referred to as "housecats" by other humanoids and even by other catfolk, doing so in a malkin's hearing is a surefire way to get a face full of claws. . . .</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Malkins are between 3 and 4 feet tall and average about 50 pounds. Your size is Small rather than Medium.</p>
+			<p class="indent"><strong><em>Curiosly Clever.</em></strong> You have proficiency in the Investigation skill.</p>
+			<p class="indent"><strong><em>Charmed Curiosity.</em></strong> When you roll a 1 on the d20 for a Dexterity check or saving throw, you can reroll the die and must use the new roll.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">3'1"</set>
+			<set name="weight" modifier="1d4">45 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Malkin)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_RACIAL_TRAIT_MALKIN_CURIOUSLY_CLEVER" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_RACIAL_TRAIT_MALKIN_CHARMED_CURIOUSITY" />
+		</rules>
+	</element>
+
+	<element name="Curiously Clever" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_MALKIN_CURIOUSLY_CLEVER">
+		<description>
+			<p>You have proficiency in the Investigation skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Investigation skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Charmed Curiosity" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_MALKIN_CHARMED_CURIOUSITY">
+		<description>
+			<p>When you roll a 1 on the d20 for a Dexterity check or saving throw, you can reroll the die and must use the new roll.</p>
+		</description>
+		<sheet>
+			<description>When you roll a 1 on the d20 for a Dexterity check or saving throw, you can reroll the die and must use the new roll.</description>
+		</sheet>
+	</element>
+
+	<element name="Pantheran" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUB_RACE_PANTHERAN">
+		<supports>Catfolk</supports>
+		<description>
+			<p>Pantheran catfolk are a wise, observant, and patient people who pride themselves on being resourceful and self-sufficient. Less social than many others of their kind, these catfolk typically dwell in small, close-knit family groups in the forests, jungles, and grasslands of the world, away from larger population centers or cities. Their family clans teach the importance of living off of and protecting the natural world, and pantherans act swiftly and mercilessly when their forest homes are threatened by outside forces. Conversely, pantherans can be the most fierce and loyal of neighbors to villages who respect nature and who take from the land and forest no more than they need. As a pantheran, you value nature and kinship, and your allies know they can count on your wisdom and, when necessary, your claws.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Hunter's Charge.</em></strong> Once per turn, if you move at least 10 feet toward a target and hit it with a melee weapon attack in the same turn, you can use a bonus action to attack that creature with your Cat’s Claws. You can use this trait a number of times per day equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent"><strong><em>One With the Wilds.</em></strong> You have proficiency in one of the following skills of your choice: Insight, Medicine, Nature, or Survival.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Pantheran)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_RACIAL_TRAIT_PANTHERAN_HUNTERS_CHARGE" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_RACIAL_TRAIT_PANTHERAN_ONE_WITH_THE_WILDS" />
+		</rules>
+	</element>
+
+	<element name="Hunter's Charge" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_PANTHERAN_HUNTERS_CHARGE">
+		<description>
+			<p>Once per turn, if you move at least 10 feet toward a target and hit it with a melee weapon attack in the same turn, you can use a bonus action to attack that creature with your Cat’s Claws. You can use this trait a number of times per day equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{proficiency}}/Day">
+			<description>Once per turn, if you move 10 feet or more towards a target and hit with a melee weapon attack in the same turn and you can use Cat's Claws as a bonus action. You regain all expended uses when you finish a long rest.</description>
+		</sheet>
+	</element>
+
+	<element name="One with the Wilds" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_PANTHERAN_ONE_WITH_THE_WILDS">
+		<description>
+			<p>You have proficiency in one of the following skills of your choice: Insight, Medicine, Nature, or Survival.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in one of the following skills of your choice: Insight, Medicine, Nature, or Survival.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="One with the Wilds" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+</elements>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Gearforged race from Tome of Heroes</name>
+		<author url="https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/">Kobold Press</author>
+		<update version="0.0.1">
+			<file name="race-gearforged.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/race-gearforged.xml" />
+		</update>
+	</info>
+
+	<element name="Gearforged" type="Race" source="Tome of Heroes" id="ID_KBP_TOH_RACE_GEARFORGED">
+		<description>
+			<p>Originally created as powerful soldiers, gearforged must now find their own paths to navigate the second life they’ve been given. Many devote themselves to civil service, others to their gods. Some dedicate their extraordinarily long lives to the pursuit of knowledge. A few, naturally, seek out lives of adventure.</p>
+			<p class="indent">The gearforged are an artificial race. More importantly, its members are created one at a time and come from a vast array of backgrounds. Nevertheless, they maintain rich traditions of history, culture, and spirituality all their own.</p>
+			<h4>FORM AND FUNCTION</h4>
+			<p>All gearforged were once other creatures with flesh-and-blood bodies, but their conscious minds were transplanted into articulated bodies of iron, steel, brass, and wood, driven by pistons and springs. Each is as distinctive in appearance as other people are. Some entities spend a fortune on these new bodies, while others scrape together anything that will work — especially if the subject is aging or ill.</p>
+			<p class="indent">All gearforged are made in humanoid shape, often in the likeness of the person’s original race. The vast majority of gearforged are created from and shaped like humans, who were the first creators of gearforged. Gearforged have articulated joints, hands, feet, and crystal-lens eyes.</p>
+			<p class="indent">Gearforged mechanisms are more than mechanical, because gearforged are machines with souls. Their arms and legs are driven by everwound springs. Their minds are actuated by memory gears, transverse cognition gearing, and the marvel of a soul gem connected directly to a maze of silver and mithral steam, spark, and magical conduits. These elements reside in a shell of iron, brass, and steel.</p>
+			<h4>GEARFORGED COMPONENTS</h4>
+			<p>The range of gearforged anatomy in all its variants is remarkable, but all gearforged share some common parts.</p>
+			<p class="indent"><strong><em>Everwound Springs.</em></strong> These magical springs provide energy over long periods, effectively acting as the power sources for most of the gearforged’s moving parts. A broken everwound spring results in the loss of function in that digit or limb, much like a damaged joint or ligaments in a flesh-and-blood creature.</p>
+			<p class="indent"><strong><em>Soul Gem.</em></strong> The mind of a gearforged creature is as sharp as that of any flesh-and-blood soul, but it is more portable. The animating, vital principle of a gearforged—its will, its personality, its mind—are retained in a soul gem. The destruction of this gem means the death of that gearforged.</p>
+			<p class="indent"><strong><em>Memory Gears.</em></strong> These delicate constructions are scroll-like ribbons pierced with thousands of pin holes and wound about with tiny enchantments of great complexity. The memory of a gearforged for all the days after its creation lives in the memory gears. Older gearforged have many such gears, and the material component for the magic to create them requires one new gear for every 10 years of life. Installing a new memory gear requires one day’s work and 2,000 gp.</p>
+			<p class="indent">Other gearforged can read memory gears salvaged from a dead gearforged, but it’s a complex, time‑consuming process. It’s also viewed with some alarm by most gearforged, since it is akin to peering into the most private details of a creature’s life. When a used memory gear is installed in a new or existing gearforged, the process takes three days’ work to avoid damaging the memories in the gear, and it takes one week before the recipient can fully interpret and understand the memories.</p>
+			<h4>GEARFORGED NAMES</h4>
+			<p>Some gearforged use the same name they had before they became gearforged. Others adopt a new name, drawing on any culture they admire. A few take on an aspirational name representing a virtue they hope to embody, such as Courage, Noble, Faithful, Endurance, or Truth.</p>
+			<h4>GEARFORGED TRAITS</h4>
+			<p>Your gearforged character has certain characteristics in common with all other gearforged.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Two different ability scores of your choice increase by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> The soul inhabiting a gearforged can be any age. As long as its new body is kept in good repair, there is no known limit to how long it can function.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> No single alignment typifies gearforged, but most gearforged maintain the alignment they had before becoming gearforged.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Your size is determined by your Race Chassis.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is determined by your Race Chassis.</p>
+			<p class="indent"><strong><em>Construct Resilience.</em></strong> Your body is constructed, which frees you from some of the limits of flesh-and-blood creatures. You have resistance to poison damage, you are immune to disease, and you have advantage on saving throws against being poisoned.</p>
+			<p class="indent"><strong><em>Construct Vitality.</em></strong> You don’t need to eat, drink, or breathe, and you don’t sleep the way most creatures do. Instead, you enter a dormant state where you resemble a statue and remain semiconscious for 6 hours a day. During this time, the magic in your soul gem and everwound springs slowly repairs the day’s damage to your mechanical body. While in this dormant state, you have disadvantage on Wisdom (Perception) checks. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
+			<p class="indent"><strong><em>Living Construct.</em></strong> Your consciousness and soul reside within a soul gem to animate your mechanical body. As such, you are a living creature with some of the benefits and drawbacks of a construct. Though you can regain hit points from spells like <i>cure wounds</i>, you can also be affected by game effects that specifically target constructs, such as the <i>shatter</i> spell. As long as your soul gem remains intact, game effects that raise a creature from the dead work on you as normal, repairing the damaged pieces of your mechanical body (restoring lost sections only if the spell normally restores lost limbs) and returning you to life as a gearforged. Alternatively, if your body is destroyed but your soul gem and memory gears are intact, they can be installed into a new body with a ritual that takes one day and 10,000 gp worth of materials. If your soul gem is destroyed, only a wish spell can restore you to life, and you return as a fully living member of your original race.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, Machine Speech (a whistling, clicking language that’s incomprehensible to non‑gearforged), and a language associated with your Race Chassis.</p>
+			<p class="indent"><strong><em>Race Chassis.</em></strong> Four races are known to create unique gearforged, building mechanical bodies similar in size and shape to their people: dwarf, gnome, human, and kobold. Choose one of these forms.</p>	
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Gearforged)" supports="Custom Ability Score Increase 1" number="2" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_CONSTRUCT_RESILIENCE" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_CONSTRUCT_VITALITY" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_LIVING_CONSTRUCT" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_MACHINE_SPEECH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Gearforged)" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+		</rules>
+	</element>
+	
+	<element name="Construct Resilience" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_CONSTRUCT_RESILIENCE">
+		<description>
+			<p>Your body is constructed, which frees you from some of the limits of fleshand- blood creatures. You have resistance to poison damage, you are immune to disease, and you have advantage on saving throws against being poisoned.</p>
+		</description>
+		<sheet>
+			<description>You are immune to disease and have advantage on saving throws against poison.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+
+	<element name="Construct Vitality" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_CONSTRUCT_VITALITY">
+		<description>
+			<p>You don’t need to eat, drink, or breathe, and you don’t sleep the way most creatures do. Instead, you enter a dormant state where you resemble a statue and remain semiconscious for 6 hours a day. During this time, the magic in your soul gem and everwound springs slowly repairs the day’s damage to your mechanical body. While in this dormant state, you have disadvantage on Wisdom (Perception) checks. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
+		</description>
+		<sheet>
+			<description>You don't need to eat, drink, breathe or sleep the way normal creatures do. For 6 hours a night you enter a dormant semiconscious state that allows your body to repair and rest. You have disadvantage on Wisdom (Perception) checks, but after the duration, achieve the same benefit as a human's 8-hour rest.</description>
+		</sheet>
+	</element>
+
+	<element name="Living Construct" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_LIVING_CONSTRUCT">
+		<description>
+			<p>Your consciousness and soul reside within a soul gem to animate your mechanical body. As such, you are a living creature with some of the benefits and drawbacks of a construct. Though you can regain hit points from spells like cure wounds, you can also be affected by game effects that specifically target constructs, such as the <i>shatter</i> spell. As long as your soul gem remains intact, game effects that raise a creature from the dead work on you as normal, repairing the damaged pieces of your mechanical body (restoring lost sections only if the spell normally restores lost limbs) and returning you to life as a gearforged. Alternatively, if your body is destroyed but your soul gem and memory gears are intact, they can be installed into a new body with a ritual that takes one day and 10,000 gp worth of materials. If your soul gem is destroyed, only a wish spell can restore you to life, and you return as a fully living member of your original race.</p>
+		</description>
+		<sheet>
+			<p>You can regain HP from spells like Cure Wounds, but can also be affected by construct-specific effects like the Shatter spell. As long as your Soul Gem remains intact, you can be raised from the dead, restore lost limbs (if the spell normally would), and return you to life as a Gearforged. If your body is destroyed but your Soul Gem and Memory Gears are intact, they can be installed into a new Gearforged body (Ritual, 1-day, 10,000gp). If your Soul Gem is destroyed, only a Wish spell can restore you to life, as a living member of your original race.</p>
+		</sheet>
+	</element>
+
+	<element name="Race Chassis" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS">
+		<description>
+			<p>Four races mastered the creation of gearforged and build gearforged in their likenesses to house the souls of their people. The vast majority of gearforged have human chassis, as humans pioneered the technology and created the first gearforged, but dwarves, gnomes, and kobolds have since expanded on the technology. Each has discovered ways of incorporating unique features of their people into the frames and magic of the gearforged. You started life as a dwarf, gnome, human, or kobold, and when your physical body died, your consciousness and soul were transferred into a soul gem and mounted in a gearforged body.</p>
+		</description>
+		<sheet display="false">
+			<description>Four races mastered the creation of gearforged and build gearforged in their likenesses to house the souls of their people. The vast majority of gearforged have human chassis, as humans pioneered the technology and created the first gearforged, but dwarves, gnomes, and kobolds have since expanded on the technology. Each has discovered ways of incorporating unique features of their people into the frames and magic of the gearforged. You started life as a dwarf, gnome, human, or kobold, and when your physical body died, your consciousness and soul were transferred into a soul gem and mounted in a gearforged body.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Race Chassis" supports="Race Chassis"/>
+		</rules>
+	</element>
+
+	<!-- Gearforged Race Chassis -->
+	<element name="Dwarf Chassis" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_DWARF">
+		<supports>Race Chassis</supports>
+		<description>
+			<p>The original dwarven gearforged engineers valued function over form, eschewing aesthetics in favor of instilling their chassis with toughness and strength. The chassis’ metal face is clearly crafted to look dwarven, but its countenance is entirely unactuated and forged of a dark metal—often brass—sometimes with a lighter-colored mane of hair and a braided beard and mustaches made of fine metal strands. The gearforged's eyes glow a dark turquoise, staring dispassionately with a seemingly blank expression. Armor and helms worn by the gearforged are often styled to appear as if they were integrated into its chassis, making it all-but-impossible to tell where the armor ends and the gearforged begins.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Constitution increases by 1.</p>
+			<p class="indent"><b><i>Size.</i></b> Gearforged dwarves stand between 4 and 5 feet tall and average about 250 pounds. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.</p>
+			<p class="indent"><b><i>Darkvision.</i></b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Dwarvish.</p>
+			<p class="indent"><b><i>Always Armed.</i></b> Every dwarf knows that it’s better to leave home without pants than without your weapon. Choose a weapon with which you are proficient and that doesn’t have the two-handed property. You can integrate this weapon into one of your arms. While the weapon is integrated, you can’t be disarmed of it by any means, though you can use an action to remove the weapon. You can draw or sheathe the weapon as normal, the weapon folding into or springing from your arm instead of a sheath. While the integrated weapon is drawn in this way, it is considered held in that arm’s hand, which can’t be used for other actions such as casting spells. You can integrate a new weapon or replace an integrated weapon as part of a short or long rest. You can have up to two weapons integrated at a time, one per arm. You have advantage on Dexterity (Sleight of Hand) checks to conceal an integrated weapon.</p>
+			<p class="indent"><b><i>Remembered Training.</i></b> You remember some of your combat training from your previous life. You have proficiency with two martial weapons of your choice and with light and medium armor.</p>
+		</description>
+		<sheet display="false">
+			<description>Your Gearforged chassis resembles a sturdy and strong dwarf.</description>
+		</sheet>
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Race Chassis: Dwarf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_DWARVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Always Armed" type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_DWARF_ALWAYS_ARMED" />
+			<grant name="Remembered Training" type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_DWARF_REMEMBERED_TRAINING" />
+		</rules>
+	</element>
+
+	<element name="Always Armed" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_DWARF_ALWAYS_ARMED">
+		<description>
+			<p>Every dwarf knows that it’s better to leave home without pants than without your weapon. Choose a weapon with which you are proficient and that doesn’t have the two-handed property. You can integrate this weapon into one of your arms. While the weapon is integrated, you can’t be disarmed of it by any means, though you can use an action to remove the weapon. You can draw or sheathe the weapon as normal, the weapon folding into or springing from your arm instead of a sheath. While the integrated weapon is drawn in this way, it is considered held in that arm’s hand, which can’t be used for other actions such as casting spells. You can integrate a new weapon or replace an integrated weapon as part of a short or long rest. You can have up to two weapons integrated at a time, one per arm. You have advantage on Dexterity (Sleight of Hand) checks to conceal an integrated weapon.</p>
+		</description>
+		<sheet alt="Dwarf Chassis: Always Armed">
+			<description>One weapon of your choice (with proficiency, not 2-handed) is integrated with your arm. You cannot be disarmed, but can use an action to remove the weapon. You can draw and sheathe as normal. While equipped in this way, the hand is considered used and cannot perform other actions (spellcasting, etc). You can integrate, change or remove a weapon as part of a short or long rest. You can have up to 2 weapons integrated (one in each hand). You have advantage on Sleight of Hand checks to conceal integrated weapons.</description>
+		</sheet>
+	</element>
+
+	<element name="Remembered Training" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_DWARF_REMEMBERED_TRAINING">
+		<description>
+			<p>You remember some of your combat training from your previous life. You have proficiency with two martial weapons of your choice and with light and medium armor.</p>
+		</description>
+		<sheet display="false">
+			<description>You remember some of your combat training from your previous life. You have proficiency with two martial weapons of your choice and with light and medium armor.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Martial Weapon, Remembered Training" number="2" supports="Martial" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Simple/Martial Weapon or Tool, Dwarven Combat Training" number="2" supports="Weapon||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Simple/Martial Weapon or Tool, Martial Training" number="2" supports="Weapon||Tool||Dwarven Armor" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Gnome Chassis" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_GNOME">
+		<supports>Race Chassis</supports>
+		<description>
+			<p>Crafted for both exceptional functionality and aesthetic beauty, a gnome chassis’ skin is clearly metallic but is meticulously colored to closely match gnomish skin tones, except at the joints, where gears and darker steel pistons are visible. Gnome chassis are almost always bald, with elaborate artistic patterns painted or etched on the face and skull in lieu of hair. Their eyes are vivid and lifelike, as is the chassis’ gnomish face, which has a sculpted metal nose and articulated mouth and jaw. The gnome artisans who pioneered the first gearforged chassis saw it as an opportunity to not merely build a better body but to make it a work of art.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Intelligence increases by 1.</p>
+			<p class="indent"><b><i>Size.</i></b> Gearforged gnomes are between 3 and 4 feet tall and average about 100 pounds. Your size is Small.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 25 feet.</p>
+			<p class="indent"><b><i>Darkvision.</i></b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Gnomish.</p>
+			<p class="indent"><b><i>Mental Fortitude.</i></b> When creating their first gearforged, gnome engineers put their efforts toward ensuring that the gnomish mind remained a mental fortress, though they were unable to fully replicate the gnomish mind’s resilience once transferred to a soul gem. Choose Intelligence, Wisdom, or Charisma. You have advantage on saving throws made with that ability score against magic.</p>
+			<p class="indent"><b><i>Quick Fix.</i></b> When you are below half your hit point maximum, you can use a bonus action to apply a quick patch up to your damaged body. You gain temporary hit points equal to your proficiency bonus. You can’t use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet display="false">
+			<description>Your Gearforged chassis resembles a beautiful work of ingenious Gnomish art.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Race Chassis: Gnome)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_GNOMISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Mental Fortitude" type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_GNOME_MENTAL_FORTITUDE" />
+			<grant name="Quick Fix" type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_GNOME_QUICK_FIX" />
+		</rules>
+	</element>
+
+	<element name="Mental Fortitude" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_GNOME_MENTAL_FORTITUDE">
+		<description>
+			<p>When creating their first gearforged, gnome engineers put their efforts toward ensuring that the gnomish mind remained a mental fortress, though they were unable to fully replicate the gnomish mind’s resilience once transferred to a soul gem. Choose Intelligence, Wisdom, or Charisma. You have advantage on saving throws made with that ability score against magic.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Mental Fortitude" supports="Mental Fortitude Stat" requirements="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_GNOME_MENTAL_FORTITUDE" />
+		</rules>
+	</element>
+
+	<element name="Intelligence" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_GNOME_MENTAL_FORTITUDE_INTELLIGENCE">
+		<supports>Mental Fortitude Stat</supports>
+		<description>
+			<p>You have advantage on saving throws made with your Intelligence score against magic.</p>
+		</description>
+		<sheet alt="Gnome Chassis: Mental Fortitude">
+			<description>You have advantage on Intelligence saves against magic.</description>
+		</sheet>
+	</element>
+
+	<element name="Wisdom" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_GNOME_MENTAL_FORTITUDE_WISDOM">
+		<supports>Mental Fortitude Stat</supports>
+		<description>
+			<p>You have advantage on saving throws made with your Wisdom score against magic.</p>
+		</description>
+		<sheet alt="Gnome Chassis: Mental Fortitude">
+			<description>You have advantage on Wisdom saves against magic.</description>
+		</sheet>
+	</element>
+
+	<element name="Charisma" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_GNOME_MENTAL_FORTITUDE_Charisma">
+		<supports>Mental Fortitude Stat</supports>
+		<description>
+			<p>You have advantage on saving throws made with your Charisma score against magic.</p>
+		</description>
+		<sheet alt="Gnome Chassis: Mental Fortitude">
+			<description>You have advantage on Charisma saves against magic.</description>
+		</sheet>
+	</element>
+
+	<element name="Quick Fix" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_GNOME_QUICK_FIX">
+		<description>
+			<p>When you are below half your hit point maximum, you can use a bonus action to apply a quick patch up to your damaged body. You gain temporary hit points equal to your proficiency bonus. You can’t use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Short or Long Rest">
+			<description>When you have less than half HP, you can use this feature to gain {{proficiency}} temporary HP.</description>
+		</sheet>
+	</element>
+
+	<element name="Human Chassis" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_HUMAN">
+		<supports>Race Chassis</supports>
+		<description>
+			<p>As humans invented the first gearforged, it should be no surprise that the human chassis remains the one that is most frequently encountered. However, it would be a mistake to assume that simply because the original chassis is more commonplace that there is anything common about them. While dwarves, gnomes, and kobolds have made clever additions and changes to the base model, the human chassis remains extremely versatile and is battle-proven.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> One ability score of your choice increases by 1.</p>
+			<p class="indent"><b><i>Size.</i></b> Gearforged humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, you average 250 to 300 pounds. Your size is Medium.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write one language of your choice.</p>
+			<p class="indent"><b><i>Adaptable Acumen.</i></b> You gain proficiency in two skills or tools of your choice. Choose one of those skills or tools or another skill or tool proficiency you have. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill or tool.</p>
+			<p class="indent"><b><i>Inspired Ingenuity.</i></b> When you roll a 9 or lower on the d20 for an ability check, you can use a reaction to change the roll to a 10. You can’t use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet display="false">
+			<description>Your Gearforged chassis resembles the human form, adaptable, capable, ordinary.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Improvement +1 (Race Chassis: Human)" supports="Custom Ability Score Increase 1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Race Chassis: Human)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<select type="Language" name="Race Chassis: Human" supports="Custom Race Language" number="1"  requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Adaptable Acumen" type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_HUMAN_ADAPTABLE_ACUMEN" />
+			<grant name="Inspired Ingenuity" type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_HUMAN_INSPIRED_INGENUITY" />
+		</rules>
+	</element>
+
+	<element name="Adaptable Acumen" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_HUMAN_ADAPTABLE_ACUMEN">
+		<description>
+			<p>You gain proficiency in two skills or tools of your choice. Choose one of those skills or tools or another skill or tool proficiency you have. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill or tool.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency in two skills or tools of your choice. Choose one of those skills or tools or another skill or tool proficiency you have. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill or tool.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Adaptable Acumen (Proficiency)" supports="Skill||Tool" number="2"/>
+			<select type="Racial Trait" name="Adaptable Acumen (Expertise)" supports="ID_INTERNAL_SUPPORT_EXPERTISE" />
+		</rules>
+	</element>
+
+	<element name="Inspired Ingenuity" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_HUMAN_INSPIRED_INGENUITY">
+		<description>
+			<p>When you roll a 9 or lower on the d20 for an ability check, you can use a reaction to change the roll to a 10. You can’t use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Short or Long Rest">
+			<description>When you roll a 9 or lower on the d20 for an ability check, you can change the roll to a 10.</description>
+		</sheet>
+	</element>
+
+	<element name="Kobold Chassis" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_KOBOLD">
+		<supports>Race Chassis</supports>
+		<description>
+			<p>Kobolds are naturally curious tinkerers, constantly modifying their devices and tools. As such, kobolds, in spite of what many dwarf or gnome engineers might say, were the second race to master the nuances of gearforged creation after studying human gearforged. However, most of these early kobold gearforged no longer exist, as the more draconic forms (homages to the kobolds’ draconic masters) proved too alien to the kobold soul gems to maintain stable, long-term connections with the bodies. Kobold engineers have since resolved that problem, and kobold gearforged can be found among many kobold communities, aiding its members and tinkering right alongside their scale-and-blood brethren.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Dexterity increases by 1.</p>
+			<p class="indent"><b><i>Size.</i></b> Gearforged kobolds are between 3 and 4 feet tall and average about 100 pounds. Your size is Small.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
+			<p class="indent"><b><i>Darkvision.</i></b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><b><i>Language.</i></b> You can speak, read, and write Draconic.</p>
+			<p class="indent"><b><i>Clutch Aide.</i></b> Kobolds spend their lives alongside their clutchmates, both those hatched around the same time as them and those they choose later in life, and you retain much of this group-oriented intuition. You can take the Help action as a bonus action.</p>
+			<p class="indent"><b><i>Resourceful.</i></b> If you have at least one set of tools, you can cobble together one set of makeshift tools of a different type with 1 minute of work. For example, if you have cook’s utensils, you can use them to create a temporary set of thieves’ tools. The makeshift tools last for 10 minutes then collapse into their component parts, returning your tools to their normal forms. While the makeshift tools exist, you can’t use the set of tools you used to create the makeshift tools. At the GM’s discretion, you might not be able to replicate some tools, such as an alchemist’s alembic or a disguise kit’s cosmetics. A creature other than you that uses the makeshift tools has disadvantage on the check.</p>
+		</description>
+		<sheet display="false">
+			<description>Your Gearforged chassis resembles the diminutive draconic form of a kobold.</description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Race Chassis: Gnome)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant name="Clutch Aide" type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_KOBOLD_CLUTCH_AIDE" />
+			<grant name="Remembered Training" type="Racial Trait" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_GNOME_QUICK_FIX" />
+		</rules>
+	</element>
+
+	<element name="Clutch Aide" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_KOBOLD_CLUTCH_AIDE">
+		<description>
+			<p>Kobolds spend their lives alongside their clutchmates, both those hatched around the same time as them and those they choose later in life, and you retain much of this group-oriented intuition. You can take the Help action as a bonus action.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can take the Help action.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Mental Fortitude" supports="Mental Fortitude Stat" requirements="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_GNOME_MENTAL_FORTITUDE" />
+		</rules>
+	</element>
+
+	<element name="Resourceful" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_GEARFORGED_RACIAL_TRAIT_RACE_CHASSIS_KOBOLD_RESOURCEFUL">
+		<description>
+			<p>If you have at least one set of tools, you can cobble together one set of makeshift tools of a different type with 1 minute of work. For example, if you have cook’s utensils, you can use them to create a temporary set of thieves’ tools. The makeshift tools last for 10 minutes then collapse into their component parts, returning your tools to their normal forms. While the makeshift tools exist, you can’t use the set of tools you used to create the makeshift tools. At the GM’s discretion, you might not be able to replicate some tools, such as an alchemist’s alembic or a disguise kit’s cosmetics. A creature other than you that uses the makeshift tools has disadvantage on the check.</p>
+		</description>
+		<sheet action="1 minute">
+			<description>As long as you have one set of tools, you can use them as a different set of tools. Makeshift tools last 10 minutes, then return to the original set of tools. While used in this way, the tools cannot be used as their original form. Your DM might rule that your tools cannot be used to create specific tool kits, eg. Alchemist's alembic or disguise kit cosmetics. Another creature that uses your makeshift tools has disadvantage.</description>
+		</sheet>
+	</element>
+</elements>

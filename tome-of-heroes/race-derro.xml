@@ -1,0 +1,2211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Derro race from Tome of Heroes</name>
+		<author url="https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/">Kobold Press</author>
+		<update version="0.0.1">
+			<file name="race-derro.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/race-derro.xml" />
+		</update>
+	</info>
+
+	<element name="Derro" type="Race" source="Tome of Heroes" id="ID_KBP_TOH_RACE_DERRO">
+		<description>
+			<p>Deep beneath the earth, the derro wait in twisted cities built by their mad architects. These insane humanoids live, work, and somehow thrive in the lightless depths. They understand the truth about the uncaring gods that dwell between the stars, and they abandoned sanity long ago to save themselves. The derro hide within their insanity in the hope that the dark gods they fear will turn that sinister attention to other, saner races first.</p>
+			<p class="indent">Despite the great distances between their underground cities and the surface, derro outposts can be found in the slums of many cities, both above and below ground. Occasionally, a derro discovers the wider world and finds a path out of the madness.</p>
+			<h4>PALE AND STUNTED</h4>
+			<p>The derro are stunted, dwarflike humanoids, small of stature with wide shoulders and stubby limbs. They stand between 3 and 4 feet tall, with males only slighter taller than females on average. Their slender builds rarely weigh more than 40 pounds. Their pale skin is nearly translucent, revealing a ghostly web of blue veins. Their large, pure white staring eyes gleam in the dark.</p>
+			<p class="indent">Shorter than surface dwarves, derro are quick and erratic in their movements. Their elaborately braided or styled hair ranges from white to a pale straw color. Males take great pride in their prodigious mustaches, which are often braided and waxed.</p>
+			<h4>HISTORY OF MADNESS</h4>
+			<p>The true history of the derro is an incomprehensible tangle. The entire race embraced insanity long ago. Even when they keep records, their accounts conflict with each other and with observable reality. The various cults and clans of the derro embrace a wide variety of myths, mostly passed along by oral tradition and mind-bending artwork. Every new teller of a given tale twists or rewrites portions of the story to fit their own warped view of the world.</p>
+			<p class="indent">The derro have existed for ages, perhaps thriving even before the spread of humans across the surface. The more reliable histories of other races agree the derro were once allied with the drow. The drow regard them with a strange type of favor, almost like dim-witted children. The aboleths and duergar have historically used and abused the derro. The derro know no actual friends, but they are overawed by power and dominance. They serve beings whose assumed superiority impresses them, and, when led in this way, their insanity clears enough to keep them moving toward the leader’s goals.</p>
+			<h4>CULTURE AND RULE</h4>
+			<p>Love, as other races know it, is unheard of in the bizarre core family unit of the derro. Derro children are born sane, but they are deliberately driven mad by their relatives, usually by age four. Parents feed, clothe, and protect their children not out of a sense of love or tenderness, but because they know that every derro awakened to the mind-bending truth of their race brings them glory. The horrific rituals that break a young derro’s sanity vary by tribe and even year to year. Details are sparse, but known ritual names include Staring into the Void, Enduring the Heartless Fire, and the First Drink of True Knowledge.</p>
+			<p class="indent">Derro are paranoid, unstable, and jittery, and many suffer powerful delusions of grandeur as well. Madness compels them to commit acts of cruelty against their companions or pets, and these acts ignite constant infighting among them. A few, however, muster enough restraint and control to keep the entirety of derro society from crumbling.</p>
+			<p class="indent">Savants are powerful sorcerers who hold their madness at bay long enough to cobble together coherent plans, though even they are dangerously unpredictable. The derro’s antipaladins are terrifying engines of crazed destruction who have looked deep into the void between stars and survived — and even the savants respect them for that. Clans that stick together long enough inadvertently create a witch queen among their ranks, a collective spirit of the clan. These derro become the leaders and central focuses of their clans, driving the clan to inscrutable ends. When one witch queen dies, her spirit transfers to another derro in the clan, transforming that derro into the next witch queen and perpetuating the clan.</p>
+			<h4>GODS OF THE DERRO</h4>
+			<p>The derro worship a horde of bizarre and terrible beings, including demon lords. Perhaps the most disturbing of their deities are the Great Old Ones whose mere symbolic presence melts minds and corrupts the world. Derro worshipers venerate Nyarlathotep and Shub-Niggurath, the Black Goat of the Woods, in particular. There is no pattern or reason that governs which dark being will catch a given derro’s fancy, and devotees are violently hostile to worshipers of other entities.</p>
+			<p class="indent">Derro consider themselves the most exalted servants of the blasphemous figures they venerate; the only beings in the entire multiverse who can truly understand their deity’s glory. Specific rituals vary from cult to cult, but the unifying thread of derro faith asserts that their racial madness is a gift that makes communion with these deities possible. Further, the derro believe they are the harbingers of the end of time and that they alone will inherit the shattered husk of creation.</p>
+			<h4>DERRO NAMES</h4>
+			<p>Names are thrust upon derro children haphazardly and with no clear general customs. Derro who worship an ancestor god might give their children a variation on the exalted figure’s name or title, or a child might grow almost to maturity before any adult bothers to call them by the same jumble of sounds twice. Clan, tribe, and family names also lack any discernable pattern, though occasionally they form a coherent description.</p>
+			<p>
+			<span class="feature">Male Adult Names:</span>Akrath, Avrik, Brosh’Kal, Byrgryg, Crok’Til, Cyzyk, Daagrath, Durvin, Farq’shul, Folvig, Gaargrth, Grolesh, Haaskrin, Hvorig, Korzh, Lormaq, Orvuld, Ostvyrk, Perk’rasz, Pulver’Kash, Quirth, Qvaalak, Saasqar, Vorqaar<br />
+			<span class="feature">Female Adult Names:</span>Aazha, Artriss, Bruen, Bylir, Dal’lyn, Drussil, Ealla, Erkytl, Grunhaas, Gvarla, Heldraag, Hylala, Muerna, Mzish, Ophella, Ortys, Rushal, Synder, Thryka, Tonlix, Ulga, Veraka, Vilya, Wulfada, Xanka<br />
+			<span class="feature">Tribe Names:</span>Aardsyn, Blackreach, Balerock, Crystaaq, Daash’Void, Guundhold, Hellsreach, Iirdvank, Laash’Kath, Moldheim, Nyar’Ryk, Ovildhaash, Rylstaaq, Slys’Kath, Xaalyf
+			</p>
+			<h4>DERRO TRAITS</h4>
+			<p>Your derro character has certain characteristics in common with all other derro.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Derro reach maturity by the age of 15 and live to be around 75.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> The derro’s naturally unhinged minds are nearly always chaotic, and many, but not all, are evil.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Derro stand between 3 and 4 feet tall with slender limbs and wide shoulders. Your size is Small.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Derro are fast for their size. Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Superior Darkvision.</em></strong> Accustomed to life underground, you can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Eldritch Resilience.</em></strong> You have advantage on Constitution saving throws against spells.</p>
+			<p class="indent"><strong><em>Sunlight Sensitivity.</em></strong> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Dwarvish and your choice of Common or Undercommon.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> Three subraces of derro exist: far-touched, mutated, and uncorrupted. Choose one of these subraces.</p>
+			<div class="reference">
+				<div element="ID_KBP_TOH_RACE_DERRO_PLAYING_A_DERRO" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Akrath, Avrik, Brosh’Kal, Byrgryg, Crok’Til, Cyzyk, Daagrath, Durvin, Farq’shul, Folvig, Gaargrth, Grolesh, Haaskrin, Hvorig, Korzh, Lormaq, Orvuld, Ostvyrk, Perk’rasz, Pulver’Kash, Quirth, Qvaalak, Saasqar, Vorqaar</set>
+			<set name="names" type="female">Aazha, Artriss, Bruen, Bylir, Dal’lyn, Drussil, Ealla, Erkytl, Grunhaas, Gvarla, Heldraag, Hylala, Muerna, Mzish, Ophella, Ortys, Rushal, Synder, Thryka, Tonlix, Ulga, Veraka, Vilya, Wulfada, Xanka</set>
+			<set name="names" type="tribe">Aardsyn, Blackreach, Balerock, Crystaaq, Daash’Void, Guundhold, Hellsreach, Iirdvank, Laash’Kath, Moldheim, Nyar’Ryk, Ovildhaash, Rylstaaq, Slys’Kath, Xaalyf</set>
+			<set name="names-format">{{name}} {{tribe}}</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Derro)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_DWARVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Native Language (Derro)" supports="ID_LANGUAGE_COMMON|ID_LANGUAGE_UNDERCOMMON" number="1"  requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DERRO_RACIAL_TRAIT_MINOR_MADNESS" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DERRO_RACIAL_TRAIT_ELDRITCH_RESILIENCE" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DERRO_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_DERRO_RACIAL_TRAIT_DERRO_SUBRACE" />
+		</rules>
+	</element>
+	
+	<element name="Playing a Derro" type="Information" source="Tome of Heroes" id="ID_KBP_TOH_RACE_DERRO_PLAYING_A_DERRO">
+		<description>
+			<p>Derro are unpredictable, fanciful, and prone to delusions, confusions, and manias. So how can they function in groups more accustomed to the stability of humans, dwarves, and elves?</p>
+			<p class="indent">In truth, the derro are less violent and more peculiar in a quieter way than their common portrayal as rabid maniacs. They are as likely to be brooding, depressed, or sullen as crazed and violent. Your derro character could have a tendency to talk to themselves, might address an invisible friend before undertaking any major step, or might simply consider all the other members of the party as “imaginary friends” and thus not subject to harassment.</p>
+			<p class="indent">Treat the derro’s madness as an occasional bit of flavor for the character, rather than an excuse to cripple the party with chaotic and self-defeating actions. A derro character won’t be as predictable as a dwarf paladin or a half-elf bard, but the derro might occasionally talk to rocks and interrogate mushrooms. Review the Minor Madnesses section on page 22 for examples of playable and flavorful maladies that afflict your character. Choose an appropriate minor madness or roll percentile dice to randomly determine it. Your character should have at least one minor madness, but check with your GM to confirm how many and which minor madnesses are most appropriate in your campaign.</p>
+		<p class="indent">To avoid derailing the party constantly, your character can have long lucid periods and might even regret actions taken when “turned to the dark void” or “ridden by the bat spirits” or a similar explanation. A derro in this lucid state could be a tragic character, always wondering when something will set off another bout of irrational raving. Keep in mind, derro are often awed by beings they see as powerful, though each derro defines what they deem as “powerful.” Your derro character could view another member of the group as the group’s “witch queen” (regardless of that character’s gender) and follow that character almost zealously. The instability of the derro could also lead your character to choose a different member of the group each day or each week as the current “witch queen.”</p>
+		<p class="indent">Playing a derro character involves making a fantasy form of otherworldly madness both playable and plausible. Find a way to make your character memorable without bogging down play or spoiling everyone else’s game.</p>
+		</description>
+	</element>
+
+	<!-- Derro Madness -->
+	<element name="Minor Madness" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DERRO_RACIAL_TRAIT_MINOR_MADNESS">
+		<description>
+			<p>Your character should have at least one minor madness, but check with your GM to confirm how many and which minor madnesses are most appropriate in your campaign.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" />
+		</rules>
+	</element>
+
+		<!-- Tier 1 Descriptions -->
+	<element name="01-10 : Collector" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_COLLECTOR">
+		<supports>Minor Madnesses</supports>
+		<description>
+			<p>You are a mad collector.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Collector" supports="Small Objects 1" />
+		</rules>
+	</element>
+
+	<element name="11-20 : Pica (eats nonfood objects)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PICA">
+		<supports>Minor Madnesses</supports>
+		<description>
+			<p>You eat things others would usually consider inedible.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Pica" supports="Small Objects 2" />
+		</rules>
+	</element>
+
+	<element name="21-40 : Minor Delusion" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_DELUSION">
+		<supports>Minor Madnesses</supports>
+		<description>
+			<p>You see or believe something that is not true or real.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Delusion" supports="Delusions" />
+		</rules>
+	</element>
+
+	<element name="41-50 : Irrational Prejudice against a creature" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PREJUDICE">
+		<supports>Minor Madnesses</supports>
+		<description>
+			<p>You hold an intense prejudice towards a specific kind of creature for reasons known only to you.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Irrational prejudice against a creature" supports="Living Creatures 2" />
+		</rules>
+	</element>
+
+	<element name="51-60 : Taboo (Cannot touch or interact with creature)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_TABOO">
+		<supports>Minor Madnesses</supports>
+		<description>
+			<p>You cannot touch or interact with a specific type of creature.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Taboo (cannot touch or interact with creature)" supports="Living Creatures 3" />
+		</rules>
+	</element>
+
+	<element name="61-70 : Phobia (strong fear of creature)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHOBIA">
+		<supports>Minor Madnesses</supports>
+		<description>
+			<p>You have a strong, irrational fear of a specific type of creature.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Phobia (strong fear of creature)" supports="Living Creatures 4" />
+		</rules>
+	</element>
+
+	<element name="71-80 : Obsessed with creature" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_OBSESSED">
+		<supports>Minor Madnesses</supports>
+		<description>
+			<p>You have an unhealthy obsession with a specific type of creature.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Obsessed with creature" supports="Living Creatures 5" />
+		</rules>
+	</element>
+
+	<element name="81-00 : Physical Effect" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHYSICAL_EFFECT">
+		<supports>Minor Madnesses</supports>
+		<description>
+			<p>Your madness manifests in a physical effect.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Physical Effects" supports="Physical Effects" />
+		</rules>
+	</element>
+
+		<!-- Tier 2 Descriptions -->
+			<!-- Small Objects 1 -->
+	<element name="01-10 : Rocks or Crystals" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS1_ROCKSCRYSTALS">
+		<supports>Small Objects 1</supports>
+		<description>
+			<p>Choose Rocks or crystals.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_COLLECTOR_ROCKSCRYSTALS" />
+		</rules>
+	</element>
+
+	<element name="11-20 : Bones, Hair, Nails or Bugs (Dead or Alive)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS1_BONESBUGS">
+		<supports>Small Objects 1</supports>
+		<description>
+			<p>Choose Bones, hair, nails or bugs (dead or alive).</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_COLLECTOR_BONESHAIRNAILSBUGS" />
+		</rules>
+	</element>
+
+	<element name="21-30 : Deodands (items responsible for the death of a creature)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS1_DEODNANDS">
+		<supports>Small Objects 1</supports>
+		<description>
+			<p>Choose bones, hair, nails or bugs (dead or alive).</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_COLLECTOR_DEODANDS" />
+		</rules>
+	</element>
+
+	<element name="31-40 : Eyes, fingers, teeth, ears, toes, or other small body parts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS1_EYESFINGERSEARSTOES">
+		<supports>Small Objects 1</supports>
+		<description>
+			<p>Choose eyes, fingers, teeth, ears, toes, or other small body parts.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_COLLECTOR_EYESFINGERSEARSTOES" />
+		</rules>
+	</element>
+
+	<element name="41-50 : Dirt, dust, or clay" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS1_DIRTDUSTCLAY">
+		<supports>Small Objects 1</supports>
+		<description>
+			<p>Choose dirt, dust, or clay.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_COLLECTOR_DIRTDUSTCLAY" />
+		</rules>
+	</element>
+
+	<element name="51-60 : Rags, cloths, or papers" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS1_RAGSCLOTHSPAPERS">
+		<supports>Small Objects 1</supports>
+		<description>
+			<p>Choose rags, cloths, or papers.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_COLLECTOR_RAGSCLOTHSPAPERS" />
+		</rules>
+	</element>
+
+	<element name="61-70 : Hats, socks, gloves, or other clothing" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS1_HATSSOCKSGLOVES">
+		<supports>Small Objects 1</supports>
+		<description>
+			<p>Choose hats, socks, gloves, or other clothing.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_COLLECTOR_HATSSOCKSGLOVES" />
+		</rules>
+	</element>
+
+	<element name="71-80 : String, wire, or chain" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS1_STRINGWIRECHAIN">
+		<supports>Small Objects 1</supports>
+		<description>
+			<p>Choose string, wire or chain.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_COLLECTOR_STRINGWIRECHAIN" />
+		</rules>
+	</element>
+
+	<element name="81-90 : Clockwork parts, jewelry, or buttons" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS1_CLOCKWORKJEWELRYBUTTONS">
+		<supports>Small Objects 1</supports>
+		<description>
+			<p>Choose clockwork parts, jewelry, or buttons.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_COLLECTOR_CLOCKWORKJEWELRYBUTTONS" />
+		</rules>
+	</element>
+
+	<element name="91-00 : Holy symbols, religious goods, or sacred texts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS1_HOLYRELIGIOUSSACRED">
+		<supports>Small Objects 1</supports>
+		<description>
+			<p>Choose holy symbols, religious goods, or sacred texts.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_COLLECTOR_HOLYRELIGIOUSSACRED" />
+		</rules>
+	</element>
+
+			<!-- Small Objects 2 -->
+	<element name="01-10 : Rocks or Crystals" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS2_ROCKSCRYSTALS">
+		<supports>Small Objects 2</supports>
+		<description>
+			<p>Choose Rocks or crystals.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_PICA_ROCKSCRYSTALS" />
+		</rules>
+	</element>
+
+	<element name="11-20 : Bones, Hair, Nails or Bugs (Dead or Alive)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS2_BONESBUGS">
+		<supports>Small Objects 2</supports>
+		<description>
+			<p>Choose Bones, hair, nails or bugs (dead or alive).</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_PICA_BONESHAIRNAILSBUGS" />
+		</rules>
+	</element>
+
+	<element name="21-30 : Deodands (items responsible for the death of a creature)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS2_DEODNANDS">
+		<supports>Small Objects 2</supports>
+		<description>
+			<p>Choose bones, hair, nails or bugs (dead or alive).</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_PICA_DEODANDS" />
+		</rules>
+	</element>
+
+	<element name="31-40 : Eyes, fingers, teeth, ears, toes, or other small body parts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS2_EYESFINGERSEARSTOES">
+		<supports>Small Objects 2</supports>
+		<description>
+			<p>Choose eyes, fingers, teeth, ears, toes, or other small body parts.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_PICA_EYESFINGERSEARSTOES" />
+		</rules>
+	</element>
+
+	<element name="41-50 : Dirt, dust, or clay" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS2_DIRTDUSTCLAY">
+		<supports>Small Objects 2</supports>
+		<description>
+			<p>Choose dirt, dust, or clay.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_PICA_DIRTDUSTCLAY" />
+		</rules>
+	</element>
+
+	<element name="51-60 : Rags, cloths, or papers" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS2_RAGSCLOTHSPAPERS">
+		<supports>Small Objects 2</supports>
+		<description>
+			<p>Choose rags, cloths, or papers.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_PICA_RAGSCLOTHSPAPERS" />
+		</rules>
+	</element>
+
+	<element name="61-70 : Hats, socks, gloves, or other clothing" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS2_HATSSOCKSGLOVES">
+		<supports>Small Objects 2</supports>
+		<description>
+			<p>Choose hats, socks, gloves, or other clothing.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_PICA_HATSSOCKSGLOVES" />
+		</rules>
+	</element>
+
+	<element name="71-80 : String, wire, or chain" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS2_STRINGWIRECHAIN">
+		<supports>Small Objects 2</supports>
+		<description>
+			<p>Choose string, wire or chain.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_PICA_STRINGWIRECHAIN" />
+		</rules>
+	</element>
+
+	<element name="81-90 : Clockwork parts, jewelry, or buttons" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS2_CLOCKWORKJEWELRYBUTTONS">
+		<supports>Small Objects 2</supports>
+		<description>
+			<p>Choose clockwork parts, jewelry, or buttons.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_PICA_CLOCKWORKJEWELRYBUTTONS" />
+		</rules>
+	</element>
+
+	<element name="91-00 : Holy symbols, religious goods, or sacred texts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_SMALLOBJECTS2_HOLYRELIGIOUSSACRED">
+		<supports>Small Objects 2</supports>
+		<description>
+			<p>Choose holy symbols, religious goods, or sacred texts.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<grant id="ID_KBP_TOH_MADNESS_PICA_HOLYRELIGIOUSSACRED" />
+		</rules>
+	</element>
+
+			<!-- Minor Delusions -->
+	<element name="01-10 : Imaginary Friend (Good)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_MINORDELUSIONS_IMAGINARYFRIENDGOOD">
+		<supports>Delusions</supports>
+		<description>
+			<p>Your character has an imaginary friend, god or spirit that is friendly and encouraging towards them. You and your DM can define the various traits and personality quirks of this entity. Add them to your character Notes.</p>
+		</description>
+		<sheet alt="Minor Madness: Minor Delusion: Imaginary Friend">
+			<description>Your character has an imaginary friend, god or spirit that is friendly and encouraging towards them.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="11-20 : Has imaginary friend; god/spirit who is hateful and discouraging" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_MINORDELUSIONS_IMAGINARYFRIENDBAD">
+		<supports>Delusions</supports>
+		<description>
+			<p>Your character has an imaginary friend, god or spirit that is hateful and discouraging towards them. You and your DM can define the various traits and personality quirks of this entity. Add them to your character Notes.</p>
+		</description>
+		<sheet alt="Minor Madness: Minor Delusion: Imaginary Friend">
+			<description>Your character has an imaginary friend, god or spirit that is hateful and discouraging towards them.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="21-30 : Is a high noble of derro society" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_MINORDELUSIONS_DERRONOBLE">
+		<supports>Delusions</supports>
+		<description>
+			<p>You are of noble birth, a highborn of derro society, and above all others of your race - or at least thats what you think. Whether anyone else believes you is hardly relevant.</p>
+		</description>
+		<sheet alt="Minor Madness: Minor Delusion: Derro Noble">
+			<description>You are a highborn of Derro nobility, or so you think. Whether others agree is irrelevant.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="31-40 : Has less power than actually does" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_MINORDELUSIONS_UNDERPOWERED">
+		<supports>Delusions</supports>
+		<description>
+			<p>You believe your powers insignificant, and constantly underestimate yourself. Despite the encouragement or factual accounts of others, you continue to feel despondent.</p>
+		</description>
+		<sheet alt="Minor Madness: Minor Delusion: Underpowered">
+			<description>You believe your powers inferior to reality. The opinions of others have little effect in changing this belief.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="41-50 : Has more power than actually does" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_MINORDELUSIONS_OVERPOWERED">
+		<supports>Delusions</supports>
+		<description>
+			<p>You believe that your powers surpass that of which you are actually capable. The reality that you are not as powerful as you think often lands you in concerning situations.</p>
+		</description>
+		<sheet alt="Minor Madness: Minor Delusion: Overpowered">
+			<description>You believe you have more power than reality would suggest. Others notice, but you are heedless.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="51-60 : Has an important destiny" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_MINORDELUSIONS_DESTINY">
+		<supports>Delusions</supports>
+		<description>
+			<p>You are destined for greatness. You may not know for what, or when, but its coming, and it's your life's mission to seek it out, whatever the cost. You and your DM can define what shape this destiny takes for you in your campaign.</p>
+		</description>
+		<sheet alt="Minor Madness: Minor Delusion: Important Destiny">
+			<description>You have an important destiny, toward which you are driven every day until you find it.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="61-70 : Believes a particular inanimate object is alive" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_MINORDELUSIONS_HATSSOCKSGLOVES">
+		<supports>Delusions</supports>
+		<description>
+			<p>You believe a particular inanimate object is alive. Choose one from the list.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<select type="Racial Trait" name="Collector" supports="Small Objects 3" />
+		</rules>
+	</element>
+
+	<element name="71-80 : Is a powerful creature polymorphed as a derro" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_MINORDELUSIONS_POLYMORPHED">
+		<supports>Delusions</supports>
+		<description>
+			<p>You believe that derro is not what it seems. Surely it's a dragon in derro form, or some extraplanar being disguised? What manner of hellspawn has come to inflitrate the clan!?</p>
+		</description>
+		<sheet alt="Minor Madness: Minor Delusion: Polymorphed as a derro">
+			<description>That derro is not what it seems. It is not a derro, but what is it!?</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="81-90 : Is commanded by voices speaking random gibberish and commands" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_MINORDELUSIONS_COMMANDINGVOICES">
+		<supports>Delusions</supports>
+		<description>
+			<p>You are commanded by voices from within, which speak in random gibberish most of the time, unless issuing you with another command. Whether you choose to follow is not entirely certain.</p>
+		</description>
+		<sheet alt="Minor Madness: Minor Delusion: Commanding Voices">
+			<description>Voices issue commands intertwined with random gibberish. Whether to follow or not is uncertain.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="91-00 : Random patterns of either inanimate objects or living things have an important meaning and must be studied" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_MINORDELUSIONS_RANDOMPATTERNS">
+		<supports>Delusions</supports>
+		<description>
+			<p>You notice patterns where there are none, and these must be studied - special meaning can be derived, and you must know what it is!</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet >
+		<rules>
+			<select type="Racial Trait" name="Inanimate Objects or Living Things" supports="Small Objects 4|Living Creatures 1" />
+		</rules>
+	</element>
+
+			<!-- Irrational prejudice against creature -->
+	<element name="01-10 : Tiny insect, slug, or worm" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_IRRATIONALPREJUDICE_INSECTSLUGWORM">
+		<supports>Living Creatures 2</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against tiny insects, slugs or worms.</p>
+		</description>
+		<sheet alt="Minor Madness: Irrational Prejudice: Tiny insect, slug, or worm">
+			<description>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="11-20 : Chicken, cat, dog, sheep, cow, or other domestic animal (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_IRRATIONALPREJUDICE_DOMESTICANIMALS">
+		<supports>Living Creatures 2</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against some kind of farm or domestic animal</p>
+		</description>
+		<sheet alt="Minor Madness: Irrational Prejudice: Chicken, cat, dog, sheep, cow, or other domestic animal">
+			<description>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="21-30 : Elf, dwarf, human, kobold, or other humanoid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_IRRATIONALPREJUDICE_HUMANOIDS">
+		<supports>Living Creatures 2</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against elves, dwarves, humans, kobolds, or some other humanoid.</p>
+		</description>
+		<sheet alt="Minor Madness: Irrational Prejudice: Elf, dwarf, human, kobold, or other humanoid">
+			<description>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="31-40 : Rat, giant centipede, gelatinous cube, or other giant vermin or ooze (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_IRRATIONALPREJUDICE_GIANTVERMIN">
+		<supports>Living Creatures 2</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against rats, giant centipedes, gelatinous cubes, or other giant vermin or oozes.</p>
+		</description>
+		<sheet alt="Minor Madness: Irrational Prejudice: Rat, giant centipede, gelatinous cube, or other giant vermin or ooze">
+			<description>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="41-50 : Cleric or druid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_IRRATIONALPREJUDICE_CLERICDRUID">
+		<supports>Living Creatures 2</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against clerics or druids.</p>
+		</description>
+		<sheet alt="Minor Madness: Irrational Prejudice: Cleric or druid">
+			<description>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against either clerics or druids.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="51-60 : Wizard or sorcerer" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_IRRATIONALPREJUDICE_WIZARDSORCERER">
+		<supports>Living Creatures 2</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against wizards or sorcerers.</p>
+		</description>
+		<sheet alt="Minor Madness: Irrational Prejudice: Wizard or sorcerer">
+			<description>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against either wizards or sorcerers.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="61-70 : Sparrow, pigeon, hawk, owl, or other bird" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_IRRATIONALPREJUDICE_BIRDS">
+		<supports>Living Creatures 2</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against sparrows, pigeons, hawks, owls, or some other kind of bird.</p>
+		</description>
+		<sheet alt="Minor Madness: Irrational Prejudice: Sparrow, pigeon, hawk, owl, or other bird">
+			<description>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="71-80 : Rat, wolf, mole, badger, or other mammalian beast" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_IRRATIONALPREJUDICE_BEASTS">
+		<supports>Living Creatures 2</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against rats, wolves, moles, badgers, or other mammalian beasts.</p>
+		</description>
+		<sheet alt="Minor Madness: Irrational Prejudice: Rat, wolf, mole, badger, or other mammalian beast">
+			<description>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="81-90 : Construct or clockwork creature" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_IRRATIONALPREJUDICE_CONSTRUCTCLOCKWORK">
+		<supports>Living Creatures 2</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against constructs or clockwork creatures.</p>
+		</description>
+		<sheet alt="Minor Madness: Irrational Prejudice: Rat, wolf, mole, badger, or other mammalian beast">
+			<description>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="91-00 : Angel or fiend (pick type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_IRRATIONALPREJUDICE_ANGELFIEND">
+		<supports>Living Creatures 2</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against angels or fiends.</p>
+		</description>
+		<sheet alt="Minor Madness: Irrational Prejudice: Angel or fiend">
+			<description>For some inexplicable and totally irrational reason, you hold a deep-rooted prejudice against either angels or fiends.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+			<!-- Taboo (cannot touch or interact with creature) -->
+	<element name="01-10 : Tiny insect, slug, or worm" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_TABOO_INSECTSLUGWORM">
+		<supports>Living Creatures 3</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with tiny insects, slugs or worms.</p>
+		</description>
+		<sheet alt="Minor Madness: Taboo: Tiny insect, slug, or worm">
+			<description>For some inexplicable and totally irrational reason, you  are absolutely unable to touch or interact with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="11-20 : Chicken, cat, dog, sheep, cow, or other domestic animal (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_TABOO_DOMESTICANIMALS">
+		<supports>Living Creatures 3</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you  are absolutely unable to touch or interact with some kind of farm or domestic animal</p>
+		</description>
+		<sheet alt="Minor Madness: Taboo: Chicken, cat, dog, sheep, cow, or other domestic animal">
+			<description>For some inexplicable and totally irrational reason, you  are absolutely unable to touch or interact with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="21-30 : Elf, dwarf, human, kobold, or other humanoid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_TABOO_HUMANOIDS">
+		<supports>Living Creatures 3</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with elves, dwarves, humans, kobolds, or some other humanoid.</p>
+		</description>
+		<sheet alt="Minor Madness: Taboo: Elf, dwarf, human, kobold, or other humanoid">
+			<description>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="31-40 : Rat, giant centipede, gelatinous cube, or other giant vermin or ooze (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_TABOO_GIANTVERMIN">
+		<supports>Living Creatures 3</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with rats, giant centipedes, gelatinous cubes, or other giant vermin or oozes.</p>
+		</description>
+		<sheet alt="Minor Madness: Taboo: Rat, giant centipede, gelatinous cube, or other giant vermin or ooze">
+			<description>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="41-50 : Cleric or druid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_TABOO_CLERICDRUID">
+		<supports>Living Creatures 3</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with clerics or druids.</p>
+		</description>
+		<sheet alt="Minor Madness: Taboo: Cleric or druid">
+			<description>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with either clerics or druids.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="51-60 : Wizard or sorcerer" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_TABOO_WIZARDSORCERER">
+		<supports>Living Creatures 3</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with wizards or sorcerers.</p>
+		</description>
+		<sheet alt="Minor Madness: Taboo: Wizard or sorcerer">
+			<description>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with either wizards or sorcerers.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="61-70 : Sparrow, pigeon, hawk, owl, or other bird" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_TABOO_BIRDS">
+		<supports>Living Creatures 3</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with sparrows, pigeons, hawks, owls, or some other kind of bird.</p>
+		</description>
+		<sheet alt="Minor Madness: Taboo: Sparrow, pigeon, hawk, owl, or other bird">
+			<description>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="71-80 : Rat, wolf, mole, badger, or other mammalian beast" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_TABOO_BEASTS">
+		<supports>Living Creatures 3</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with rats, wolves, moles, badgers, or other mammalian beasts.</p>
+		</description>
+		<sheet alt="Minor Madness: Taboo: Rat, wolf, mole, badger, or other mammalian beast">
+			<description>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="81-90 : Construct or clockwork creature" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_TABOO_CONSTRUCTCLOCKWORK">
+		<supports>Living Creatures 3</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with constructs or clockwork creatures.</p>
+		</description>
+		<sheet alt="Minor Madness: Taboo: Rat, wolf, mole, badger, or other mammalian beast">
+			<description>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="91-00 : Angel or fiend (pick type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_TABOO_ANGELFIEND">
+		<supports>Living Creatures 3</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with angels or fiends.</p>
+		</description>
+		<sheet alt="Minor Madness: Taboo: Angel or fiend">
+			<description>For some inexplicable and totally irrational reason, you are absolutely unable to touch or interact with either angels or fiends.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+			<!-- Phobia (strong fear of creature) -->
+	<element name="01-10 : Tiny insect, slug, or worm" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHOBIA_INSECTSLUGWORM">
+		<supports>Living Creatures 4</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are mortally terrified of tiny insects, slugs or worms.</p>
+		</description>
+		<sheet alt="Minor Madness: Phobia: Tiny insect, slug, or worm">
+			<description>For some inexplicable and totally irrational reason, you are mortally terrified of one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="11-20 : Chicken, cat, dog, sheep, cow, or other domestic animal (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHOBIA_DOMESTICANIMALS">
+		<supports>Living Creatures 4</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are mortally terrified of some kind of farm or domestic animal</p>
+		</description>
+		<sheet alt="Minor Madness: Phobia: Chicken, cat, dog, sheep, cow, or other domestic animal">
+			<description>For some inexplicable and totally irrational reason, you are mortally terrified of one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="21-30 : Elf, dwarf, human, kobold, or other humanoid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHOBIA_HUMANOIDS">
+		<supports>Living Creatures 4</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are mortally terrified of elves, dwarves, humans, kobolds, or some other humanoid.</p>
+		</description>
+		<sheet alt="Minor Madness: Phobia: Elf, dwarf, human, kobold, or other humanoid">
+			<description>For some inexplicable and totally irrational reason, you are mortally terrified of one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="31-40 : Rat, giant centipede, gelatinous cube, or other giant vermin or ooze (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHOBIA_GIANTVERMIN">
+		<supports>Living Creatures 4</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are mortally terrified of rats, giant centipedes, gelatinous cubes, or other giant vermin or oozes.</p>
+		</description>
+		<sheet alt="Minor Madness: Phobia: Rat, giant centipede, gelatinous cube, or other giant vermin or ooze">
+			<description>For some inexplicable and totally irrational reason, you are mortally terrified of one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="41-50 : Cleric or druid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHOBIA_CLERICDRUID">
+		<supports>Living Creatures 4</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are mortally terrified of clerics or druids.</p>
+		</description>
+		<sheet alt="Minor Madness: Phobia: Cleric or druid">
+			<description>For some inexplicable and totally irrational reason, you are mortally terrified of either clerics or druids.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="51-60 : Wizard or sorcerer" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHOBIA_WIZARDSORCERER">
+		<supports>Living Creatures 4</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are mortally terrified of wizards or sorcerers.</p>
+		</description>
+		<sheet alt="Minor Madness: Phobia: Wizard or sorcerer">
+			<description>For some inexplicable and totally irrational reason, you are mortally terrified of either wizards or sorcerers.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="61-70 : Sparrow, pigeon, hawk, owl, or other bird" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHOBIA_BIRDS">
+		<supports>Living Creatures 4</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are mortally terrified of sparrows, pigeons, hawks, owls, or some other kind of bird.</p>
+		</description>
+		<sheet alt="Minor Madness: Phobia: Sparrow, pigeon, hawk, owl, or other bird">
+			<description>For some inexplicable and totally irrational reason, you are mortally terrified of one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="71-80 : Rat, wolf, mole, badger, or other mammalian beast" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHOBIA_BEASTS">
+		<supports>Living Creatures 4</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are mortally terrified of rats, wolves, moles, badgers, or other mammalian beasts.</p>
+		</description>
+		<sheet alt="Minor Madness: Phobia: Rat, wolf, mole, badger, or other mammalian beast">
+			<description>For some inexplicable and totally irrational reason, you are mortally terrified of one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="81-90 : Construct or clockwork creature" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHOBIA_CONSTRUCTCLOCKWORK">
+		<supports>Living Creatures 4</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are mortally terrified of constructs or clockwork creatures.</p>
+		</description>
+		<sheet alt="Minor Madness: Phobia: Rat, wolf, mole, badger, or other mammalian beast">
+			<description>For some inexplicable and totally irrational reason, you are mortally terrified of one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="91-00 : Angel or fiend (pick type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHOBIA_ANGELFIEND">
+		<supports>Living Creatures 4</supports>
+		<description>
+			<p>For some inexplicable and totally irrational reason, you are mortally terrified of angels or fiends.</p>
+		</description>
+		<sheet alt="Minor Madness: Phobia: Angel or fiend">
+			<description>For some inexplicable and totally irrational reason, you are mortally terrified of either angels or fiends.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+			<!-- Obsessed with creature -->
+	<element name="01-10 : Tiny insect, slug, or worm" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_OBSESSION_INSECTSLUGWORM">
+		<supports>Living Creatures 5</supports>
+		<description>
+			<p>You are absolutely, completely, all-encompassingly obsessed with tiny insects, slugs or worms.</p>
+		</description>
+		<sheet alt="Minor Madness: Obsession: Tiny insect, slug, or worm">
+			<description>You are absolutely, completely, all-encompassingly obsessed with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="11-20 : Chicken, cat, dog, sheep, cow, or other domestic animal (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_OBSESSION_DOMESTICANIMALS">
+		<supports>Living Creatures 5</supports>
+		<description>
+			<p>You are absolutely, completely, all-encompassingly obsessed with some kind of farm or domestic animal</p>
+		</description>
+		<sheet alt="Minor Madness: Obsession: Chicken, cat, dog, sheep, cow, or other domestic animal">
+			<description>You are absolutely, completely, all-encompassingly obsessed with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="21-30 : Elf, dwarf, human, kobold, or other humanoid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_OBSESSION_HUMANOIDS">
+		<supports>Living Creatures 5</supports>
+		<description>
+			<p>You are absolutely, completely, all-encompassingly obsessed with elves, dwarves, humans, kobolds, or some other humanoid.</p>
+		</description>
+		<sheet alt="Minor Madness: Obsession: Elf, dwarf, human, kobold, or other humanoid">
+			<description>You are absolutely, completely, all-encompassingly obsessed with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="31-40 : Rat, giant centipede, gelatinous cube, or other giant vermin or ooze (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_OBSESSION_GIANTVERMIN">
+		<supports>Living Creatures 5</supports>
+		<description>
+			<p>You are absolutely, completely, all-encompassingly obsessed with rats, giant centipedes, gelatinous cubes, or other giant vermin or oozes.</p>
+		</description>
+		<sheet alt="Minor Madness: Obsession: Rat, giant centipede, gelatinous cube, or other giant vermin or ooze">
+			<description>You are absolutely, completely, all-encompassingly obsessed with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="41-50 : Cleric or druid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_OBSESSION_CLERICDRUID">
+		<supports>Living Creatures 5</supports>
+		<description>
+			<p>You are absolutely, completely, all-encompassingly obsessed with clerics or druids.</p>
+		</description>
+		<sheet alt="Minor Madness: Obsession: Cleric or druid">
+			<description>You are absolutely, completely, all-encompassingly obsessed with either clerics or druids.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="51-60 : Wizard or sorcerer" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_OBSESSION_WIZARDSORCERER">
+		<supports>Living Creatures 5</supports>
+		<description>
+			<p>You are absolutely, completely, all-encompassingly obsessed with wizards or sorcerers.</p>
+		</description>
+		<sheet alt="Minor Madness: Obsession: Wizard or sorcerer">
+			<description>You are absolutely, completely, all-encompassingly obsessed with either wizards or sorcerers.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="61-70 : Sparrow, pigeon, hawk, owl, or other bird" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_OBSESSION_BIRDS">
+		<supports>Living Creatures 5</supports>
+		<description>
+			<p>You are absolutely, completely, all-encompassingly obsessed with sparrows, pigeons, hawks, owls, or some other kind of bird.</p>
+		</description>
+		<sheet alt="Minor Madness: Obsession: Sparrow, pigeon, hawk, owl, or other bird">
+			<description>You are absolutely, completely, all-encompassingly obsessed with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="71-80 : Rat, wolf, mole, badger, or other mammalian beast" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_OBSESSION_BEASTS">
+		<supports>Living Creatures 5</supports>
+		<description>
+			<p>You are absolutely, completely, all-encompassingly obsessed with rats, wolves, moles, badgers, or other mammalian beasts.</p>
+		</description>
+		<sheet alt="Minor Madness: Obsession: Rat, wolf, mole, badger, or other mammalian beast">
+			<description>You are absolutely, completely, all-encompassingly obsessed with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="81-90 : Construct or clockwork creature" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_OBSESSION_CONSTRUCTCLOCKWORK">
+		<supports>Living Creatures 5</supports>
+		<description>
+			<p>You are absolutely, completely, all-encompassingly obsessed with constructs or clockwork creatures.</p>
+		</description>
+		<sheet alt="Minor Madness: Obsession: Rat, wolf, mole, badger, or other mammalian beast">
+			<description>You are absolutely, completely, all-encompassingly obsessed with one of the above creatures.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="91-00 : Angel or fiend (pick type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_OBSESSION_ANGELFIEND">
+		<supports>Living Creatures 5</supports>
+		<description>
+			<p>You are absolutely, completely, all-encompassingly obsessed with angels or fiends.</p>
+		</description>
+		<sheet alt="Minor Madness: Obsession: Angel or fiend">
+			<description>You are absolutely, completely, all-encompassingly obsessed with either angels or fiends.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+			<!-- Physical Effects -->
+	<element name="01-10 : Leers and rolls eyes upon seeing a particular type of creature" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHYSICAL_LEERINGEYEROLL">
+		<supports>Physical Effects</supports>
+		<description>
+			<p>Every time you see this particular creature, you are filled with disdain, rolling your eyes and leering. Select the type of creature. </p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Leers and rolls eyes upon seeing a creature" supports="Living Creatures 6" />
+		</rules>
+	</element>
+
+	<element name="11-20 : Tic or tremor in body part" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHYSICAL_TIC">
+		<supports>Physical Effects</supports>
+		<description>
+			<p>You have a randomly occurring and uncontrollable tic or tremor that manifests visibly in a part of your body.</p>
+		</description>
+		<sheet alt="Minor Madness: Physical Effect: Tic or tremor in body part">
+			<description>You have a randomly occurring and uncontrollable tic or tremor that manifests visibly in a part of your body.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="21-30 : Mutters constantly to self, sometimes narrating actions or feelings" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHYSICAL_MUTTERING">
+		<supports>Physical Effects</supports>
+		<description>
+			<p>You mutter incessantly under your breath, talking to yourself. Often it is nothing but mad babble, but sometimes you narrate your current actions, feelings, or inner monologue, externalised.</p>
+		</description>
+		<sheet alt="Minor Madness: Physical Effect: Mutters constantly to self">
+			<description>You mutter incessantly under your breath to yourself, babbling mindlessly, or narrating your actions or feelings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="31-40 : Speaks inappropriate but true facts during diplomatic situations" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHYSICAL_INAPPROPRIATESPEECH">
+		<supports>Physical Effects</supports>
+		<description>
+			<p>You have the rather awkward habit of uttering inappropriate facts during diplomatic situations, causing all manner of difficulties for those around you.</p>
+		</description>
+		<sheet alt="Minor Madness: Physical Effect: Inappropriate facts">
+			<description>You have the tendency to tell the truth, even when it would be more auspicious to lie, such as during diplomacy.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="41-50 : Randomly speaks a word (chosen by GM) during combat or negotiation" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHYSICAL_RANDOMWORD">
+		<supports>Physical Effects</supports>
+		<description>
+			<p>During combat or negotiations, you will habitually utter the same word (chosen by the GM), over and over, regardless of the consequences.</p>
+		</description>
+		<sheet alt="Minor Madness: Physical Effect: Randomly speaks a word during combat or negotiation">
+			<description>You constantly mutter the same word over and over again during combat or negotiations, no matter how awkward, unsafe or inappropriate.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="51-60 : Laughs at inappropriate moments" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHYSICAL_INAPPROPRIATELAUGHTER">
+		<supports>Physical Effects</supports>
+		<description>
+			<p>You tend to laugh at the worst possible times. It's incredibly inappropriate, and others have no problem telling you this. You know it isn't necessarily funny, but does that even matter?</p>
+		</description>
+		<sheet alt="Minor Madness: Physical Effect: Laughs at inappropriate moments">
+			<description>You tend to laugh at the worst possible times. It doesn't matter whether it's funny or not; humour has little to do with it.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="61-70 : Weeps at inappropriate moments" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHYSICAL_INAPPROPRIATEWEEPING">
+		<supports>Physical Effects</supports>
+		<description>
+			<p>Whether something is tragic and sad, or happy and exciting, or downright infuriating, it's all the same: you have a tendency to weep at the most inappropriate of times, and it makes everyone uncomfortable.</p>
+		</description>
+		<sheet alt="Minor Madness: Physical Effect: Weeps at inappropriate moments">
+			<description>You tend to weep at the worst possible times. It doesn't matter whether it's tragic or not; circumstances have little to do with it.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="71-80 : Constantly clenches and unclenches hands" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHYSICAL_CLENCHEDHANDS">
+		<supports>Physical Effects</supports>
+		<description>
+			<p>Some do it out of anxiety. Some do it in frustration. Some do it to assuage homicidal rage. You haven't quite figured out which it is for you, you just do it all the time.</p>
+		</description>
+		<sheet alt="Minor Madness: Physical Effect: Constantly clenches and unclenches hands">
+			<description>Is it anxiety? Frustration? Rage? Doesn't matter, your hands are moving anyway.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="81-90 : Minor hunchback" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHYSICAL_HUNCHBACK">
+		<supports>Physical Effects</supports>
+		<description>
+			<p>While not enough to impact your movement or physical abilities to any great degree, anyone can see that you are, in fact, a hunchback.</p>
+		</description>
+		<sheet alt="Minor Madness: Physical Effect: Minor Hunchback">
+			<description>While not enough to impact your movement or physical abilities to any great degree, anyone can see that you are, in fact, a hunchback.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="91-00 : Half of face paralyzed" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MINOR_MADNESS_PHYSICAL_FACIALPARALYSIS">
+		<supports>Physical Effects</supports>
+		<description>
+			<p>Half of your face is completely paralysed. Nothing you do will make it move in any way. It is an expressionless, unfeeling mask of flesh. You can decide whether it is the top half, bottom half, left or right side, and what exactly this looks like.</p>
+		</description>
+		<sheet alt="Minor Madness: Physical Effect: Facial Semi-paralysis">
+			<description>Half of your face is completely paralysed, an expressionless, unfeeling mask of flesh.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+			<!-- Tier 3 Descriptions -->
+				<!-- Small Objects 1 Outcomes -->
+	<element name="Rocks or Crystals" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_COLLECTOR_ROCKSCRYSTALS">
+		<description>
+			<p>You have an unexplainable urge to collect rocks or crystals of all shapes, sizes and types.</p>
+		</description>
+		<sheet alt="Minor Madness: Collector: Rocks or Crystals">
+			<description>Your madness drives you to collect rocks or crystals of all shapes, sizes and types</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Bones, Hair, Nails or Bugs (Dead or Alive)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_COLLECTOR_BONESHAIRNAILSBUGS">
+		<description>
+			<p>You collect all kinds of clippings, cuttings or bones from various creatures, or a bug specimens (whether dead or alive).</p>
+		</description>
+		<sheet alt="Minor Madness: Collector: Bones, Hair, Nails or Bugs (Dead or Alive)">
+			<description>You collect all kinds of clippings, cuttings or bones from various creatures, or a bug specimens (whether dead or alive).</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Deodands (items responsible for the death of a creature)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_COLLECTOR_DEODANDS">
+		<description>
+			<p>Your fascination with death and its many forms have driven you to collect items that have caused death as mementos of the event.</p>
+		</description>
+		<sheet alt="Minor Madness: Collector: Deodands">
+			<description>Your fascination with death and its many forms have driven you to collect the items responsible as mementos.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Eyes, fingers, teeth, ears, toes, or other small body parts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_COLLECTOR_EYESFINGERSEARSTOES">
+		<description>
+			<p>You take sick enjoyment in collecting trophies of the fallen in the form of various small body parts.</p>
+		</description>
+		<sheet alt="Minor Madness: Collector: Eyes, fingers, teeth, ears, toes, or other small body parts">
+			<description>You take sick enjoyment in collecting trophies of the fallen in the form of various small body parts.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Dirt, dust, or clay" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_COLLECTOR_DIRTDUSTCLAY">
+		<description>
+			<p>You are driven to collect various samples of dirt, dust or clay from any unusual place you visit.</p>
+		</description>
+		<sheet alt="Minor Madness: Collector: Dirt, dust, or clay">
+			<description>You are driven to collect various samples of dirt, dust or clay from any unusual place you visit.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Rags, cloths, or papers" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_COLLECTOR_RAGSCLOTHSPAPERS">
+		<description>
+			<p>You tend to accumulate bits of rags or cloths or scraps of paper. Most think they're useless, but that's not why you do it, really.</p>
+		</description>
+		<sheet alt="Minor Madness: Collector: Rags, cloths, or papers">
+			<description>You tend to accumulate bits of rags or cloths or scraps of paper. Most think they're useless, but that's not why you do it, really.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Hats, socks, gloves, or other clothing" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_COLLECTOR_HATSSOCKSGLOVES">
+		<description>
+			<p>You tend to accumulate random clothing items. It may be a particular type of item, or clothes in general, and nobody else can figure out why.</p>
+		</description>
+		<sheet alt="Minor Madness: Collector: Hats, socks, gloves, or other clothing">
+			<description>You tend to accumulate random clothing items. It may be a particular type of item, or clothes in general, and nobody else can figure out why.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="String, wire, or chain" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_COLLECTOR_STRINGWIRECHAIN">
+		<description>
+			<p>For whatever reason, things that bind other things enchant you. You collect pieces of string, bits of wire or lengths of chain with a rabid determination.</p>
+		</description>
+		<sheet alt="Minor Madness: Collector: String, wire, or chain">
+			<description>For whatever reason, things that bind other things enchant you. You collect pieces of string, bits of wire or lengths of chain with a rabid determination.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Clockwork parts, jewelry, or buttons" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_COLLECTOR_CLOCKWORKJEWELRYBUTTONS">
+		<description>
+			<p>Mechanisms, shinies, fasteners - they're just fascinating, right? You collect clockwork parts, jewelry or buttons with a drive second to none.</p>
+		</description>
+		<sheet alt="Minor Madness: Collector: Clockwork parts, jewelry, or buttons">
+			<description>You collect clockwork parts, jewelry or buttons with a drive second to none.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Holy symbols, religious goods, or sacred texts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_COLLECTOR_HOLYRELIGIOUSSACRED">
+		<description>
+			<p>Prayer beads, statuettes, icons, when it comes to religious paraphernalia, you can't get enough. You've ammassed a sizeable collection, but you're nowhere near "done".</p>
+		</description>
+		<sheet alt="Minor Madness: Collector: Holy symbols, religious goods, or sacred texts">
+			<description>Prayer beads, statuettes, icons, when it comes to religious paraphernalia, you can't get enough. You've ammassed a sizeable collection, but you're nowhere near "done".</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+				<!-- Small Objects 2 Outcomes -->
+	<element name="Rocks or Crystals" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PICA_ROCKSCRYSTALS">
+		<description>
+			<p>You have an unexplainable urge to eat rocks or crystals of all shapes, sizes and types.</p>
+		</description>
+		<sheet alt="Minor Madness: Pica: Rocks or Crystals">
+			<description>Your madness drives you to eat rocks or crystals of all shapes, sizes and types</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Bones, Hair, Nails or Bugs (Dead or Alive)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PICA_BONESHAIRNAILSBUGS">
+		<description>
+			<p>You have an uncontrollable urge to eat the bones, hair or nails of various creatures, or bugs whether dead or alive.</p>
+		</description>
+		<sheet alt="Minor Madness: Pica: Bones, Hair, Nails or Bugs (Dead or Alive)">
+			<description>You have a penchant to eat bones, nail, hair or bugs (whether dead or alive) when and wherever you find them.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Deodands (items responsible for the death of a creature)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PICA_DEODANDS">
+		<description>
+			<p>Your fascination with death and its many forms have driven you to eat items that have caused death.</p>
+		</description>
+		<sheet alt="Minor Madness: Pica: Deodands">
+			<description>Your fascination with death and its many forms have driven you to eat the items responsible.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Eyes, fingers, teeth, ears, toes, or other small body parts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PICA_EYESFINGERSEARSTOES">
+		<description>
+			<p>You take trophies of the fallen in the form of various small body parts, which you then are driven to eat at one time or another.</p>
+		</description>
+		<sheet alt="Minor Madness: Pica: Eyes, fingers, teeth, ears, toes, or other small body parts">
+			<description>You take trophies of the fallen in the form of various small body parts and then sooner or later end up eating them.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Dirt, dust, or clay" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PICA_DIRTDUSTCLAY">
+		<description>
+			<p>You have a habit of eating various samples of dirt, dust or clay from any unusual place you visit.</p>
+		</description>
+		<sheet alt="Minor Madness: Pica: Dirt, dust, or clay">
+			<description>You have a habit of eating various samples of dirt, dust or clay from any unusual place you visit.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Rags, cloths, or papers" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PICA_RAGSCLOTHSPAPERS">
+		<description>
+			<p>Fibres... mmmm yummy! Anything fibrous - rags, cloth, paper - doesn't matter. It all has such a delicious mouthfeel, you can't resist.</p>
+		</description>
+		<sheet alt="Minor Madness: Pica: Rags, cloths, or papers">
+			<description>Fibres... mmmm yummy! Anything fibrous - rags, cloth, paper - doesn't matter. It all has such a delicious mouthfeel, you can't resist.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Hats, socks, gloves, or other clothing" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PICA_HATSSOCKSGLOVES">
+		<description>
+			<p>You don't know why you do it, but various items of clothing just look so damn tasty! They simply MUST get in your belly. Now. Or else...</p>
+		</description>
+		<sheet alt="Minor Madness: Pica: Hats, socks, gloves, or other clothing">
+			<description>You habitually and inexplicably eat various items of clothing.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="String, wire, or chain" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PICA_STRINGWIRECHAIN">
+		<description>
+			<p>For whatever reason, things that bind other things look appetising. You eat pieces of string, bits of wire or lengths of chain, regardless of what it does to you.</p>
+		</description>
+		<sheet alt="Minor Madness: Pica: String, wire, or chain">
+			<description>For whatever reason, things that bind other things look appetising. You eat pieces of string, bits of wire or lengths of chain, regardless of what it does to you.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Clockwork parts, jewelry, or buttons" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PICA_CLOCKWORKJEWELRYBUTTONS">
+		<description>
+			<p>Mechanisms, shinies, fasteners - they're just fascinating, right? You feel the need to eat clockwork parts, jewelry or buttons with a drive second to none.</p>
+		</description>
+		<sheet alt="Minor Madness: Pica: Clockwork parts, jewelry, or buttons">
+			<description>You feel the need to eat clockwork parts, jewelry or buttons with a drive second to none.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="Holy symbols, religious goods, or sacred texts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PICA_HOLYRELIGIOUSSACRED">
+		<description>
+			<p>Prayer beads, statuettes, icons, when it comes to religious paraphernalia, you can't get enough. You're ravenous for religious objects of all kinds, and scarf them down, however difficult.</p>
+		</description>
+		<sheet alt="Minor Madness: Pica: Holy symbols, religious goods, or sacred texts">
+			<description>Prayer beads, statuettes, icons, when it comes to religious paraphernalia, you can't get enough. You're ravenous for religious objects of all kinds, and scarf them down, however difficult.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+				<!-- Small Objects 3 Outcomes -->
+	<element name="01-10 Rocks or Crystals" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_DELUSIONS_ROCKSCRYSTALS">
+		<supports>Small Objects 3</supports>
+		<description>
+			<p>Whether a specimen in your possession, or the very rocks and crystals you pass by in the world, you're convinced at least one is a living sentient creature.</p>
+		</description>
+		<sheet alt="Minor Madness: Delusion: Living Inanimate Object: Rocks or Crystals">
+			<description>You believe a rock or crystal to be alive.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="11-20 Bones, Hair, or Nails" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_DELUSIONS_BONESHAIRNAILS">
+		<supports>Small Objects 3</supports>
+		<description>
+			<p>There's something... icky about the bones, hair and nails of creatures. Something about them just feels... alive, right? </p>
+		</description>
+		<sheet alt="Minor Madness: Delusion: Living Inanimate Object: Bones, Hair, or Nails">
+			<description>You believe a particular bone, lock of hair or nail clipping is alive when logically it is an inanimate object.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="21-30 Deodands (items responsible for the death of a creature)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_DELUSIONS_DEODANDS">
+		<supports>Small Objects 3</supports>
+		<description>
+			<p>Your fascination with death and its many forms have convinced you that items causing death can sometimes become alive themselves. You percieve one such item.</p>
+		</description>
+		<sheet alt="Minor Madness: Delusion: Living Inanimate Object: Deodands">
+			<description>You perceive an item responsible for a death you are aware of as a living entity.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="31-40 Eyes, fingers, teeth, ears, toes, or other small body parts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_DELUSIONS_EYESFINGERSEARSTOES">
+		<supports>Small Objects 3</supports>
+		<description>
+			<p>Eyes, fingers, teeth, ears, toes - these are all things one would expect to die when removed from their original host. Not so with this one particular item, which you are absolutely convinced is alive.</p>
+		</description>
+		<sheet alt="Minor Madness: Delusion: Living Inanimate Object: Eyes, fingers, teeth, ears, toes, or other small body parts">
+			<description>Eyes, fingers, teeth, ears, toes - these are all things one would expect to die when removed from their original host. Not so with this one particular item, which you are absolutely convinced is alive.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="41-50 Dirt, dust, or clay" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_DELUSIONS_DIRTDUSTCLAY">
+		<supports>Small Objects 3</supports>
+		<description>
+			<p>It shouldn't be possible, but somehow that patch of sediment, sample of grit or lump of slurry is most definitely alive...</p>
+		</description>
+		<sheet alt="Minor Madness: Delusion: Living Inanimate Object: Dirt, dust, or clay">
+			<description>It shouldn't be possible, but somehow that patch of sediment, sample of grit or lump of slurry is most definitely alive...</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="51-60 Rags, cloths, or papers" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_DELUSIONS_RAGSCLOTHSPAPERS">
+		<supports>Small Objects 3</supports>
+		<description>
+			<p>You've heard of Raggedy Ann, a flying carpet, and an animated piece of paper that's supposed to help you write - but have you seen this!?</p>
+		</description>
+		<sheet alt="Minor Madness: Delusion: Living Inanimate Object: Rags, cloths, or papers">
+			<description>You've heard of Raggedy Ann, a flying carpet, and an animated piece of paper that's supposed to help you write - but have you seen this!?</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="61-70 Hats, socks, gloves, or other clothing" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_DELUSIONS_HATSSOCKSGLOVES">
+		<supports>Small Objects 3</supports>
+		<description>
+			<p>This ain't no Sorting Hat or Thing, but it's definitely alive. Why is it nobody else notices?</p>
+		</description>
+		<sheet alt="Minor Madness: Delusion: Living Inanimate Object: Hats, socks, gloves, or other clothing">
+			<description>This ain't no Sorting Hat or Thing, but it's definitely alive. Why is it nobody else notices?</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="71-80 String, wire, or chain" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_DELUSIONS_STRINGWIRECHAIN">
+		<supports>Small Objects 3</supports>
+		<description>
+			<p>You're not sure what strange magicks are afoot, but that length of material is definitely alive...</p>
+		</description>
+		<sheet alt="Minor Madness: Delusion: Living Inanimate Object: String, wire, or chain">
+			<description>You're not sure what strange magicks are afoot, but that length of material is definitely alive...</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="81-90 Clockwork parts, jewelry, or buttons" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_DELUSIONS_CLOCKWORKJEWELRYBUTTONS">
+		<supports>Small Objects 3</supports>
+		<description>
+			<p>Clockwork parts might move on their own, but only for the purpose they were made, not like this... That bracelet, is it talking to me? The buttons on that man's coat - they're definitely alive!</p>
+		</description>
+		<sheet alt="Minor Madness: Delusion: Living Inanimate Object: Clockwork parts, jewelry, or buttons">
+			<description>You feel that a certain clockwork object, piece of jewelry or button is alive.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="91-00 Holy symbols, religious goods, or sacred texts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_DELUSIONS_HOLYRELIGIOUSSACRED">
+		<supports>Small Objects 3</supports>
+		<description>
+			<p>Religious iconography is meant to spark remembrance in believers, bring them to the faith. How much faith does it take to bring one to life such as that!?</p>
+		</description>
+		<sheet alt="Minor Madness: Delusion: Living Inanimate Object: Holy symbols, religious goods, or sacred texts">
+			<description>Religious iconography is meant to spark remembrance in believers, bring them to the faith. How much faith does it take to bring one to life such as that!?</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+				<!-- Small Objects 4 Outcomes -->
+	<element name="01-10 Rocks or Crystals" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_ROCKSCRYSTALS">
+		<supports>Small Objects 4</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Rocks or Crystals">
+			<description>Where others see random rocky outcrops and crystal formations, you see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="11-20 Bones, Hair, Nails, or Bugs (Dead or Alive)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_BONESHAIRNAILSBUGS">
+		<supports>Small Objects 4</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Bones, Hair, Nails,  or Bugs (Dead or Alive)">
+			<description>Where others see random bones, tufts of hair, nail clippings or bugs, you see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="21-30 Deodands (items responsible for the death of a creature)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_DEODANDS">
+		<supports>Small Objects 4</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Deodands">
+			<description>Where others see objects of death and misery, you see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="31-40 Eyes, fingers, teeth, ears, toes, or other small body parts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_EYESFINGERSEARSTOES">
+		<supports>Small Objects 4</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Eyes, fingers, teeth, ears, toes, or other small body parts">
+			<description>Some might see random body parts. You see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="41-50 Dirt, dust, or clay" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_DIRTDUSTCLAY">
+		<supports>Small Objects 4</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Dirt, dust, or clay">
+			<description>Where others see random dirt, inconspicuous dust or insignificant clay deposits, you see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="51-60 Rags, cloths, or papers" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_RAGSCLOTHSPAPERS">
+		<supports>Small Objects 4</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Rags, cloths, or papers">
+			<description>Instead of a pile of rags, castaway cloths or random scraps of paper, you see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="61-70 Hats, socks, gloves, or other clothing" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_HATSSOCKSGLOVES">
+		<supports>Small Objects 4</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Hats, socks, gloves, or other clothing">
+			<description>To some, it's just fashion choices, the clothes people wear - but you see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="71-80 String, wire, or chain" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_STRINGWIRECHAIN">
+		<supports>Small Objects 4</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: String, wire, or chain">
+			<description>Where others see tools of binding and joining - functional, useful, mundane - you see snaking patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="81-90 Clockwork parts, jewelry, or buttons" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_CLOCKWORKJEWELRYBUTTONS">
+		<supports>Small Objects 4</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Clockwork parts, jewelry, or buttons">
+			<description>The intricate workings of clockwork aparatus, the fine craftsmanship of jewelry, the mundane fixings of buttons - nondescript to most, but to you, puzzles that must be studied to unlock their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="91-00 Holy symbols, religious goods, or sacred texts" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_HOLYRELIGIOUSSACRED">
+		<supports>Small Objects 4</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Holy symbols, religious goods, or sacred texts">
+			<description>Religious iconography is often laden with meaning, but the patterns you see hold unique significance, worthy of study to excavate the deepest of hidden understandings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+				<!-- Living Creatures 1 Outcomes -->
+	<element name="01-10 Tiny insect, slug, or worm" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_INSECTSLUGWORM">
+		<supports>Living Creatures 1</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Tiny insect, slug or worm">
+			<description>Others may recoil in revulsion or phobic anxiety, but in the movements of these tiny creatures you see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="11-20 Chicken, cat, dog, sheep, cow, or other domestic animal (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_DOMESTICANIMALS">
+		<supports>Living Creatures 1</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Chicken, cat, dog, sheep, cow, or other domestic animal">
+			<description>You see patterns of great import in these mundane creatures - patterns nobody else notices - that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="21-30 Elf, dwarf, human, kobold, or other humanoid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_ELFDWARFHUMAN">
+		<supports>Living Creatures 1</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Elf, dwarf, human, kobold, or other humanoid">
+			<description>In these common intelligent races, so sane and ordinary, you see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="31-40 Rat, giant centipede, gelatinous cube, or other giant vermin or ooze (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_GIANTVERMINOOZE">
+		<supports>Living Creatures 1</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Rat, giant centipede, gelatinous cube, or other giant vermin or ooze">
+			<description>In these pesky denizens of underground and hidden spaces you see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="41-50 Cleric or druid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_CLERICDRUID">
+		<supports>Living Creatures 1</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Cleric or druid">
+			<description>The clergy of the new faiths and those who follow the Old Faith are fascinating to you - the patterns you see in them must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="51-60 Wizard or sorcerer" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_WIZARDSORCERER">
+		<supports>Living Creatures 1</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Wizard or sorcerer">
+			<description>Whether study of musty tomes and records or innate spellcasting abilities, the intricacies of arcanists present you with patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="61-70 Sparrow, pigeon, hawk, owl, or other bird" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_BIRDS">
+		<supports>Living Creatures 1</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Sparrow, pigeon, hawk, owl, or other bird">
+			<description>In the lives and habits of various avian species you see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="71-80 Rat, wolf, mole, badger, or other mammalian beast" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_BEASTS">
+		<supports>Living Creatures 1</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Rat, wolf, mole, badger, or other mammalian beast">
+			<description>In the lives and habits of various mammalian beasts you see patterns of great import that must be studied for their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="81-90 Construct or clockwork creature" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_CONSTRUCTCLOCKWORK">
+		<supports>Living Creatures 1</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Construct or clockwork creature">
+			<description>The unannatural animation, the intricate inner workings - puzzles that must be studied to unlock their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="91-00 Angel or fiend (pick type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_PATTERNS_ANGELFIEND">
+		<supports>Living Creatures 1</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Delusion: Important Patterns: Angel or fiend">
+			<description>Whether studying those of the higher planes or those of the lower, the patterns you find simply must be studied to understand their hidden meanings.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+				<!-- Living Creatures 6 Outcomes -->
+	<element name="01-10 Tiny insect, slug, or worm" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_LEERINGEYEROLL_INSECTSLUGWORM">
+		<supports>Living Creatures 6</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Physical Effect: Leer/Eye Roll: Tiny insect, slug or worm">
+			<description>The sight, or even thought of these tiny little creepers fills you with a visible eye-rolling disdain.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="11-20 Chicken, cat, dog, sheep, cow, or other domestic animal (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_LEERINGEYEROLL_DOMESTICANIMALS">
+		<supports>Living Creatures 6</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Physical Effect: Leer/Eye Roll: Chicken, cat, dog, sheep, cow, or other domestic animal">
+			<description>The sight, or even thought of these mundane creatures fills you with a visible eye-rolling disdain.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="21-30 Elf, dwarf, human, kobold, or other humanoid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_LEERINGEYEROLL_ELFDWARFHUMAN">
+		<supports>Living Creatures 6</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Physical Effect: Leer/Eye Roll: Elf, dwarf, human, kobold, or other humanoid">
+			<description>The sight, or even thought of these common intelligent races, so sane and ordinary, fills you with a visible eye-rolling disdain.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="31-40 Rat, giant centipede, gelatinous cube, or other giant vermin or ooze (pick a type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_LEERINGEYEROLL_GIANTVERMINOOZE">
+		<supports>Living Creatures 6</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Physical Effect: Leer/Eye Roll: Rat, giant centipede, gelatinous cube, or other giant vermin or ooze">
+			<description>The sight, or even thought of these pesky denizens of underground and hidden spaces fills you with a visible eye-rolling disdain.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="41-50 Cleric or druid" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_LEERINGEYEROLL_CLERICDRUID">
+		<supports>Living Creatures 6</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Physical Effect: Leer/Eye Roll: Cleric or druid">
+			<description>The sight, or even thought of the clergy of the new faiths and those who follow the Old Faith fills you with a visible eye-rolling disdain.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="51-60 Wizard or sorcerer" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_LEERINGEYEROLL_WIZARDSORCERER">
+		<supports>Living Creatures 6</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Physical Effect: Leer/Eye Roll: Wizard or sorcerer">
+			<description>The sight, or even thought of these arcane poractitioners fills you with a visible eye-rolling disdain.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="61-70 Sparrow, pigeon, hawk, owl, or other bird" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_LEERINGEYEROLL_BIRDS">
+		<supports>Living Creatures 6</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Physical Effect: Leer/Eye Roll: Sparrow, pigeon, hawk, owl, or other bird">
+			<description>The sight, or even thought of various avian species fills you with a visible eye-rolling disdain.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="71-80 Rat, wolf, mole, badger, or other mammalian beast" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_LEERINGEYEROLL_BEASTS">
+		<supports>Living Creatures 6</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Physical Effect: Leer/Eye Roll: Rat, wolf, mole, badger, or other mammalian beast">
+			<description>The sight, or even thought of various mammalian beasts fills you with a visible eye-rolling disdain.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="81-90 Construct or clockwork creature" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_LEERINGEYEROLL_CONSTRUCTCLOCKWORK">
+		<supports>Living Creatures 6</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Physical Effect: Leer/Eye Roll: Construct or clockwork creature">
+			<description>The sight, or even thought of the unannatural animation, the intricate inner workings of these robotic creatures fills you with a visible eye-rolling disdain.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<element name="91-00 Angel or fiend (pick type)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_MADNESS_LEERINGEYEROLL_ANGELFIEND">
+		<supports>Living Creatures 6</supports>
+		<description></description>
+		<sheet alt="Minor Madness: Physical Effect: Leer/Eye Roll: Angel or fiend">
+			<description>The sight, or even thought of denizens of the higher or lower planes fills you with a visible eye-rolling disdain.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Minor Madness" supports="Minor Madnesses" optionl="true" />
+		</rules>
+	</element>
+
+	<!-- Racial Traits -->
+	<element name="Eldritch Resilience" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DERRO_RACIAL_TRAIT_ELDRITCH_RESILIENCE">
+		<description>
+			<p>You have advantage on Constitution saving throws against spells.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Constitution saving throws against spells.</description>
+		</sheet>
+	</element>
+
+	<element name="Sunlight Sensitivity" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DERRO_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY">
+		<description>
+			<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+		</description>
+		<sheet>
+			<description>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</description>
+		</sheet>
+	</element>
+
+	<element name="Derro Subrace" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_DERRO_RACIAL_TRAIT_DERRO_SUBRACE">
+		<description>
+			<p>Derro differ based on their location within derro communities, their clan’s connections to the dark powers that sculpt and manipulate the derro race, and the manifestations of the changes their otherworldly patrons bestow on them. Most derro dwell happily and deeply in their culture-induced insanity for their entire existence, others escape the madness-inducing indoctrination, and others still go straight through the madness toward powers beyond what derro usually enjoy.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Derro Subrace" supports="Derro" />
+		</rules>
+	</element>
+
+	<!-- Subraces-->
+	<element name="Far-Touched" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUB_RACE_FARTOUCHED">
+		<supports>Derro</supports>
+		<description>
+			<p>You grew up firmly ensconced in the mad traditions of the derro, your mind touched by the raw majesty and power of your society’s otherworldly deities. Your abilities in other areas have made you more than a typical derro, of course. But no matter how well-trained and skilled you get in other magical or martial arts, the voices of your gods forever reverberate in your ears, driving you forward to do great or terrible things.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
+			<p class="indent"><strong><em>Insanity.</em></strong> You have advantage on saving throws against being charmed or frightened. In addition, you can read and understand Void Speech, but you can speak only a few words of the dangerous and maddening language—the words necessary for using the spells in your Mad Fervor trait.</p>
+			<p class="indent"><strong><em>Mad Fervour.</em></strong> The driving force behind your insanity has blessed you with a measure of its power. You know the <i>vicious mockery</i> cantrip. When you reach 3rd level, you can cast the <i>enthrall</i> spell with this trait, and starting at 5th level, you can cast the <i>fear</i> spell with it. Once you cast a non-cantrip spell with this trait, you can’t do so again until you finish a long rest. Charisma is your spellcasting ability for these spells. If you are using <i>Deep Magic for 5th Edition</i>, these spells are instead <i>crushing curse</i>, <i>maddening whispers</i>, and <i>alone</i>, respectively.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Far-Touched)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_RACIAL_TRAIT_FARTOUCHED_INSANITY" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_RACIAL_TRAIT_FARTOUCHED_MAD_FERVOR" />
+		</rules>
+	</element>
+
+	<element name="Insanity" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_FARTOUCHED_INSANITY">
+		<description>
+			<p>You have advantage on saving throws against being charmed or frightened. In addition, you can read and understand Void Speech, but you can speak only a few words of the dangerous and maddening language—the words necessary for using the spells in your Mad Fervor trait.</p>
+		</description>
+		<sheet>
+			<description>You have advantage against being charmed or frightened. You can read and understand Void Speech, but can only speak enough to use Mad Fervor.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_VOID_SPEECH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+		</rules>
+	</element>
+
+	<element name="Mad Fervor" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_FARTOUCHED_MAD_FERVOR">
+		<description>
+			<p>The driving force behind your insanity has blessed you with a measure of its power. You know the <i>vicious mockery</i> cantrip. When you reach 3rd level, you can cast the <i>enthrall</i> spell with this trait, and starting at 5th level, you can cast the <i>fear</i> spell with it. Once you cast a non-cantrip spell with this trait, you can’t do so again until you finish a long rest. Charisma is your spellcasting ability for these spells. If you are using <i>Deep Magic for 5th Edition</i>, these spells are instead <i>crushing curse</i>, <i>maddening whispers</i>, and <i>alone</i>, respectively.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Mad Fervor" id="ID_KBP_TOH_RACIAL_TRAIT_FARTOUCHED_MAD_FERVOR_STANDARD|ID_KBP_TOH_RACIAL_TRAIT_FARTOUCHED_MAD_FERVOR_DEEP_MAGIC" />
+		</rules>
+	</element>
+
+	<element name="Mad Fervor (Standard)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_FARTOUCHED_MAD_FERVOR_STANDARD">
+		<description>
+			<p>The driving force behind your insanity has blessed you with a measure of its power. You know the <i>vicious mockery</i> cantrip. When you reach 3rd level, you can cast the <i>enthrall</i> spell with this trait, and starting at 5th level, you can cast the <i>fear</i> spell with it. Once you cast a non-cantrip spell with this trait, you can’t do so again until you finish a long rest. Charisma is your spellcasting ability for these spells. </p>
+		</description>
+		<sheet >
+			<description>You know the Vicious Mockery cantrip. Charisma is your spellcasting ability for this spell.</description>
+			<description level="3">You know the Vicious Mockery cantrip. You can cast the Enthrall spell once per long rest. Charisma is your spellcasting ability for these spells.</description>
+			<description level="5">You know the Vicious Mockery cantrip. You can cast the Enthrall or Fear spells once per long rest. Charisma is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_VICIOUS_MOCKERY" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_ENTHRALL" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_FEAR" level="5" />
+		</rules>
+	</element>
+
+	<element name="Mad Fervor (Deep Magic)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_FARTOUCHED_MAD_FERVOR_DEEP_MAGIC">
+		<description>
+			<p>The driving force behind your insanity has blessed you with a measure of its power. Since you are using <i>Deep Magic for 5th Edition</i>, you know the <i>crushing curse</i><sup>DMVM</sup> cantrip. When you reach 3rd level, you can cast 
+			the <i>maddening whispers</i><sup>DMVM</sup> spell with this trait, and starting at 5th level, you can cast the <i>alone</i><sup>DMVM</sup> spell with it. Once you cast a non-cantrip spell with this trait, you 
+			can’t do so again until you finish a long rest. Charisma is your spellcasting ability for these spells. </p>
+		</description>
+		<sheet >
+			<description>You know the Crushing Curse cantrip. Charisma is your spellcasting ability for this spell.</description>
+			<description level="3">You know the Crushing Curse cantrip. You can cast the Maddening Whispers spell once per long rest. Charisma is your spellcasting ability for these spells.</description>
+			<description level="5">You know the Crushing Cursey cantrip. You can cast the Maddening Whispers or Alone spells once per long rest. Charisma is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_KBP_DMVM_SPELL_CRUSHING_CURSE" level="1" />
+			<grant type="Spell" id="ID_KBP_DMVM_SPELL_MADDENING_WHISPERS" level="3" />
+			<grant type="Spell" id="ID_KBP_SPELL_ALONE" level="5" />
+		</rules>
+	</element>
+
+	<element name="Alone" type="Spell" source="Kobold Press" id="ID_KBP_SPELL_ALONE">
+		<description>
+			<p>You cause a creature within range to believe its allies have been banished to a different realm. The target must succeed on a Wisdom saving throw, or it treats its allies as if they were invisible and silenced. The affected creature cannot target, perceive, or otherwise interact with its allies for the duration of the spell. If one of its allies hits it with a melee attack, the affected creature can make another Wisdom saving throw. On a successful save, the spell ends.</p>
+		</description>
+		<setters>
+			<set name="keywords">illusion</set>
+			<set name="level">3</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="range">30 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Mutated" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUB_RACE_MUTATED">
+		<supports>Derro</supports>
+		<description>
+			<p>Most derro go through the process of indoctrination into their society and come out of it with visions and delusion, paranoia and mania. You, on the other hand, were not affected as much mentally as you were physically. The connection to the dark deities of your people made you stronger and gave you a physical manifestation of their gift that other derro look upon with envy and awe.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Athletic Training.</em></strong> You have proficiency in the Athletics skill, and you are proficient with two martial weapons of your choice.</p>
+			<p class="indent"><strong><em>Otherworldly Influence.</em></strong> Your close connection to the strange powers that your people worship has mutated your form. Choose one of the following: &#13;
+			<ul>
+				<li><strong><em>Alien Appendage.</em></strong> You have a tentacle-like growth on your body. This tentacle is a natural melee weapon, which you can use to make unarmed strikes. When you hit with it, your tentacle deals bludgeoning damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. This tentacle has a reach of 5 feet and can lift a number of pounds equal to double your Strength score. The tentacle can’t wield weapons or shields or perform tasks that require manual precision, such as performing the somatic components of a spell, but it can perform simple tasks, such as opening an unlocked door or container, stowing or retrieving an object, or pouring the contents out of a vial.</li>
+				<li><strong><em>Tainted Blood.</em></strong> Your blood is tainted by your connection with otherworldly entities. When you take piercing or slashing damage, you can use your reaction to force your blood to spray out of the wound. You and each creature within 5 feet of you take necrotic damage equal to your level. Once you use this trait, you can’t use it again until you finish a short or long rest.</li>
+				<li><strong><em>Tenebrous Flesh.</em></strong> Your skin is rubbery and tenebrous, granting you a +1 bonus to your Armor Class.</li>
+			</ul>
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="Strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Pantheran)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_RACIAL_TRAIT_MUTATED_ATHLETIC_TRAINING" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_RACIAL_TRAIT_MUTATED_OTHERWORLDLY_INFLUENCE" />
+		</rules>
+	</element>
+
+	<element name="Athletic Training" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_MUTATED_ATHLETIC_TRAINING">
+		<description>
+			<p>You have proficiency in the Athletics skill, and you are proficient with two martial weapons of your choice.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<select type="Proficiency" name="Martial Training" supports="Weapon,Martial" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Athletic Training" number="3" supports="Weapon,Martial||Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Otherworldly Influence" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_MUTATED_OTHERWORLDLY_INFLUENCE">
+		<description>
+			<p>Your close connection to the strange powers that your people worship has mutated your form.</p>
+		</description>
+		<sheet display="false">
+			<description>Your close connection to the strange powers that your people worship has mutated your form.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Otherworldly Influence" supports="Otherworldly Influence Mutation" />
+		</rules>
+	</element>
+
+	<element name="Alien Appendage" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_MUTATED_OTHERWORLDLY_INFLUENCE_ALIEN_APPENDAGE">
+		<supports>Otherworldly Influence Mutation</supports>
+		<description>
+			<p>You have a tentacle-like growth on your body. This tentacle is a natural melee weapon, which you can use to make unarmed strikes. When you hit with it, your tentacle deals bludgeoning damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. This tentacle has a reach of 5 feet and can lift a number of pounds equal to double your Strength score. The tentacle can’t wield weapons or shields or perform tasks that require manual precision, such as performing the somatic components of a spell, but it can perform simple tasks, such as opening an unlocked door or container, stowing or retrieving an object, or pouring the contents out of a vial.</p>
+		</description>
+		<sheet>
+			<description>You have a tentacle that counts as a natural melee weapon for unarmed strikes (1d4 + {{strength:modifier}} bludgeoning damage), with 5 ft reach and it can lift {{tentacle lift}} lbs. It cannot use weapons or shields, or cast spells, but can perform simple tasks such as opening a door or container, stow or retrieve an object or pour a vial.</description>
+		</sheet>
+		<rules>
+			<stat name="tentacle lift" value="strength" />
+			<stat name="tentacle lift" value="strength" />
+		</rules>
+	</element>
+
+	<element name="Tainted Blood" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_MUTATED_OTHERWORLDLY_INFLUENCE_TAINTED_BLOOD">
+		<supports>Otherworldly Influence Mutation</supports>
+		<description>
+			<p>Your blood is tainted by your connection with otherworldly entities. When you take piercing or slashing damage, you can use your reaction to force your blood to spray out of the wound. You and each creature within 5 feet of you take necrotic damage equal to your level. Once you use this trait, you can’t use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Short or Long Rest">
+			<description>When you take piercing or slashing damage, each creature within 5 feet takes {{level}} necrotic damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Tenebrous Flesh" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_MUTATED_OTHERWORLDLY_INFLUENCE_TENEBROUS_FLESH">
+		<supports>Otherworldly Influence Mutation</supports>
+		<description>
+			<p>Your skin is rubbery and tenebrous, granting you a +1 bonus to your Armor Class.</p>
+		</description>
+		<sheet display="false">
+			<description>Your skin is rubbery and tenebrous, granting you a +1 bonus to your Armor Class.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:misc" value="1" />
+		</rules>
+	</element>
+
+	<element name="Uncorrupted" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUB_RACE_UNCORRUPTED">
+		<supports>Derro</supports>
+		<description>
+			<p>Someone in your past failed to do their job of driving you to the brink of insanity. It might have been a doting parent that decided to buck tradition. It might have been a touched seer who had visions of your future without the connections to the mad gods your people serve. It might have been a whole outcast community of derro rebels who refused to serve the madness of your ancestors. Whatever happened in your past, you are quite sane—or at least quite sane for a derro.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1</p>
+			<p class="indent"><strong><em>Extra Language.</em></strong> You can speak, read, and write one extra language of your choice.</p>
+			<p class="indent"><strong><em>Psychic Barrier.</em></strong> Your time among your less sane brethren has inured you to their madness. You have resistance to psychic damage, and you have advantage on ability checks and saving throws made against effects that inflict insanity, such as spells like <i>contact other plane</i> and <i>symbol</i>, and effects that cause short‑term, long-term, or indefinite madness.</p>
+			<p class="indent"><strong><em>Studied Insight.</em></strong> You are skilled at discerning other creature’s motives and intentions. You have proficiency in the Insight skill, and, if you study a creature for at least 1 minute, you have advantage on any initiative checks in combat against that creature for the next hour.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Pantheran)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Language" name="Extra Language (Uncorrupted)" supports="Standard||Exotic" number="1" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_RACIAL_TRAIT_UNCORRUPTED_PSYCHIC_BARRIER" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_RACIAL_TRAIT_UNCORRUPTED_STUDIED_INSIGHT" />
+		</rules>
+	</element>
+
+	<element name="Psychic Barrier" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_UNCORRUPTED_PSYCHIC_BARRIER">
+		<description>
+			<p>Your time among your less sane brethren has inured you to their madness. You have resistance to psychic damage, and you have advantage on ability checks and saving throws made against effects that inflict insanity, such as spells like Contact Other Plane and Symbol, and effects that cause short‑term, long-term, or indefinite madness.</p>
+		</description>
+		<sheet>
+			<description>You have advantage against effects or spells that inflict short-term, long-term, or indefinite insanity.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+		</rules>
+	</element>
+
+	<element name="Studied Insight" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACIAL_TRAIT_UNCORRUPTED_STUDIED_INSIGHT">
+		<description>
+			<p>You are skilled at discerning other creature’s motives and intentions. You have proficiency in the Insight skill, and, if you study a creature for at least 1 minute, you have advantage on any initiative checks in combat against that creature for the next hour.</p>
+		</description>
+		<sheet>
+			<description>If you study a creature for at least 1 minute, you have advantage on initiative checks against it in combat for the next hour.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+		</rules>
+	</element>
+</elements>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+        <description>Halfling subraces from Tome of Heroes</description>
+		<author url="https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/">Kobold Press</author>
+		<update version="0.0.1">
+			<file name="subrace-halfling.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/subrace-halfling.xml" />
+		</update>
+    </info>
+
+	<element name="Courtfolk" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_COURTFOLK">
+		<supports>Halfling</supports>
+		<description>
+			<p>No creature epitomizes the art of graceful service like the courtfolk, an accomplishment these halflings take with great (but quiet) pride. Courtfolk are defined by their dedication and deference to great courts, particularly elven courts. Their complexion is usually pale and freckled with light-colored eyes and curly mops of hair. They prefer neat, well-tailored clothing with touches of courtly inspiration without ever descending into gaudy imitation. Colors are pastel or forest tones and muted, befitting a servant, but never drab. Courtfolk are not motivated by material wealth or luxury, finding genuine contentment in simple things, but what they <i>do</i> keep, they desire to be of fine quality. They take pains to care for their clothing, family heirlooms, musical instruments, work implements, and other valued possessions.</p>
+			<p class="indent">Courtfolk maintain servitude was never forced upon them but freely chosen, even though many courtfolk no longer serve. This belief, true or not, gives them a sense of agency and relevance to their servitude. The profound delight the courtfolk derive from being of service to others and in performing a job well stems from knowing they have controlled their destiny. Service is an honor to the courtfolk, and service comes to them out of compassion rather than fear or awe (although certainly individual courtfolk may come to fear or worship their masters based on treatment).</p>
+			 <p class="indent">The courtfolk adventurer is a courtfolk who no longer serves or whose family no longer serves. Such adventurers tend to be motivated by one of two things: loyalty to an ally or generating money to look after their families. A courtfolk is a dauntless ally and comrade-in-arms and never aims to steal the credit for their friends’ derring-do. Their loyalty and practicality make them faithful companions in the heart of a dungeon as much as an intrigue-steeped noble court.</p>
+			<h4>COURTFOLK NAMES</h4>
+			<p>Due to their ancient connection with elven courts, courtfolk names have an obvious elven influence. Their given names have a notably softer and lilting flair than other halflings. Family names are borrowed from the common names of the elf or elven court that the family’s ancestors first served as vassals, and these names are prefixed by “of,” such as Andra of Night.</p>
+			<p><span class="feature">Male Names:</span>Adan, Alis, Aran, Aus, Berri, Carr, Darris, Errian, Ervio, Galin, Immerin, Ivello, Luc, Pael, Perin, Rai, Ral, Ren, Rian, Soven, Taris, Tham, Thel, Van, Varr<br />
+			<span class="feature">Female Names:</span>Adie, Annas, Andra, Bethry, Cae, Dania, Elle, Felosa, Jelen, Keyle, Lathe, Lea, Merri, Mia, Naia, Netha, Phia, Quilla, Rynn, Shanna, Silla, Thea, Valla, Vara, Xan<br />
+			<span class="feature">Family Names:</span>Autumn, Brooks, Chase, Dances, Eyes, Flower, Gem, Hawk, Journey, Keys, Leaf, Moon, Night, Oak, Petals, Quick, River, Stars, Tower, Vale, Whisper, Young
+			</p>
+			<h4>COURTFOLK TRAITS</h4>
+			<p>You are a halfling raised in a life of service or raised by parents who spent a life in service. Though you no longer serve another, you inherited some magical talents from your family’s ancestral patrons.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 1.</p>
+			<p class="indent"><b><i>Age. </i></b>Courtfolk are the longest-lived of the halfling subraces, perhaps owing to their close association with elves. Courtfolk are elderly by their second century but enjoy relatively pleasant and unhindered old age up to 350, a century longer than most halflings.</p>
+			<p class="indent"><b><i>Boon Companion. </i></b>You are quick to step in and help your friends, and you have a knack for knowing exactly how best to do it. When you work with an ally to complete a task or take the Help action in combat, your ally adds a d4 to their check or attack roll.</p>
+			<p class="indent"><b><i>Wee Glamour. </i></b>You are — ever so slightly — imbued with a bit of elven magic. You move with grace, your laugh is always pleasant, and colors are more vibrant on you. You have advantage on saving throws against being charmed and on saving throws against spells of the enchantment school.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Adan, Alis, Aran, Aus, Berri, Carr, Darris, Errian, Ervio, Galin, Immerin, Ivello, Luc, Pael, Perin, Rai, Ral, Ren, Rian, Soven, Taris, Tham, Thel, Van, Varr</set>
+			<set name="names" type="female">Adie, Annas, Andra, Bethry, Cae, Dania, Elle, Felosa, Jelen, Keyle, Lathe, Lea, Merri, Mia, Naia, Netha, Phia, Quilla, Rynn, Shanna, Silla, Thea, Valla, Vara, Xan</set>
+			<set name="names" type="family">Autumn, Brooks, Chase, Dances, Eyes, Flower, Gem, Hawk, Journey, Keys, Leaf, Moon, Night, Oak, Petals, Quick, River, Stars, Tower, Vale, Whisper, Young</set>
+			<set name="names-format">{{name}} of {{family}}</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Courtfolk)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_HALFLING_COURTFOLK_BOON_COMPANION" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_HALFLING_COURTFOLK_WEE_GLAMOUR" />
+		</rules>
+	</element>
+
+	<element name="Boon Companion" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_COURTFOLK_BOON_COMPANION">
+		<description>
+			<p>You are quick to step in and help your friends, and you have a knack for knowing exactly how best to do it. When you work with an ally to complete a task or take the Help action in combat, your ally adds a d4 to their check or attack roll.</p>
+		</description>
+		<sheet>
+			<description>When you work with an ally to complete a task or take the Help action in combat, your ally adds a d4 to their check or attack roll.</description>
+		</sheet>
+	</element>
+
+	<element name="Wee Glamour" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_COURTFOLK_WEE_GLAMOUR">
+		<description>
+			<p>You are — ever so slightly — imbued with a bit of elven magic. You move with grace, your laugh is always pleasant, and colors are more vibrant on you. You have advantage on saving throws against being charmed and on saving throws against spells of the enchantment school.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being charmed and on saving throws against Enchantment spells.</description>
+		</sheet>
+	</element>
+
+	<element name="Hinterfolk" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_HINTERFOLK">
+		<supports>Halfling</supports>
+		<description>
+			<p>These canny wilderness dwellers eschew the comforts of civilization their cousins love so well. They have become adept ambush hunters and pack hunters and are fiercely protective of their homeland. They are suspicious of outsiders and usually opt to drive intruders away with a sudden show of force, resorting to repeated hit-and-run skirmishes to get the point across should interlopers persist in trespassing. Hinterfolk are a pragmatic people, doing whatever is necessary to protect their clans and territory. Some clans build their homes in the treetops, using ropes and ladders to traverse between buildings and to and from the ground. Others dig subterranean homes with entrances among the tree roots, providing cool, comfortable hidden homes inaccessible to most local predators.</p>
+			<p class="indent">Hinterfolk are taller and rangier than their more civilized cousins, with more long, lean muscle mass. Their hair is either shaved or worn in long, knotted locks or braids with colors ranging black, brown, and dark auburn. Skin tones range mostly from light brown to deep tan, often decorated with tattoos or ritual scarring, which symbolize notable achievements, victories in combat, and other accomplishments the clan admires.</p>
+			<h4>HINTERFOLK NAMES</h4>
+			<p>Hinterfolk naming conventions are similar to their more urban cousins, but their clan names often reflect a value the clan particularly cherishes or an accomplishment from an ancestral hero of the clan.</p>
+			<ul class="unstyled">
+				<li><strong>Male Names:</strong> Aleki, Aonani, Enele, Makane, Tamo, Tane</li>
+				<li><strong>Female Names:</strong> Arihi, Elei, Manaia, Natia, Sefina, Wiki</li>
+				<li><strong>Clan Names:</strong> Atalafo (Shadowstalker), Halapono (Wise Ways), Lauoso (Treeleaper), Luko’ato (Wolf Pack), Mana’ago (Powerful Spirit), Tematagi (Windrider)</li>
+			</ul>
+			<h4>HINTERFOLK TRAITS</h4>
+			<p>You are a halfling raised far from civilization and adapted to life in the wilderness.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength score increases by 1.</p>
+			<p class="indent"><b><i>Highly Mobile. </i></b>Your base walking speed is 30 feet. When wearing light or no armor, you have a climbing speed of 20 feet and a swimming speed of 20 feet.</p>
+			<p class="indent"><b><i>Hunter and Gatherer. </i></b>You have proficiency in the Survival skill.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Aleki, Aonani, Enele, Makane, Tamo, Tane</set>
+			<set name="names" type="female">Arihi, Elei, Manaia, Natia, Sefina, Wiki</set>
+			<set name="names" type="clan">Atalafo (Shadowstalker), Halapono (Wise Ways), Lauoso (Treeleaper), Luko’ato (Wolf Pack), Mana’ago (Powerful Spirit), Tematagi (Windrider)</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Hinterfolk)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_HALFLING_HINTERFOLK_HIGHLY_MOBILE" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_HALFLING_HINTERFOLK_HUNTER_AND_GATHERER" />
+		</rules>
+	</element>
+
+	<element name="Highly Mobile" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_HINTERFOLK_HIGHLY_MOBILE">
+		<description>
+			<p>Your base walking speed is 30 feet. When wearing light or no armor, you have a climbing speed of 20 feet and a swimming speed of 20 feet.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="speed" value="30" bonus="base" />
+			<stat name="speed:climb" value="20" bonus="base" equipped="!([armor:medium]||[armor:heavy])" />
+			<stat name="speed:swim" value="20" bonus="base" equipped="!([armor:medium]||[armor:heavy])" />
+		</rules>
+	</element>
+
+	<element name="Hunter and Gatherer" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_HINTERFOLK_HUNTER_AND_GATHERER">
+		<description>
+			<p>You have proficiency in the Survival skill.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+
+	<element name="Riverfolk" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_RIVERFOLK">
+		<supports>Halfling</supports>
+		<description>
+			<p>From ramshackle, patchwork barges to the decks of fishing boats and smuggling vessels, riverfolk halflings are found along the greatest rivers of the world. The gruff barge pilot in the wide-brimmed hat, predicting a river with near-prescient skill; the singer, stamping out rhythms on the deck while belting out bawdy songs; the charming huckster, swindling the big folk out of their savings for promises and trinkets with a gleam in his eye—all different but all riverfolk and all making their sometimes-contentious homes wherever the current takes them. They have dark coloring all around, various shades of woody browns from hair to eyes to skin. Men and women dress similarly in practical, working clothing, mostly tough canvas or leather shirts and pants, and favor hefty, good-quality work gloves. Most riverfolk don some type of hat, from floppy, wide-brimmed hats to caps bearing jaunty duck feathers.</p>
+			<p class="indent">Riverfolk love matching strength and wits against the big folk—and against each other too, if the drinks are flowing. Their favorite competitive game is barrel walking along their decks or on the piers, a display of physical prowess. Riverfolk excel at it, and they’re glad to show off to romantic interests or challenge others.</p>
+			 <p class="indent">The dream of many young riverfolk is to own their own river barge one day, whether freshly built or pieced together from scrap and determination. Riverfolk spend their lives working hard on docks, boats, and barges. They are fishermen, warehouse workers, shipwrights, carpenters, smugglers, hucksters, pilots, and more, almost all of them eking out livings from the river or adjacent to it. A smattering of riverfolk can be found making a go at other professions inland, but the reasoning for sticking to the rivers is simple: they’re good at it and enjoy it.</p>
+			<h4>RIVERFOLK NAMES</h4>
+			<p>Riverfolk are an independent lot and often jostled about among other races. Because of this, riverfolk names give way to nicknames quickly, a means of maintaining some control in the world — big folk rarely get the satisfaction of knowing their true names. Family names evoke a mix of natural themes and boat life and are combined elements from both parents. For example, if Margo Whitebottle and Rennie Halfknot have a son, they might name him Lothaire Halfbottle, nicknamed “Louie.”</p>
+			<p><span class="feature">Male Given Names and Nicknames:</span>Alain (Lain), Amaury (Murry), Augustin (Gus), Basile (Bas), Bertrand (Bert), Casimir (Cas), Corentin (Cory), Cyrille (Cy), Daniel (Dany), Diodore (Dio), Edgard (Eddy), Fabrice (Fabe), Francis (Frank), Gabin (Gabe), Ghyslain (Gish), Guillame (Guy), Honore (Rene), Jeremie (Remy), Jonathan (Jon), Leonide (Leo), Lothaire (Louie), Marcellin (Marc), Maximilien (Max), Nicodeme (Nick), Osric (Oz), Placide (Cid), Raphel (Rafe), Renaud (Rennie), Rodolph (Rudy), Sylvestre (Sly), Theophile (Theo), Valerian (Val), Yezekael (Zeke)<br />
+			<span class="feature">Female Given Names and Nicknames:</span>Amandine (Amy), Apolline (Polla), Beatrice (Trixie), Cassandra (Cassie), Doriane (Dori), Emilienne (Emma), Eveline (Evie), Florentine (Flora), Franseza (Frankie), Genevieve (Vivi), Giselle (Gigi), Gwendoline (Gwen), Heloise (Ella), Isabeau (Izzy), Jacquette (Ketta), Jocelyn (Josie), Lilou (Lily), Lorette (Etta), Madeline (Maddy), Magalie (Mags), Majorlaine (Margot), Myriam (Ry), Nicolette (Nikki), Noemi (Em), Penelope (Penny), Rosemonde (Rosie), Roxanne (Roz), Syvilanne (Sylvie), Tiphaine (Tip), Victorine (Vicky), Zephyrine (Zee)<br />
+			<span class="feature">Riverfolk Family Names:</span>Argentford, Brookway, Craneship, Draughtbank, Eelprow, Finderfish, Greendrift, Halfeddy, Jetfrog, Knotreed, Loamford, Mistwood, Newtford, Otterflow, Prowflood, Quicknot, Riverbottle, Silverbrook, Turtlebarge, Underriver, Whitedrift, Youngwood
+			</p>
+			<h4>RIVERFOLK TRAITS</h4>
+			<p>You are a halfling who grew up on docks, fishing boats, or a patchwork of river barges, and you are more at home on a temperamental river than on solid ground.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength score increases by 1.</p>
+			<p class="indent"><b><i>Alignment. </i></b>Most riverfolk are free spirits, independent-minded, and chafe beneath the rules and restrictions others place on them. They tend toward chaotic alignments.</p>
+			<p class="indent"><b><i>River’s Child. </i></b>You have advantage on Strength (Athletics) checks made to swim and on Wisdom (Animal Handling) checks when interacting with animals native to rivers or riverbanks. In addition, you have proficiency with the barge pole.</p>
+			<p class="indent"><b><i>Sure-Footed. </i></b>You are adept at maintaining your balance on wet decks. You have advantage on Dexterity (Acrobatics) checks to keep your balance. In addition, difficult terrain composed of slippery surfaces, such as a wet deck, the surface of a frozen lake, or an oilcovered dock, doesn’t cost you extra movement.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Alain (Lain), Amaury (Murry), Augustin (Gus), Basile (Bas), Bertrand (Bert), Casimir (Cas), Corentin (Cory), Cyrille (Cy), Daniel (Dany), Diodore (Dio), Edgard (Eddy), Fabrice (Fabe), Francis (Frank), Gabin (Gabe), Ghyslain (Gish), Guillame (Guy), Honore (Rene), Jeremie (Remy), Jonathan (Jon), Leonide (Leo), Lothaire (Louie), Marcellin (Marc), Maximilien (Max), Nicodeme (Nick), Osric (Oz), Placide (Cid), Raphel (Rafe), Renaud (Rennie), Rodolph (Rudy), Sylvestre (Sly), Theophile (Theo), Valerian (Val), Yezekael (Zeke)</set>
+			<set name="names" type="female">Amandine (Amy), Apolline (Polla), Beatrice (Trixie), Cassandra (Cassie), Doriane (Dori), Emilienne (Emma), Eveline (Evie), Florentine (Flora), Franseza (Frankie), Genevieve (Vivi), Giselle (Gigi), Gwendoline (Gwen), Heloise (Ella), Isabeau (Izzy), Jacquette (Ketta), Jocelyn (Josie), Lilou (Lily), Lorette (Etta), Madeline (Maddy), Magalie (Mags), Majorlaine (Margot), Myriam (Ry), Nicolette (Nikki), Noemi (Em), Penelope (Penny), Rosemonde (Rosie), Roxanne (Roz), Syvilanne (Sylvie), Tiphaine (Tip), Victorine (Vicky), Zephyrine (Zee)</set>
+			<set name="names" type="family">Argentford, Brookway, Craneship, Draughtbank, Eelprow, Finderfish, Greendrift, Halfeddy, Jetfrog, Knotreed, Loamford, Mistwood, Newtford, Otterflow, Prowflood, Quicknot, Riverbottle, Silverbrook, Turtlebarge, Underriver, Whitedrift, Youngwood</set>
+			<set name="names-format">{{name}} {{family}}</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Riverfolk)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_HALFLING_RIVERFOLK_RIVERS_CHILD" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_HALFLING_RIVERFOLK_SUREFOOTED" />
+		</rules>
+	</element>
+
+	<element name="River's Child" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_RIVERFOLK_RIVERS_CHILD">
+		<description>
+			<p>You have advantage on Strength (Athletics) checks made to swim and on Wisdom (Animal Handling) checks when interacting with animals native to rivers or riverbanks. In addition, you have proficiency with the barge pole.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Strength (Athletics) checks made to swim and on Wisdom (Animal Handling) checks when interacting with animals native to rivers and riverbanks.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BARGEPOLE"/> 
+		</rules>
+	</element>
+
+	<element name="Sure-Footed" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_RIVERFOLK_SUREFOOTED">
+		<description>
+			<p>You are adept at maintaining your balance on wet decks. You have advantage on Dexterity (Acrobatics) checks to keep your balance. In addition, difficult terrain composed of slippery surfaces, such as a wet deck, the surface of a frozen lake, or an oilcovered dock, doesn’t cost you extra movement.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Dexterity (Acrobatics) checks to keep your balance. Slippery surfaces (difficult terrain) such as a wet deck, frozen lake or oily dock don't cost additional movement.</description>
+		</sheet>
+	</element>
+
+	<element name="Urban Halfling" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_URBANHALFLING">
+		<supports>Halfling</supports>
+		<description>
+			<p>Having originally lost their rural residences due to flood, famine, war, or other great misfortune, some clans of halflings migrated to large urban areas long ago, making homes for themselves within the metropolitan areas of other races. Most urban halflings are insular and unobtrusive, working quietly within their own communities and staying out of the way of other races. Extended families will often band together, working a communal business and sharing the profits among themselves.</p>
+			<p class="indent">Urban halflings share the same physical features as their lightfoot kin. However, they tend to adopt the fashion trends most common within the city in which they live to better blend in with the populace. This adaptation also extends to the wearing of whatever footwear is common and even taking on the hairstyles most seen in the region.</p>
+			<h4>URBAN HALFLING NAMES</h4>
+			<p>Urban halfling names follow the naming conventions found in their home cities, and their family names often reflect the family’s business or its role or position in the city.</p>
+			<ul class="unstyled">
+				<li><strong>Male Names:</strong> Cosmo, Digby, Fergus, Finch, Ludo, Lysander, Wymark, Zeno</li>
+				<li><strong>Female Names:</strong> Alina, Hazel, Milou, Posy, Sablin, Scarlet, Sky, Vesper</li>
+				<li><strong>Clan Names:</strong> Aleson, Churngood, Fullbelly, Goodshoe, Patchhole, Quickfingers, Sawdust, Snaphammer, Spindlewell</li>
+			</ul>
+			<h4>URBAN HALFLING TRAITS</h4>
+			<p>You are a halfling adapted to life in urban centers, particularly in large cities.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Intelligence score increases by 1.</p>
+			<p class="indent"><b><i>Family Business. </i></b>You gain proficiency with one type of tool of your choice, or you have proficiency in one of the following skills: Acrobatics, Animal Handling, Medicine, Performance, or Persuasion.</p>
+			<p class="indent"><b><i>Lost in the Crowd. </i></b>If you are in a crowded area, such as a city street or a gathering of at least 10 humanoids, you can attempt to hide, blending in with the people around you.</p>
+			<p class="indent"><b><i>Street Cant. </i></b>You grew up learning a second, secret language shared by your people. The cant is a halfling-based creole mixed with Common and select words taken from other languages, using specific dialects and jargon. This language is never taught to outsiders and is used by urban halflings to communicate directly to one another for privacy and protection. Only another creature that knows Street Cant understands the language when you speak it, though listeners who don’t know it can understand your conversation with the use of magic.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Cosmo, Digby, Fergus, Finch, Ludo, Lysander, Wymark, Zeno</set>
+			<set name="names" type="female">Alina, Hazel, Milou, Posy, Sablin, Scarlet, Sky, Vesper</set>
+			<set name="names" type="clan">Aleson, Churngood, Fullbelly, Goodshoe, Patchhole, Quickfingers, Sawdust, Snaphammer, Spindlewell</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Urban Halfling)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_HALFLING_URBANHALFLING_FAMILY_BUSINESS" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_HALFLING_URBANHALFLING_LOST_IN_THE_CROWD" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_HALFLING_URBANHALFLING_STREET_CANT" />
+		</rules>
+	</element>
+
+	<element name="Family Business" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_URBANHALFLING_FAMILY_BUSINESS">
+		<description>
+			<p>You gain proficiency with one type of tool of your choice, or you have proficiency in one of the following skills: Acrobatics, Animal Handling, Medicine, Performance, or Persuasion.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Skill or Tool Proficiency (Family Business)" supports="ID_KBP_TOH_SUBRACE_HALFLING_URBANHALFLING_FAMILY_BUSINESS_TOOL|ID_KBP_TOH_SUBRACE_HALFLING_URBANHALFLING_FAMILY_BUSINESS_SKILL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Custom Skill or Tool Proficiency (Family Business)" supports="Tool||Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Family Business (Tool)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_URBANHALFLING_FAMILY_BUSINESS_TOOL">
+		<description>
+			<p>You gain proficiency with one type of tool of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Tool Proficiency (Family Business)" supports="Tool" />
+		</rules>
+	</element>
+
+	<element name="Family Business (Skill)" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_URBANHALFLING_FAMILY_BUSINESS_SKILL">
+		<description>
+			<p>You gain proficiency with one of the following skills: Acrobatics, Animal Handling, Medicine, Performance, or Persuasion.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Family Business)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+
+	<element name="Lost in the Crowd" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_URBANHALFLING_LOST_IN_THE_CROWD">
+		<description>
+			<p>If you are in a crowded area, such as a city street or a gathering of at least 10 humanoids, you can attempt to hide, blending in with the people around you.</p>
+		</description>
+		<sheet>
+			<description>If you are in a crowded area, such as a city street or a gathering of at least 10 humanoids, you can attempt to hide, blending in with the people around you.</description>
+		</sheet>
+	</element>
+
+	<element name="Street Cant" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_URBANHALFLING_STREET_CANT">
+		<description>
+			<p>You grew up learning a second, secret language shared by your people. The cant is a halfling-based creole mixed with Common and select words taken from other languages, using specific dialects and jargon. This language is never taught to outsiders and is used by urban halflings to communicate directly to one another for privacy and protection. Only another creature that knows Street Cant understands the language when you speak it, though listeners who don’t know it can understand your conversation with the use of magic.</p>
+		</description>
+		<sheet>
+			<description>You speak the secret street cant of Urban Halflings, a halfling-based creole mixed with Common and select words taken from other languages, using specific dialects and jargon. Only another creature that knows Street Cant understands the language when you speak it, though listeners who don’t know it can understand your conversation with the use of magic.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_STREET_CANT" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+		</rules>
+	</element>
+
+	<element name="Winterfolk" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_WINTERFOLK">
+		<supports>Halfling</supports>
+		<description>
+			<p>The origins of the winterfolk are shrouded in mystery. Sightings of them are so rare in most parts of the world that some doubt they exist at all. Despite their scarcity, the winterfolk do exist. They dwell in the northernmost parts of the world or in the foothills of the coldest mountains. Before the fall of their kingdom, they lived in comfortable huts and burrows in the hills. When giants sacked the kingdom, the winterfolk were driven from their homes into the rugged wilds.</p>
+			<p class="indent">Winterfolk burrow their sod-roofed homes into the windswept and craggy foothills of alpine regions, where they hunt and trap creatures much larger and fiercer than themselves among the frigid lakes and snow-blanketed evergreen forests. Their homes are devoid of comforts, befitting a people that has come to almost relish hardship. When their lives become too comfortable, winterfolk begin to fear they have upset their ancestors and the land. They seek out challenges with a zeal that often appears suicidal to others.</p>
+			<p class="indent">Winterfolk are highly superstitious and rarely let their guard down because a lapse in attention can spell doom for themselves or their community. They invoke ancient runes and sigils for protection and sing droning songs to ancient gods of the sky, the hills, and the forest. Pound for pound, winterfolk halflings are as tough as any dwarf or orc. While they don’t despise their softer cousins, they do view other halflings with a reserved pity.</p>
+			<h4>WINTERFOLK NAMES</h4>
+			<p>Winterfolk halflings take their names from the unbroken expanses of steppe and sky that define their world.</p>
+			<ul class="unstyled">
+				<li><strong>Male Names:</strong> Abek, Khannish, Khanol, Kristag, Nigulahk, Olavish, Paavotl, Ruslan, Timurus, Vinval</li>
+				<li><strong>Female Names:</strong> Bolatah, Hillarse, Lalipa, Malika, Pritha, Tahka, Tarmoah, Tavini, Thikati, Timanci</li>
+				<li><strong>Family Names:</strong> Beartooth, Furbearer, Giantbane, Iceblade, Owlsheart, Treefall, Windslash, Wintergrip, Wolfgaze, Wolfslayer</li>
+			</ul>
+			<h4>WINTERFOLK TRAITS</h4>
+			<p>Your people are cunning survivors who revere the old gods of the world and are at home in hardship.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Constitution score increases by 1.</p>
+			<p class="indent"><b><i>Hardened. </i></b>You have spent your life surviving in the cold and wild places of the world. You recover from all levels of exhaustion at the end of a long rest, and you have advantage on saving throws against the effects of being in a cold environment, such as frostbite or hypothermia.</p>
+			<p class="indent"><b><i>Old Soul. </i></b>You have a deep connection with the ancient gods and spirits of the world. You can use your Wisdom modifier instead of Intelligence when making History and Religion checks.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Abek, Khannish, Khanol, Kristag, Nigulahk, Olavish, Paavotl, Ruslan, Timurus, Vinval</set>
+			<set name="names" type="female">Bolatah, Hillarse, Lalipa, Malika, Pritha, Tahka, Tarmoah, Tavini, Thikati, Timanci</set>
+			<set name="names" type="family">Beartooth, Furbearer, Giantbane, Iceblade, Owlsheart, Treefall, Windslash, Wintergrip, Wolfgaze, Wolfslayer</set>
+			<set name="names-format">{{name}} {{family}}</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Winterfolk)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_HALFLING_WINTERFOLK_HARDENED" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_HALFLING_WINTERFOLK_OLD_SOUL" />
+		</rules>
+	</element>
+
+	<element name="Hardened" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_WINTERFOLK_HARDENED">
+		<description>
+			<p>You have spent your life surviving in the cold and wild places of the world. You recover from all levels of exhaustion at the end of a long rest, and you have advantage on saving throws against the effects of being in a cold environment, such as frostbite or hypothermia.</p>
+		</description>
+		<sheet>
+			<description>You recover all levels of exhaustion on a long rest. You have advantage on saving throws against cold environmental effects. </description>
+		</sheet>
+	</element>
+
+	<element name="Old Soul" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_HALFLING_WINTERFOLK_OLD_SOUL">
+		<description>
+			<p>You have a deep connection with the ancient gods and spirits of the world. You can use your Wisdom modifier instead of Intelligence when making History and Religion checks.</p>
+		</description>
+		<sheet>
+			<description>You can use your Wisdom modifier instead of Intelligence for History and Religion checks.</description>
+		</sheet>
+		<rules>
+			<stat name="history:misc" value="-intelligence:modifier" />
+			<stat name="history:misc" value="intelligence:modifier" bonus="ability"/>
+			<stat name="history:misc" value="wisdom:modifier" bonus="ability"/>
+
+			<stat name="religion:misc" value="-intelligence:modifier" />
+			<stat name="religion:misc" value="intelligence:modifier" bonus="ability"/>
+			<stat name="religion:misc" value="wisdom:modifier" bonus="ability"/>
+		</rules>
+	</element>
+</elements>

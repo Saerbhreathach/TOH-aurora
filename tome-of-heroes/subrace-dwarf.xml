@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+        <description>Dwarf subraces from Tome of Heroes</description>
+		<author url="https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/">Kobold Press</author>
+		<update version="0.0.1">
+			<file name="subrace-dwarf.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/subrace-dwarf.xml" />
+		</update>
+    </info>
+
+	<element name="Fireforge Dwarf" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_FIREFORGE">
+		<supports>Dwarf</supports>
+		<description>
+			<p>Dwarven legends state the best metal-crafting is done in the fires of the earth itself. Long ago, some clans that followed this tradition sought out and settled near areas of volcanic activity, turning such places into their forges. These dwarves became the fireforge dwarves. They toil in the heat of magma, creating weapons, armor, and other goods noteworthy even among fine dwarven crafts. They trade these goods for necessities not found in the harsh environs of their chosen homeland.</p>
+			<p class="indent">Fireforge dwarves sometimes form alliances with the azer. They maintain good relations with the elementals, coming to their aid against salamanders and efreet when needed. In return, the azer assist fireforge dwarves against fire giants, who are persistent enemies of the dwarves, often competing with them for territory.</p>
+			<p class="indent">Fireforge skin tones range from deep, ruddy browns to dark bronze or mahogany. Their hair is typically black, brown, or gray, with some sporting deep, copper-colored or rich, dark-red hair. Eye color tends toward brown or black and occasionally hazel or gray.</p>
+			<h4>FIREFORGE DWARF NAMES</h4>
+			<p>Fireforge dwarves use the same naming conventions as other underground-dwelling dwarves.</p>
+			<ul class="unstyled">
+				<li><strong>Clan Names:</strong> Dzurnark, Firefall, Firinmak, Hamarfall, Smokebeard, Visirverk</li>
+			</ul>
+			<h4>FIREFORGE DWARF TRAITS</h4>
+			<p>Your dwarven heritage coupled with your affinity for the fires of the earth grant you the following traits.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Intelligence score increases by 1.</p>
+			<p class="indent"><b><i>Burned Vision. </i></b>Accustomed to the constant glow of magma, you don’t have darkvision, unlike other dwarves.</p>
+			<p class="indent"><b><i>Expert Artisan. </i></b>You gain proficiency with glassblower’s tools or smith’s tools. Choose one of those tools. Your proficiency bonus is doubled for any ability check you make that uses the chosen tool.</p>
+			<p class="indent"><b><i>Forgeborn. </i></b>You have resistance to fire damage.</p>
+			<p class="indent"><b><i>Friend to the Azer. </i></b>You can speak, read, and write Ignan.</p>
+			<p class="indent"><b><i>Reforge. </i></b>You have an innate connection with elemental fire and can repair forged items with a touch. You know the mending cantrip, and you can cast it as an action. However, you can use this trait to repair only objects made of metal, such as reconnecting two halves of a broken sword.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="clan">Dzurnark, Firefall, Firinmak, Hamarfall, Smokebeard, Visirverk</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Fireforge Dwarf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_DWARF_FIREFORGE_BURNED_VISION" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_DWARF_FIREFORGE_EXPERT_ARTISAN" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_DWARF_FIREFORGE_FORGEBORN" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_DWARF_FIREFORGE_FRIEND_OF_THE_AZER" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_DWARF_FIREFORGE_REFORGE" />
+		</rules>
+	</element>
+
+	<element name="Burned Vision" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_FIREFORGE_BURNED_VISION">
+		<description>
+			<p>Accustomed to the constant glow of magma, you don’t have darkvision, unlike other dwarves.</p>
+		</description>
+		<sheet>
+			<description>Accustomed to the constant glow of magma, you don’t have darkvision, unlike other dwarves.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_FEATURE_REPLACEMENT_VISION_DARKVISION" />
+		</rules>
+	</element>
+
+	<element name="Expert Artisan" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_FIREFORGE_EXPERT_ARTISAN">
+		<description>
+			<p>You gain proficiency with glassblower’s tools or smith’s tools. Choose one of those tools. Your proficiency bonus is doubled for any ability check you make that uses the chosen tool.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency with glassblower’s tools or smith’s tools. Choose one of those tools. Your proficiency bonus is doubled for any ability check you make that uses the chosen tool.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" name="Expert Artisan" supports="Expert Artisan" />
+		</rules>
+	</element>
+
+	<element name="Tool Expertise (Glassblower's Tools)" type="Racial Trait" source="Player's Handbook" id="ID_EXPERTISE_TOOL_GLASSBLOWERS_TOOLS">
+        <supports>Expert Artisan</supports>
+        <description>
+            <p>Your proficiency bonus is doubled for any Glassblower’s Tools check you make.</p>
+            <div class="reference">
+                <div element="ID_WOTC_PHB_ITEM_TOOL_GLASSBLOWERS_TOOLS" />
+            </div>
+        </description>
+        <sheet alt="Expert Artisan">
+            <description>Your proficiency bonus is doubled for any Glassblower’s Tools check you make.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS" />
+			<stat name="glassblowers tools:proficiency" value="proficiency" bonus="double" />
+        </rules>
+    </element>
+
+	<element name="Tool Expertise (Smith's Tools)" type="Racial Trait" source="Player's Handbook" id="ID_EXPERTISE_TOOL_SMITHS_TOOLS">
+        <supports>Expert Artisan</supports>
+        <description>
+            <p>Your proficiency bonus is doubled for any Smith’s Tools check you make.</p>
+            <div class="reference">
+                <div element="ID_WOTC_PHB_ITEM_TOOL_SMITHS_TOOLS" />
+            </div>
+        </description>
+        <sheet alt="Expert Artisan">
+            <description>Your proficiency bonus is doubled for any Smith’s Tools check you make.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
+			<stat name="smiths tools:proficiency" value="proficiency" bonus="double" />
+        </rules>
+    </element>
+
+	<element name="Forgeborn" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_FIREFORGE_FORGEBORN">
+		<description>
+			<p>You have resistance to fire damage.</p>
+		</description>
+		<sheet display="false">
+			<description>You have resistance to fire damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+
+	<element name="Friend of the Azer" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_FIREFORGE_FRIEND_OF_THE_AZER">
+		<description>
+			<p>You can speak, read, and write Ignan.</p>
+		</description>
+		<sheet display="false">
+			<description>You can speak, read, and write Ignan.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_MM_LANGUAGE_IGNAN" />
+		</rules>
+	</element>
+
+	<element name="Reforge" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_FIREFORGE_REFORGE">
+		<description>
+			<p>You have an innate connection with elemental fire and can repair forged items with a touch. You know the mending cantrip, and you can cast it as an action. However, you can use this trait to repair only objects made of metal, such as reconnecting two halves of a broken sword.</p>
+		</description>
+		<sheet action="Action">
+			<description>You know the Mending cantrip, but you can cast it to repair only objects made of metal, such as reconnecting two halves of a broken sword.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MENDING" />
+		</rules>
+	</element>
+
+	<element name="Spindrift Dwarf" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT">
+		<supports>Dwarf</supports>
+		<description>
+			<p>While most dwarves ensconce themselves in the earth, spindrift dwarves have a bond with the ocean, and many spend most of their lives at sea. They tend to be slightly taller and slimmer than their landlubber cousins. Their hair and beards are lightened by exposure to sun and salt, often tied or braided against the wind. Many are comfortable barefoot and typically wear loose clothing that doesn’t hinder their work.</p>
+			<p class="indent">Spindrift dwarves settle on islands and mainland coasts, always in areas with natural harbors. Certain clans rarely come ashore at all, spending their lives on ships at sea, coming into port only when necessity dictates. There are even stories of spindrift dwarves that live on artificial islands made of ships lashed together—both seaworthy and not—along with other bits of flotsam and jetsam.</p>
+			<h4>SPINDRIFT DWARF NAMES</h4>
+			<p>Spindrift dwarves have developed their own unique culture separate from land dwarves and use names related to the sea and sailing.</p>
+			<ul class="unstyled">
+				<li><strong>Male Names:</strong> Aeton, Bakkhos, Chrysos, Ebbtide, Ladon, Loch, Maedas, Silaenus</li>
+				<li><strong>Female Names:</strong> Coral, Didoa, Ekho, Hemera, Kaelysta, Medis, Pearl, Selenis</li>
+				<li><strong>Clan Names:</strong> Breakwater, Maelstrom, Riptide, Saltbeard, Stormlord, Topsail, Undertow, Waverunner</li>
+			</ul>
+			<h4>SPINDRIFT DWARF TRAITS</h4>
+			<p>Your love of the open water grants you the following traits. Some of these traits replace traits found in the base dwarf rules, as noted in each trait’s entry.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Dexterity score increases by 1.</p>
+			<p class="indent"><b><i>Dwarven Marine Training. </i></b>You have proficiency with the club, handaxe, hand crossbow, net, rapier, and scimitar. This trait replaces the Dwarven Combat Training trait.</p>
+			<p class="indent"><b><i>Nautical Proficiency. </i></b>You gain proficiency with one of the following: carpenter’s tools, navigator’s tools, or woodcarver’s tools. In addition, you gain proficiency with vehicles (water). This trait replaces the Tool Proficiency trait.</p>
+			<p class="indent"><b><i>Rigger.</i></b>When you are not wearing heavy armor or using a shield, you have a climbing speed equal to your base walking speed.</p>
+			<p class="indent"><b><i>Sailor’s Eyes. </i></b>Accustomed to the harsh glare of sunlight on the sea, you don’t have darkvision, unlike other dwarves.</p>
+			<p class="indent"><b><i>Shipwright. </i></b>Whenever you make an Intelligence (Investigation) check related to the seaworthiness or quality of craftsmanship of a sailing vessel, you are considered proficient in the Investigation skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus. This trait replaces the Stonecunning trait.</p>
+			<p class="indent"><b><i>Spindrift Step. </i></b>As a bonus action (or a reaction when you are submerged in water), you can magically step across water. You can walk across the surface of water as if it were solid ground for a number of rounds equal to your level or until your concentration ends (as if concentrating on a spell). If you are submerged in water when you activate this trait, you are carried to the surface of the water at a rate of 60 feet per round. You can’t use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Aeton, Bakkhos, Chrysos, Ebbtide, Ladon, Loch, Maedas, Silaenus</set>
+			<set name="names" type="female">Coral, Didoa, Ekho, Hemera, Kaelysta, Medis, Pearl, Selenis</set>
+			<set name="names" type="clan">Breakwater, Maelstrom, Riptide, Saltbeard, Stormlord, Topsail, Undertow, Waverunner</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Spindrift Dwarf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_DWARVEN_MARINE_TRAINING" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_NAUTICAL_PROFICIENCY" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_RIGGER" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_SAILORS_EYES" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_SHIPWRIGHT" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_SPINDRIFT_STEP" />
+		</rules>
+	</element>
+
+	<element name="Dwarven Marine Training" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_DWARVEN_MARINE_TRAINING">
+		<description>
+			<p>You have proficiency with the club, handaxe, hand crossbow, net, rapier, and scimitar. This trait replaces the Dwarven Combat Training trait.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with the club, handaxe, hand crossbow, net, rapier, and scimitar. This trait replaces the Dwarven Combat Training trait.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_FEATURE_REPLACEMENT_RACE_DWARF_DWARVEN_COMBAT_TRAINING" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Simple/Martial Weapon, Dwarven Marine Training" number="6" supports="Simple||Martial" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Nautical Proficiency" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_NAUTICAL_PROFICIENCY">
+		<description>
+			<p>You gain proficiency with one of the following: carpenter’s tools, navigator’s tools, or woodcarver’s tools. In addition, you gain proficiency with vehicles (water). This trait replaces the Tool Proficiency trait.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency with one of the following: carpenter’s tools, navigator’s tools, or woodcarver’s tools. In addition, you gain proficiency with vehicles (water). This trait replaces the Tool Proficiency trait.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_FEATURE_REPLACEMENT_RACE_DWARF_DWARVEN_TOOL_PROFICIENCY" />
+			<select type="Proficiency" name="Nautical Proficiency" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER" />
+			<select type="Proficiency" name="Nautical Proficiency" supports="Tool" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Rigger" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_RIGGER">
+		<description>
+			<p>When you are not wearing heavy armor or using a shield, you have a climbing speed equal to your base walking speed.</p>
+		</description>
+		<sheet >
+			<description>When you are not wearing heavy armor or using a shield, you have a climbing speed equal to your base walking speed.</description>
+		</sheet>
+		<rules>
+			<stat name="speed:climb" value="speed" bonus="base" equipped="!([armor:heavy]||[shield:any])" />
+		</rules>
+	</element>
+
+	<element name="Sailor’s Eyes" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_SAILORS_EYES">
+		<description>
+			<p>Accustomed to the harsh glare of sunlight on the sea, you don’t have darkvision, unlike other dwarves.</p>
+		</description>
+		<sheet>
+			<description>Accustomed to the harsh glare of sunlight on the sea, you don’t have darkvision, unlike other dwarves.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_FEATURE_REPLACEMENT_VISION_DARKVISION" />
+		</rules>
+	</element>
+
+	<element name="Shipwright" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_SHIPWRIGHT">
+		<description>
+			<p>Whenever you make an Intelligence (Investigation) check related to the seaworthiness or quality of craftsmanship of a sailing vessel, you are considered proficient in the Investigation skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus. This trait replaces the Stonecunning trait.</p>
+		</description>
+		<sheet>
+			<description>When you make an Intelligence (Investigation) check to assess seaworthiness or craftsmanship quality of a sea vessel, you are considered proficient in Investigation, and double your proficiency bonus on this check.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_FEATURE_REPLACEMENT_RACE_DWARF_STONECUNNING" />
+		</rules>
+	</element>
+
+	<element name="Spindrift Step" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_DWARF_SPINDRIFT_SPINDRIFT_STEP">
+		<description>
+			<p>As a bonus action (or a reaction when you are submerged in water), you can magically step across water. You can walk across the surface of water as if it were solid ground for a number of rounds equal to your level or until your concentration ends (as if concentrating on a spell). If you are submerged in water when you activate this trait, you are carried to the surface of the water at a rate of 60 feet per round. You can’t use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Action/Reaction" usage="1/Short or Long Rest">
+			<description>You can walk across the surface of water for up to {{level}} rounds or until your concetration ends (as if a spell). If submerged in water, using this feature is a Reaction, and you are carried to the surface at 60ft/round. </description>
+		</sheet>
+	</element>
+</elements>

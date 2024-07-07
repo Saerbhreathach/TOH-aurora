@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+        <description>Gnome subraces from Tome of Heroes</description>
+		<author url="https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/">Kobold Press</author>
+		<update version="0.0.1">
+			<file name="subrace-gnome.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/subrace-gnome.xml" />
+		</update>
+    </info>
+
+	<element name="Shoal Gnome" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_GNOME_SHOAL">
+		<supports>Gnome</supports>
+		<description>
+			<p>This amphibious race of gnomes tends to live in temperate and warm coastal waters, often in or near coral reefs. Hair and eye colors tend to be various shades of green or brown. A shoal gnome’s skin tends towards standard gnomish shades, but with the addition of mottled patches or spots of color along their arms, legs, necks, foreheads, and cheeks. These patterns are a blend of reds, pinks, yellows, silvers, and blues, with the predominance of color and type of pattern varying by region. Their long fingers and toes are webbed.</p>
+			<p class="indent">Shoal gnomes often form relationships with the animals that share their homes in the shallows, and they are especially fond of sea turtles and dolphins. They enjoy all forms of games and contests of skill, from hide-and-seek, to riddle contests, to races. Some attach harnesses to sea turtles, using the creatures to pull them along as they race to see who can circumnavigate their reef home first.</p>
+			<h4>SHOAL GNOME NAMES</h4>
+			<p>Shoal gnome naming conventions are similar to the land-bound cousins, but they tend to give themselves names that draw out or reference sounds and words related to sea life.</p>
+			<p><span class="feature">Male Names:</span>Akkar, Korall, Molo, Segle, Torska<br />
+			<span class="feature">Female Names:</span>Delfinni, Kilpi, Meriva, Skilpa<br />
+			<span class="feature">Clan Names:</span>Boblebad, Etterstorm, Grunne, Varmstim
+			</p>
+			<h4>SHOAL GNOME TRAITS</h4>
+			<p>You are adapted to life along coastlines and underwater.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 1.</p>
+			<p class="indent"><b><i>Amphibious. </i></b>You can breathe air and water.</p>
+			<p class="indent"><b><i>Aquatic Beast Affinity. </i></b>Using sounds and gestures, you can communicate simple ideas with dolphins and sea turtles and with beasts that can breathe water.</p>
+			<p class="indent"><b><i>Swimmer. </i></b>You have a swimming speed of 25 feet.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Akkar, Korall, Molo, Segle, Torska</set>
+			<set name="names" type="female">Angshal, Corsal’san, Kyavel’ara, Lafali, Nyoro, Solaira</set>
+			<set name="names" type="clan">Boblebad, Etterstorm, Grunne, Varmstim</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Shoal Gnome)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_GNOME_SHOAL_AMPHIBIOUS" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_GNOME_SHOAL_AQUATIC_BEAST_AFFINITY" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_GNOME_SHOAL_SWIMMER" />
+		</rules>
+	</element>
+
+	<element name="Amphibious" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_GNOME_SHOAL_AMPHIBIOUS">
+		<description>
+			<p>You can breathe air and water.</p>
+		</description>
+		<sheet>
+			<description>You can breathe air and water.</description>
+		</sheet>
+	</element>
+
+	<element name="Aquatic Beast Affinity" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_GNOME_SHOAL_AQUATIC_BEAST_AFFINITY">
+		<description>
+			<p>Using sounds and gestures, you can communicate simple ideas with dolphins and sea turtles and with beasts that can breathe water.</p>
+		</description>
+		<sheet>
+			<description>You can communicate simple ideas with dolphins and sea turtles and with beasts that can breathe water.</description>
+		</sheet>
+	</element>
+
+	<element name="Swimmer" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_GNOME_SHOAL_SWIMMER">
+		<description>
+			<p>You have a swimming speed of 25 feet.</p>
+		</description>
+		<sheet display="false">
+			<description>You have a swimming speed of 25 feet.</description>
+		</sheet>
+		<rules>
+			<stat name="speed:swim" value="25" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Wyrd Gnome" type="Sub Race" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_GNOME_WYRD">
+		<supports>Gnome</supports>
+		<description>
+			<p>Wyrd gnomes are born from natural, genetic mutations in populations of other gnomes. Wyrd gnomes possess physical traits typical to the type of gnomes to which they are born, but they are born with two different colored eyes: the right one always blue, the left one always green. Wyrd gnomes possess an innate prescient ability that grows stronger in proximity to other wyrd gnomes. Some gnome communities find their powers a blessing while others find it disturbing. Over generations, wyrd gnomes have gathered together in small communities of their own kind. However, wyrd gnomes don’t always birth more wyrd gnomes, and their communities and families have gnomes of other varieties within them.</p>
+			<p class="indent">Given the collective prescient power of wyrd gnome communities, they can be fascinating places to visit. Travelers may enter an inn to find the food and drink they wished to order already in place on a table. Conversations may start with wyrd gnomes giving answers before the questions are asked.</p>
+			<h4>WYRD GNOME NAMES</h4>
+			<p>Naming conventions among wyrd gnomes are standard for their parent community, except where clan names are concerned. When an individual moves to a wyrd gnome community, they take the clan name of the household that adopts them, or they create a new one if they relocate as an adult.</p>
+			<ul class="unstyled">
+				<li><strong>Clan Names:</strong> Alkuper, Begynn, Kunnian, Muliget, Turvalis</li>
+			</ul>
+			<h4>WYRD GNOME TRAITS</h4>
+			<p>You are a gnome with a natural prescience that sets you apart from most other gnomes.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Wisdom score increases by 1.</p>
+			<p class="indent"><b><i>Natural Diviner. </i></b>You have an innate knack for understanding the world and can catch glimpses of the mysteries of the universe. You know the <i>guidance</i> cantrip. When you reach 3rd level, you can cast the <i>identify</i> spell with this trait, requiring no material components, and starting at 5th level you can cast the <i>augury</i> spell with it. Once you cast a non-cantrip spell with this trait, you can’t do so again until you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
+			<p class="indent"><b><i>Prescience. </i></b>When you finish a long rest, roll a d20 and record the number rolled. Before your next long rest, you can replace one attack roll, saving throw, or ability check made by you or a creature that you can see with this prescient roll. You must choose to do so before the roll.</p>
+			<p class="indent">If 20 wyrd gnomes are present within a half-mile of you when you make the prescience roll, you can add 1 to the result. Every time the number of nearby wyrd gnomes is doubled, you gain an additional bonus of 1 to the roll (+2 for 40 gnomes, +3 for 80, etc.) to a maximum bonus of +5.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="clan">Alkuper, Begynn, Kunnian, Muliget, Turvalis</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Wyrd Gnome)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_GNOME_WYRD_NATURAL_DIVINER" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SUBRACE_GNOME_WYRD_ELF_PRESCIENCE" />
+		</rules>
+	</element>
+
+	<element name="Natural Diviner" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_GNOME_WYRD_NATURAL_DIVINER">
+		<description>
+			<p>You have an innate knack for understanding the world and can catch glimpses of the mysteries of the universe. You know the <i>guidance</i> cantrip. When you reach 3rd level, you can cast the <i>identify</i> spell with this trait, requiring no material components, and starting at 5th level you can cast the <i>augury</i> spell with it. Once you cast a non-cantrip spell with this trait, you can’t do so again until you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description>You know the Guidance cantrip. Wisdom is your spellcasting ability for these spells.</description>
+			<description level="3">You know the Guidance cantrip. You can cast the Identify spell without material components once per long rest. Wisdom is your spellcasting ability for these spells.</description>
+			<description level="5">You know the Guidance cantrip. You can cast the Identify spell and the Augury spell without material components once per long rest. Wisdom is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" />
+			<grant type="Spell" id="ID_PHB_SPELL_IDENTIFY" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_AUGURY" level="5"/>
+		</rules>
+	</element>
+
+	<element name="Prescience" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SUBRACE_GNOME_WYRD_ELF_PRESCIENCE">
+		<description>
+			<p>When you finish a long rest, roll a d20 and record the number rolled. Before your next long rest, you can replace one attack roll, saving throw, or ability check made by you or a creature that you can see with this prescient roll. You must choose to do so before the roll.</p>
+			<p class="indent">If 20 wyrd gnomes are present within a half-mile of you when you make the prescience roll, you can add 1 to the result. Every time the number of nearby wyrd gnomes is doubled, you gain an additional bonus of 1 to the roll (+2 for 40 gnomes, +3 for 80, etc.) to a maximum bonus of +5.</p>
+		</description>
+		<sheet>
+			<description>When you finish a long rest, roll 1d20. Before your next long rest, you can swap one attack, saving throw or ability check roll for this prescient roll. You must choose before the roll. If there are 20 Wyrd Gnomes within a half-mile of you when you make the roll, add +1. +2 for 40, +3 for 80, +4 for 160 and +5 for 320.</description>
+		</sheet>
+	</element>
+</elements>

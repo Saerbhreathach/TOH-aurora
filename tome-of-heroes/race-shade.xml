@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Shade race from Tome of Heroes</name>
+		<author url="https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/">Kobold Press</author>
+		<update version="0.0.1">
+			<file name="race-shade.xml" url="https://raw.githubusercontent.com/Saerbhreathach/TOH-aurora/main/tome-of-heroes/race-shade.xml" />
+		</update>
+	</info>
+	
+	<element name="Shade" type="Race" source="Tome of Heroes" id="ID_KBP_TOH_RACE_SHADE">
+		<description>
+			<p>Life leaves echoes in its wake, whether crumbled remnants of a bygone civilization, tales of heroes and gods that spawn new beliefs, or even the echo of an individual soul left behind to haunt the living world. Fantasy worlds are no strangers to ghosts and specters that linger beyond death, but sometimes a person’s passion, purpose, and will to live are so strong, their tie to the living world so unbreakable, that their memories create a vessel for their soul after their body dies. These people are called shades. Shades can arise from any living race.</p>
+			<p class="indent">There are rumors of darakhul or other undead leaving shades behind after destruction, but there are no reliable accounts of such a creature. It is more likely that an undead creature with strong enough will to become a shade becomes a shade of the race they were in true life.</p>
+			<h4>SPIRIT AND FLESH</h4>
+			<p>A shade possesses a physical body that looks, acts, and feels similar to a living member of their original race, at least superficially. Shades must breathe, consume food and drink, and require shelter from adverse weather. Despite the functional similarities to a living body, a shade isn’t composed of flesh and blood. Their bodies are a memory of who they once were, inhabited and quickened by the presence of their soul. Exhaustion, deprivation, and injury take their toll on a shade’s body, disrupting their body’s ability to maintain the connection to their soul. Food, drink, and air aren’t necessary to nourish their bodies but merely to help them maintain the sense of being a living, breathing creature. Similarly, shades appear to sleep, but they do not require it.</p>
+			<p class="indent">The more injured or exhausted a shade, the less corporeal they appear. The colors of their body wash out to pale, desaturated tones, and light begins to pass through them. Blood from their wounds starts out as red and vibrant as any humanoid’s, but closer to death, their wounds cease to bleed and seem to evaporate at the edges.</p>
+			<h4>LIVING MEMORY</h4>
+			<p>The strength of a shade’s memory of themselves and their place in life is the core of their being. Newer shades are almost impossible to distinguish from their prior, fully-living selves. Like anything exposed to the gnawing ravages of time, however, memory fades. The older a shade gets, the memories that keep them tethered to the living world begin to fray. They might grow forgetful, losing track of where they are or what year it is. Their memories might drift together, causing them to see people around them as figures from their past.</p>
+			<p class="indent">Many shades keep detailed memoirs, tending to them with the same devotion that any living creature shows seeking out food and water. Shades can theoretically live forever, but in practice, the memories that tether them to life can’t hold out indefinitely. Journals and other personal mementos help shades keep hold of themselves and allow them to last longer, sometimes for centuries.</p>
+			<h4>SHADE ADVENTURERS</h4>
+			<p>Because they can arise from any people, shades come from all corners of the world and from all walks of life. Station and wealth are no guarantee to help one linger on after the body’s death either. It’s not unheard of for a person to die only to rise as a shade with little understanding that anything changed. Some even hide or dispose of their original remains, sometimes suppressing or deeply denying the act at all, and resume their life with no disruption. Anyone could secretly, sometimes even to themselves, be a shade.</p>
+			<p class="indent">Some traveling shades leave their old lives behind, particularly those who were alone in life with no one to mourn them or fuel their memory. Such shades make up the majority of adventurers. Other more established shades might set out on a quest for the means to restore their true life or to protect loved ones from a threat.</p>
+			<div class="reference">
+				<div element="ID_KBP_TOH_RACE_SHADE_MEMENTO_MORI" />
+			</div>
+			<div class="reference">
+				<div element="ID_KBP_TOH_MAGIC_ITEM_MEMENTO_MORI" />
+			</div>
+			<h4>SHADE TRAITS</h4>
+			<p>Your shade character has a number of traits that arise from being a shade as well as a few drawn from life.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Charisma score increases by 1, and one other ability score of your choice increases by 1. Choose one ability score that is increased by your Living Origin or by one of its subraces. That ability score increases by 1.</p>
+			<p class="indent"><b><i>Age.</i></b> Shades appear as the age they were when they died. They potentially have no limit to their lifespan, but, realistically, ancient shades grow weary and lose their hold on their memories, fading away near 750 years old.</p>
+			<p class="indent"><b><i>Alignment.</i></b> Shades come from all walks of life but tend toward neutrality. Shades that lack contact with other people grow more selfish over time and slip toward evil.</p>
+			<p class="indent"><b><i>Size.</i></b> Your size is determined by your Living Origin.</p>
+			<p class="indent"><b><i>Speed.</i></b> Your speed is determined by your Living Origin.</p>
+			<p class="indent"><b><i>Darkvision.</i></b> Your existence beyond death makes you at home in the dark. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><b><i>Ghostly Flesh.</i></b> Starting at 3rd level, you can use your action to dissolve your physical body into the ephemeral stuff of spirits. You become translucent and devoid of color, and the air around you grows cold. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet with the ability to hover, and you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren’t made with silvered weapons. In addition, you have advantage on ability checks and saving throws made to escape a grapple or against being restrained, and you can move through creatures and solid objects as if they were difficult terrain. If you end your turn inside an object, you take 1d10 force damage. Once you use this trait, you can’t use it again until you finish a long rest.</p>
+			<p class="indent"><b><i>Imperfect Undeath.</i></b> You are a humanoid, but your partial transition into undeath makes you susceptible to effects that target undead. Though you can regain hit points from spells like <i>cure wounds</i>, you can also be affected by game effects that specifically target undead, such as a cleric’s Turn Undead feature. Game effects that raise a creature from the dead work on you as normal, but they return you to life as a shade. A <i>true resurrection</i> or <i>wish</i> spell can restore you to life as a fully living member of your original race.</p>
+			<p class="indent"><b><i>Life Drain.</i></b> When you damage a creature with an attack or a spell, you can choose to deal extra necrotic damage to the target equal to your level. If the creature’s race matches your Living Origin, you gain temporary hit points equal to the necrotic damage dealt. Once you use this trait, you can’t use it again until you finish a short or long rest.</p>
+			<p class="indent"><b><i>Spectral Resilience.</i></b> You have advantage on saving throws against poison and disease, and you have resistance to necrotic damage.</p>
+			<p class="indent"><b><i>Languages.</i></b> You can speak, read, and write Common and one other language spoken by your Living Origin.</p>
+			<p class="indent"><b><i>Living Origin.</i></b> As living echoes of who they once were, shades maintain some of the traits they bore in life. Choose another race as your Living Origin. This is the race you were in life. Your size and speed are those of your Living Origin, and you know one language spoken by your Living Origin.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Living Origin Ability Score Improvement +1 (Shade)" supports="Custom Ability Score Increase 1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Shade)" supports="Custom Ability Score Increase 1" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Racial Trait" name="Living Origin Size (Shade)" supports="ID_INTERNAL_RACIAL_TRAIT_TINY|ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM|ID_INTERNAL_RACIAL_TRAIT_LARGE" />
+			<select type="Racial Trait" name="Living Origin Speed (Shade)" supports="Living Origin Speed" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Living Origin Language (Shade)" supports="Standard||Exotic" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SHADE_RACIAL_TRAIT_GHOSTLY_FLESH" level="3"/>
+			<grant type="Racial Trait" id="ID_KBP_TOH_SHADE_RACIAL_TRAIT_IMPERFECT_UNDEATH" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SHADE_RACIAL_TRAIT_LIFE_DRAIN" />
+			<grant type="Racial Trait" id="ID_KBP_TOH_SHADE_RACIAL_TRAIT_SPECTRAL_RESILIENCE" />
+		</rules>
+	</element>
+
+	<element name="Memento Mori" type="Information" source="Tome of Heroes" id="ID_KBP_TOH_RACE_SHADE_MEMENTO_MORI">
+		<description>
+			<p>A shade’s remembrance of their own life, their own self, is the key to their continued existence. When others honor their memory, a shade can draw sustenance and strength from it. Any token, gift, or even a work of art or poetry intended to honor the memory of the shade carries the giver or creator’s memory and can sustain the shade.</p>
+			<p class="indent">Creating a true memento mori requires that the creator have a genuine desire to honor the shade. It might seem trivial for a shade’s bard companion to compose poems or songs regularly, thus sustaining the shade, but such attempts fail. Memory is the key, and a creator who is in regular close contact with the shade draws more on that contact than on their own memory. A shade’s traveling companion painting a portrait of the shade during their travels will never become a memento mori, but a handmade twine bracelet given by a villager after the shade saved their village might if the shade moves on. Above all, a true, empowered memento mori must carry meaning.</p>
+		</description>
+	</element>
+
+	<element name="Memento Mori" type="Magic Item" source="Tome of Heroes" id="ID_KBP_TOH_MAGIC_ITEM_MEMENTO_MORI">
+		<compendium display="false" />
+		<description>
+			<p>As long as you have the memento mori in your possession, you don’t require food, drink, or sleep. As an action, you can draw on all the stored memory at once, and you receive the effects of a <i>potion of heroism</i>. When the effect expires, the memento mori loses its magic.</p>
+		</description>
+		<setters>
+			<set name="keywords">shade, memento, keepsake</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0"></set>
+			<set name="slot">onehand</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by the shade it was offered for">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="20 feet" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACE_SHADE_LIVINGORIGINSPEED20">
+		<supports>Living Origin Speed</supports>
+		<description>
+			<p>Your Living Origin walking speed is 20 feet.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="innate speed" value="20" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="25 feet" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACE_SHADE_LIVINGORIGINSPEED25">
+		<supports>Living Origin Speed</supports>
+		<description>
+			<p>Your Living Origin walking speed is 25 feet.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="innate speed" value="25" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="30 feet" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACE_SHADE_LIVINGORIGINSPEED30">
+		<supports>Living Origin Speed</supports>
+		<description>
+			<p>Your Living Origin walking speed is 30 feet.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="innate speed" value="30" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="35 feet" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACE_SHADE_LIVINGORIGINSPEED35">
+		<supports>Living Origin Speed</supports>
+		<description>
+			<p>Your Living Origin walking speed is 35 feet.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="innate speed" value="35" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="40 feet" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_RACE_SHADE_LIVINGORIGINSPEED40">
+		<supports>Living Origin Speed</supports>
+		<description>
+			<p>Your Living Origin walking speed is 40 feet.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="innate speed" value="40" bonus="base" />
+		</rules>
+	</element>
+
+
+	<element name="Ghostly Flesh" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SHADE_RACIAL_TRAIT_GHOSTLY_FLESH">
+		<description>
+			<p>Starting at 3rd level, you can use your action to dissolve your physical body into the ephemeral stuff of spirits. You become translucent and devoid of color, and the air around you grows cold. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet with the ability to hover, and you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren’t made with silvered weapons. In addition, you have advantage on ability checks and saving throws made to escape a grapple or against being restrained, and you can move through creatures and solid objects as if they were difficult terrain. If you end your turn inside an object, you take 1d10 force damage. Once you use this trait, you can’t use it again until you finish a long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>You can dissolve your body into spirit stuff. You become translucent and colorless for 1 minute or until you end the effect as a bonus action. During the effect you have a flying speed of 30 feet and can hover. You gain resistance to bludgeoning, piercing and slashing nonmagical damage made with non-silver weapons. You have advantage on ability checks and saving throws against grapples or being restrained. You can move through solid objects as difficult terrain. If you end your turn inside an object, take 1d10 force damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Imperfect Undeath" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SHADE_RACIAL_TRAIT_IMPERFECT_UNDEATH">
+		<description>
+			<p>You are a humanoid, but your partial transition into undeath makes you susceptible to effects that target undead. Though you can regain hit points from spells like Cure Wounds, you can also be affected by game effects that specifically target undead, such as a cleric’s Turn Undead feature. Game effects that raise a creature from the dead work on you as normal, but they return you to life as a shade. A True Resurrection or Wish spell can restore you to life as a fully living member of your original race.</p>
+		</description>
+		<sheet>
+			<description>You can regain HP normally, but game effects that specifically target undead can harm you. You can be revived normally as a Shade, but only a True Resurrection or Wish can raise you as your original race.</description>
+		</sheet>
+	</element>
+
+	<element name="Life Drain" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SHADE_RACIAL_TRAIT_LIFE_DRAIN">
+		<description>
+			<p>When you damage a creature with an attack or a spell, you can choose to deal extra necrotic damage to the target equal to your level. If the creature’s race matches your Living Origin, you gain temporary hit points equal to the necrotic damage dealt. Once you use this trait, you can’t use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet usage="1/Short or Long Rest">
+			<description>When you deal damage with an attack or spell, you can deal +{{level}} necrotic damage. If the creature's race matches your Living Origin, you also gain +{{level}} temporary HP.</description>
+		</sheet>
+	</element>
+
+	<element name="Spectral Resilience" type="Racial Trait" source="Tome of Heroes" id="ID_KBP_TOH_SHADE_RACIAL_TRAIT_SPECTRAL_RESILIENCE">
+		<description>
+			<p>You have advantage on saving throws against poison and disease, and you have resistance to necrotic damage.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against poison and disease.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+</elements>
