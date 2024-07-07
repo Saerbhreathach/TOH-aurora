@@ -142,7 +142,7 @@
 			<p>When you are hit by a melee weapon attack within 5 feet of you, you can use your reaction to emit acidic spores. If you do, the attacker takes acid damage equal to half your level (rounded up). You can use your acid spores a number of times equal to your Constitution modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
 		</description>
 		<sheet action="Reaction" usage="{{spores}}/Long Rest">
-			<description>When you are hit by a melee weapon attack within 5 feet of you, you can emit acidic spores. The attacker takes {{level:half}} acid damage.</description>
+			<description>When you are hit by a melee weapon attack within 5 feet of you, you can emit acidic spores. The attacker takes {{level:half:up}} acid damage.</description>
 		</sheet>
 		<rules>
 			<stat name="spores" value="constitution:modifier" bonus="1" />
